@@ -1,0 +1,3105 @@
+(i18n._preloadedResStore = i18n._preloadedResStore || {})['en'] = {'lang': {
+    "user_notification": {
+        "checkTermsWarning": "We have updated our Terms of Use <a href='__url__'> and need you to accept the new terms</a>",
+        "emailRejected": "Oh no, it looks like your email address __email__ doesn't work. Please set a new email from your <a href='__url__'>account settings</a>.",
+        "unlistedExceeded": "You currently have __unlistedCount__ unlisted publications, but your Unlisted Storage Size is __licenseCount__. <a href='__servicesUrl__'>Upgrade now.</a>",
+        "emailChangeRejected": "You tried to change your email to __newEmail__ but it didn't work, so we set it back to __oldEmail__. You can set a new email from your <a href='__url__'>account settings</a>.",
+        "welcomemailRejectedByUser": "Thanks for letting us know. Your email address has now been removed from our systems.",
+        "confirmEmail": "You have not confirmed  your email yet. Go <a href=\"/home/settings/billing\">here</a> to resend email.",
+        "dunning": "You are in dunning. Go <a href=\"/home/settings/billing\">here</a> to settle your account.",
+        "suspended": "Some of your plans have been suspended. Go <a href=\"/home/settings/billing\" >here</a> to add working payment method."
+    },
+    "brandpages": {
+        "city": {
+            "cph": "Copenhagen",
+            "pa": "Palo Alto",
+            "ber": "Berlin"
+        },
+        "contact": {
+            "title": "Contact us",
+            "header": "Questions? Comments? Concerns?  __lineBreakHTML__Praise? Just want to say hi? ",
+            "press": "Press & Media",
+            "sales": "Sales & Partnerships",
+            "careers": "Careers",
+            "legal": "Legal Inquiries",
+            "help": "Help & Support",
+            "footer": "Connecting content to people."
+        },
+        "team": {
+            "title": "We are issuu.",
+            "issuu": {
+                "header": "We are issuu.",
+                "copy": "As a multinational, multicultural group of bold, intrepid, highly passionate tech-loving geeks, Post-it-writing thought workers, change makers, doers and publishers, we thrive on giving publishers and readers a simple yet technologically superior way to connect through content."
+            },
+            "leaders": {
+                "header": "Our leaders",
+                "copy": "The issuu executive team is made up of savvy __lineBreakHTML__ leaders who have held key roles in the __lineBreakHTML__ publishing, Internet and software industries for years."
+            },
+            "brains": {
+                "header": "Our brains",
+                "copy": "It’s safe to say issuu wouldn’t be leading its sector today without the __lineBreakHTML__ tireless work, passion and dedication of these brilliant individuals.__lineBreakHTML__Choose a topic below to see who’s reading what on issuu."
+            },
+            "board": {
+                "header": "Our board and investors",
+                "copy": "We consider ourselves very fortunate to have the guidance, __lineBreakHTML__ foresight and wisdom of a seasoned board of directors."
+            },
+            "investors": {
+                "copy": "issuu is backed by KDDI Ventures and Sunstone Capital."
+            },
+            "bio": {
+                "alex": "Alex specializes in building engineering teams, agile development, large-scale systems, QA and technical recruitment. Before arriving at issuu, he served as vice president of engineering at SoundCloud, where he started with 20 engineers and grew that team to 100 in various locations around the world. Grosse also was a R&D director for Nokia, putting together the Places department and leading operations for Nokia’s Location Services. Alex is a proud father of three and has a nose for wine.",
+                "jeremy": "Jeremy brings more than 15 years of leadership experience in publishing and design to issuu. He previously has been Head of Mobile Product & Design at AOL, along with that company's Creative Director for Mobile. In these capacities, he designed the platform upon which he launched two award-winning, digital-first magazines -- Huffington for the Huffington Post and Distro for Engadget, both of which received the highest star ratings. In other roles, Jeremy has been Art Director at Wired Magazine and Creative Director at CBS Interactive. What's more, he has taught magazine and online design at Stanford, and served four years on the board of the Society of Publication Designers.",
+                "joe": "Joe joined issuu in early 2013 after more than 20 years of leading startup/growth companies in executive, business-development and product roles. He served as CEO of Reverb during two rounds of financing; in addition, as head of SingleFeed, Joe oversaw that firm’s acquisition by Alibaba. Before that, Joe held sales and leadership positions at Gaia Interactive, Yahoo, Flickr and Virage. He directed the Economist Group's business in China and has extensive board and tech-advisor experience. Joe was educated at the State University of New York at Albany and as a foreign student at Beijing Normal University in China.",
+                "john_s": "John has been working on bringing products to life online for over 15 years. He has held Product and Operations leadership positions in companies big and small, from Braintree where he was VP of Product to AOLEurope and AOLChina where he was Sr. Director of Product and Customer Acquisition to Yahoo! where he was VP of Display Advertising Platforms. In these capacities, he was able to improve the pace and quality of the product releases and increase overall revenue. Prior to all of that, John began his career producing magazines for non-profits and starting a non-profit in Russia helping independent newspapers to remain independent.",
+                "paul": "Paul has built and led high-performing teams at several startups over the course of a 15-year career in technology marketing. Prior to issuu, he was EVP of Digital Marketing at WeWork, where he focused on new member acquisition. Paul has also served as VP of Marketing for Klout (acquired by Lithium Technologies), Automattic (parent company of WordPress.com) and Mozilla. In each of these roles, Paul has helped drive growth, improve brand awareness and maintain company viability in the marketplace. Paul is the father of two children and, back in the day, published an arts zine that reached hundreds of passionate Bay Area readers.",
+                "rolf": "Rolf joined issuu as CFO in 2008 and leads the finance, facilities and information-technology teams while spearheading the company’s international financial operations. With more than 20 years of experience as CFO and COO of several companies in industries ranging from leisure to IT, Rolf has the diversified financial expertise needed to lead a rapidly growing business in the digital-publishing sector. Rolf holds a graduate certificate in business administration with specialization in accounting and financial controlling."
+            }
+        },
+        "press": {
+            "title": "Press & Media",
+            "connecting_content": "Connecting content to people.",
+            "goto_top": "take me back to the top",
+            "news": {
+                "header": "News worth sharing.",
+                "link": "Visit __linkStart__blog.issuu.com__linkEnd__ for fresh news.",
+                "copy1": "Read our recent media coverage, as well as news about __lineBreakHTML__ our product launches and company announcements.",
+                "copy2": "Connect with us on our social channels and __linkStart__blog__linkEnd__.",
+                "contact": "Or contact us: __linkStart__press@issuu.com__linkEnd__",
+                "brand_book": "Brand book"
+            },
+            "download": "Download All",
+            "assets": "Logo and brand assets",
+            "logo": {
+                "h_colour": "Colour Horizontal Logo",
+                "h_black": "Black Horizontal Logo",
+                "h_white": "White Horizontal Logo",
+                "s_colour": "Colour Stacked Logo",
+                "s_black": "Black Stacked Logo",
+                "s_white": "White Stacked Logo",
+                "sym_colour": "Colour Symbol",
+                "sym_black": "Black Symbol",
+                "sym_white": "White Symbol"
+            },
+            "logo_use": {
+                "header": "Logo guidelines",
+                "clear": "Logo clear space:",
+                "rule1": "The issuu logo is precisely proportioned. The size and position relationship between the symbol and logotype must remain intact.",
+                "rule2": "The logo's shape, proportion, color and orientation must not be altered in any way.",
+                "rule3": "Clear space must surround the logo on all sides, so that no type, design or photographic elements encroach on the logo. The space may be white or a single background color, and at a minimum, must be the width of the symbol."
+            }
+        },
+        "subnav": {
+            "overview": "Overview",
+            "team": "People",
+            "careers": "Careers",
+            "press": "Press & Media",
+            "help": "Help & Support",
+            "contact": "Contact",
+            "blog": "Blog"
+        },
+        "careers": {
+            "title": "Careers at issuu",
+            "growing": {
+                "header": "We’re growing fast __lineBreakHTML__ and looking for new issuuees.",
+                "copy": "With great people, unique ideas and stunning __lineBreakHTML__technology, we’re changing the future of publishing today.__lineBreakHTML__ Can you be the best at what you do? Join us!",
+                "open_positions": "Open positions"
+            },
+            "we_value_smart": {
+                "header": "We value smart people with talent, humor and a __lineBreakHTML__ belief that anything is possible.",
+                "copy": "We believe job satisfaction comes from __lineBreakHTML__ having the freedom to problem-solve. And we work hard to provide an environment to excel at what you love. Not bad, right?"
+            },
+            "next_issuuee": {
+                "header": "Are you the next issuuee?",
+                "copy": "The world’s fastest-growing digital publishing __lineBreakHTML__ platform needs people like you. __lineBreakHTML__ Explore the open positions below and then let’s talk."
+            },
+            "open_positions": "See open positions.",
+            "whats_like": {
+                "header": "What’s it like to work at issuu?",
+                "copy1": "Good question. You’ve done this before.",
+                "copy2": "For starters, our offices are in two different parts of the globe, Silicon Valley and Scandinavia, each of which is culturally unique. That said, with so many people __lineBreakHTML__from around the world working at each location, they tend to not feel so different after all. And we’re constantly collaborating on projects together as if we were all __lineBreakHTML__ in the same room. (Thanks, Google Hangouts.).",
+                "copy3": "We love what we do and it shows. There’s a really great energy that comes from __lineBreakHTML__ so many smart people working side by side to find solutions that drive our company forward. We inspire one another, learn from each other and do our best to crack each other up whenever possible. Heck, we even eat lunch together, so you know we can’t be that bad. One reason it works so well is we make sure to hire people who will be a good fit at issuu.",
+                "copy4": "Here are few more brushstrokes: "
+            },
+            "perks": {
+                "lunch": {
+                    "header": "Catered lunch and cake.",
+                    "copy": "We provide lunch several days a week from a variety of local restaurants and purveyors. Oh, and cake — lots of cake!"
+                },
+                "teams": {
+                    "header": "Small teams, big impact.",
+                    "copy": "We operate in full-stack project teams, with engineers and designers working together for maximum results."
+                },
+                "all_hands": {
+                    "header": "All hands.",
+                    "copy": "On Thursdays the entire organization gathers to review company milestones and to share our work via presentations and demos."
+                },
+                "office": {
+                    "header": "Kick-ass office life.",
+                    "copy": "Every employee gets a sweet rig and the tools to get their job done. And the work environment is fun, positive and highly collaborative."
+                },
+                "sport": {
+                    "header": "Table tennis, running __lineBreakHTML__ and yoga.",
+                    "copy": "To help people relax, we encourage midday activities like a game of Ping-Pong, a crosstown run or a yoga session."
+                },
+                "hacks": {
+                    "header": "Hackathons.",
+                    "copy": "Our hack day each quarter is a chance to explore ideas you believe could improve issuu for publishers, readers or issuuees."
+                },
+                "pairprogramming": {
+                    "header": "Pair programming.",
+                    "copy": "We love the sharing of knowledge as a way to grow __lineBreakHTML__ as a team. Of course, if you __lineBreakHTML__ feel like you work better on __lineBreakHTML__ your own, that also works."
+                },
+                "balance": {
+                    "header": "A balanced life.",
+                    "copy": "We love our work, but we also love fresh air and letting our hair down. A lot of us also have families that we enjoy dearly."
+                },
+                "cta": "You had me at hello"
+            },
+            "city": {
+                "cph_desc": "It’s no coincidence the birthplace of issuu also happens to have a design aesthetic few cities can touch. Bring your love of bikes, architecture and pastries, and you’ll fit in well here.",
+                "pa_desc": "There’s a sizzling California suburb called Palo Alto filled with startups, designers and all-around geeks. That’s where we’ve placed our headquarters and flow of innovative ideas.",
+                "ber_desc": "As a truly great city for technology and innovation, Berlin and issuu go together like currywurst and an ice cold pils. Just ask the mobile development team thriving in our newest home."
+            },
+            "meet_issuuee": {
+                "header": "Meet an issuuee",
+                "copy": "People who work at issuu (issuuees) are filled with interesting perspectives and experiences. In this ongoing series, we’ll be introducing you to several staffers to gain more insight about what it would be like to work with us.",
+                "quote": {
+                    "more": "Read more"
+                }
+            }
+        },
+        "about": {
+            "title": "About issuu",
+            "hero": {
+                "docs_number": "30 Million+",
+                "docs_number_mobile": "30M+",
+                "docs_text": "issuu documents",
+                "docs_text_mobile": "documents",
+                "users_number": "100 Million+",
+                "users_number_mobile": "100M+",
+                "users_text": "unique visitors/mo",
+                "users_text_mobile": "visitors/mo"
+            },
+            "header": "Connecting content __lineBreakHTML__ to people.",
+            "copy1": "From giants of the publishing industry to art-school graduates seeking a first job, issuu gives anyone with digitally bound content the ability to upload and distribute their publications worldwide. In just minutes. And as often as they’d like.",
+            "copy2": "Each day, more than 20,000 publications are uploaded, including magazines, newspapers, portfolios, catalogs, corporate literature, DIY guides, community programs … you name it. Once published on issuu, publications become instantly available to active readers in every corner of the globe who use our site and mobile apps to discover and engage with whatever interests them. On any device. Presented in a beautiful, magazine-like reader.",
+            "copy3": "Publishers who go Premium get access to powerful issuu features and customizations. Advanced analytics, social tools and the ability to embed a customized reader on a site or blog help Premium publishers reach ever-larger audiences.",
+            "footer1": "Enriching lives through__lineBreakHTML__ meaningful content.",
+            "back_to_top": "take me back to the top"
+        }
+    },
+    "magmamarketing": {
+        "introductionText": "Create flatplan and collaborate",
+        "title": "The simplest collaboration tool for editorial teams.",
+        "summary": {
+            "firstParagraph": "Powered by issuu, Magma helps you manage your publication from start to finish, and keeps your editorial, design and ad-sales teams on track every step of the way.",
+            "secondParagraph": "Magma is included with __optimumPlan__."
+        },
+        "features": {
+            "plan": {
+                "title": "Plan",
+                "body": "Start planning your publication page by page. Place articles and delegate tasks to the editorial team."
+            },
+            "collaborate": {
+                "title": "Collaborate",
+                "body": "Collect and collaborate on content for articles and ads. Ensure everything is delivered on time."
+            },
+            "plugin": {
+                "title": "Integrated InDesign",
+                "body": "Use the InDesign plug-in to pull content directly onto the layout. Then click a button to upload it to Magma for team review."
+            },
+            "publish": {
+                "title": "Publish",
+                "body": "Publish the final issue to both tablets and desktop readers or send individual articles directly to the website."
+            }
+        },
+        "backToTop": "Back to top",
+        "seeOurPlans": "See our plans",
+        "screenshotAltText": "A screengrab of the flatplanning interface in Magma."
+    },
+    "landingpage": {
+        "module": {
+            "carousel": {
+                "content": {
+                    "music": "Music",
+                    "canYouHearMe": "Can you hear me?",
+                    "listenersCanBeThrilledAndAlsoChallengedAsDavidBowieDidSoWell": "Listeners can be thrilled and also challenged, as David Bowie did so well.",
+                    "travel": "Travel",
+                    "getOffTheGrid": "Get off the grid",
+                    "whetherItsForWarmSandOrFreshSnowStartPlottingYourEscapeOnIssuu": "Whether it's for warm sand or fresh snow, start plotting your escape on issuu.",
+                    "drinks": "Drinks",
+                    "bottomsUp": "Bottoms up",
+                    "itsGoingToBeALongYearSoKeepPoringOverIssuu": "It's going to be a long year, so keep poring over issuu.",
+                    "starWars": "Star Wars",
+                    "issuuWillBeWithYouAlways": "issuu will be with you, always",
+                    "aNewGenerationJoinsLongtimeFansInWatchingTheLatestMovieForTheSpaceSaga": "A new generation joins longtime fans in watching the latest movie for the space saga.",
+                    "shopissuu": "#SHOPISSUU",
+                    "startANewbrWishList": "Start a new<br /> wish list",
+                    "findOriginalityAndEleganceInTheWorldsBestReadingPlatformItsOurGiftToYou": "Find originality and elegance in the world's best reading platform. It's our gift to you.",
+                    "fashion": "Fashion",
+                    "heresLookingbrAtYou": "Here's looking<br /> at you",
+                    "keenOnStyleTasteSelfexpressionAtIssuuWeKnowHowYouFeel": "Keen on style, taste, self-expression? At issuu, we know how you feel."
+                },
+                "title": "Curated by our Editor"
+            },
+            "welcome": {
+                "title": "Welcome to issuu",
+                "subheader": "Enjoy the largest collection of free-to-read publications from incredible publishers around the globe.",
+                "subheaderAbbreviated": "The world's largest collection of free-to-read publications.",
+                "body": "Interested in joining our world-class publishers?",
+                "calltoaction": "Publish on issuu"
+            },
+            "trending": {
+                "title": "Popular now"
+            },
+            "search": {
+                "title": "Search issuu's 30+ million free-to-read publications by title, topic or keyword",
+                "exampleCopy": "Try one of these: Fashion magazines, wine enthusiast, automobile"
+            },
+            "staffpicks": {
+                "title": "Recommended by issuu staff members"
+            },
+            "interest": {
+                "headlineTopics": "Topics",
+                "topics": {
+                    "styleAndBeauty": "Style & Beauty",
+                    "arts": "Arts",
+                    "homeAndFamily": "Home & Family",
+                    "design": "Design",
+                    "healthyLiving": "Healthy Living",
+                    "travel": "Travel",
+                    "foodAndDrinks": "Food & Drinks",
+                    "sports": "Sports",
+                    "vehicles": "Vehicles",
+                    "business": "Business",
+                    "mindAndSpirit": "Mind & Spirit",
+                    "technology": "Technology",
+                    "animals": "Animals"
+                },
+                "headlineMoreTopics": "And, more topics"
+            },
+            "registration": {
+                "headline": "Sign in for a more tailored reading experience.",
+                "calltoaction": "Connect with Facebook",
+                "secondaryaction": "Sign in with email"
+            },
+            "publisher": {
+                "headline": "Become one of our world-class publishers and find the audience you deserve.",
+                "headlineConcise": "It's never been easier to go digital.",
+                "body": "We have plans for every publisher, including you.",
+                "calltoaction": "Learn about publishing on issuu",
+                "calltoactionConcise": "Learn more about publishing"
+            },
+            "careers": {
+                "headline": "We're growing fast and looking for new issuuees.",
+                "body": "Best at what you do? Love pandas? You belong with us!",
+                "calltoaction": "I adore pandas"
+            },
+            "recommended": {
+                "title": "Suggestions for you"
+            }
+        },
+        "imageCredit": "Image: __publisherNameAndPublicationTitle__",
+        "documentsLoading": "Documents Loading",
+        "follower": "__count__ Follower",
+        "follower_plural": "__count__ Followers",
+        "featuredPublishers": "Featured publishers",
+        "planetEarth": "Earth"
+    },
+    "signup": {
+        "publisher": {
+            "publishers_start_your_engines": "Publish everywhere in minutes.",
+            "we_have_made_it_easier": "Plans perfect for every publisher – Yes, that means you.",
+            "drag_and_drop": "Drag and drop your<br>document to upload",
+            "or_browse": "or <strong>browse to find it on our pc</strong>",
+            "intro_heading": "You don’t need to know about digital. <br>We got this.",
+            "upload": "Upload",
+            "upload_heading_title": "Give us your brilliant content. <br>We'll do the rest.",
+            "enhance": "Enhance",
+            "enhance_heading_title": "Readers love to interact. <br>Give them the goods.",
+            "distribute": "Distribute",
+            "distribute_heading_title": "Get the massive readership <br>your work deserves.",
+            "measure": "Measure",
+            "measure_heading_title": "Gain a little insight &ndash; <br>actually, make that a lot.",
+            "look_at_these_great_brands": "Holy cow! Just look at these great brands publishing on issuu.",
+            "growth_headline": "Grow your audience",
+            "growth_heading1": "Want more eyeballs?",
+            "growth_heading2": "Hope you like being stared at.",
+            "growth_description": " Once published, your document is automatically viewable in the issuu universe on desktops, tablets and smartphones around the globe — but don’t stop there. Our publisher tools help grow your readership by embedding and sharing it across all social networks. ",
+            "growth_copyright": "Publisher: ZIGGY",
+            "growth_copyright2": "Publication: ZIGGY APRIL 15",
+            "metrics_headline": "LEARN WITH METRICS",
+            "metrics_heading1": " Who knew they'd like <br class=\"hidden-xs hidden-sm\"> pg. 12 &hellip; on mobile &hellip; in the UK? ",
+            "metrics_heading2": " Prepare to be a know-it-all. ",
+            "metrics_description": " When it comes to measuring and managing growth, consider us __LineBreakHTML__ your source on the inside. issuu’s advanced statistics help analyze what your readers are reading, for how long and what they’re sharing. ",
+            "see_our_plans": "See our plans",
+            "customize_reader_heading": "Customized Reader",
+            "customize_reader_description": "Customize how your reader will look with a logo, background image and ad removal, as well as providing readers a standalone reader link.",
+            "links_heading": "Auto Detected Links",
+            "links_description": "All URLs that are part of your document before it’s uploaded are automatically converted to active links once your publication goes live.",
+            "releases_heading": "Scheduled Releases",
+            "releases_description": "Keep your editorial calendar running like a well-oiled machine by scheduling publication release dates up to 30 days in advance.",
+            "api_heading": "API",
+            "api_description": "Use issuu’s API tool to automate uploads, customize integrations with your site and efficiently upload your entire back catalog.",
+            "privacy_heading": "Privacy",
+            "privacy_description": "Give readers access to download your publication and read it offline, or choose to keep your document private, so only you or your company can see it.",
+            "print_heading_title": "Pixel-to-Print",
+            "print_description_text": "Have issuu print your publication to distribute anywhere in the world … the good old-fashioned way. Preordering not required. ",
+            "support_heading": "Support",
+            "support_description": "Get answers to your publishing questions from our comprehensive knowledge base and international support team.",
+            "get_started": "Get started",
+            "screenUsernameBody": "This URL becomes part of your profile and the URL for your publications. It cannot be changed later.",
+            "displaynamePlaceholder2": "Company name, publication or your name"
+        },
+        "recaptcha": {
+            "required_hint": "Please solve the reCaptcha before creating an account."
+        },
+        "createAccountHeader": "Create your account",
+        "createSocialAccount": "Connect your Facebook or Google+ account",
+        "orDivider3": "or use your email",
+        "//orDivider3": {
+            "extracted": [
+                "Context: \"Connect your Facebook or Google+ account\" [buttons] \"or use your",
+                "email\" [email field]"
+            ]
+        },
+        "acceptTOS": "I accept the __linkStartHTML__Terms of Service__linkEndHTML__",
+        "submitCredential": "Submit",
+        "createAccount2": "Create my account",
+        "fetchingSocialInformation": "Fetching your account information...",
+        "name": "Name",
+        "firstnamePlaceholder2": "First",
+        "lastnamePlaceholder2": "Last",
+        "email": "Email",
+        "password": "Password",
+        "passwordPlaceholder": "At least 4 characters",
+        "screenUsernameHeadline2": "Set your profile name and URL",
+        "displaynameExplanation": "Your name lets other people know who you are when you publish your work, create stacks or comment on other publications.",
+        "displaynameLabel": "Profile name",
+        "usernameLabel": "Profile URL",
+        "usernamePlaceholder": "username",
+        "reader": {
+            "screenUsernameBody": "This URL becomes part of your profile and activity. It cannot be changed later.",
+            "displaynamePlaceholder2": "Your name"
+        },
+        "anonymous": {
+            "screenUsernameBody": "This URL becomes part of your profile and the URL for your publications and activity. It cannot be changed later.",
+            "displaynamePlaceholder2": "Your name, publication or company name"
+        },
+        "topLinks": {
+            "back": "Back",
+            "cancel": "Cancel",
+            "alreadyMember": "Already a member?",
+            "signIn": "Sign in"
+        },
+        "errors": {
+            "email_invalid": "A valid email is required",
+            "email_taken2": "This email is already used for an account. Want to __link.openHTML__sign in__link.closeHTML__?",
+            "email_checking": "Checking email address...",
+            "password": "A password with 4 to 30 characters is required",
+            "firstname": "A first name with 1 to 30 characters is required",
+            "username_invalid": "A valid username has between 4 and 30 of only these characters: a-z 0-9 _ . - ",
+            "username_taken": "This username is already taken",
+            "socialFailedGoogle": "Signing you up with Google+ did not work. This is the error we got:<br /> \"__error__\"",
+            "socialFailedGoogleFromSignin": "Signing you up with Google+ did not work as expected.<br /> Please press the Google+ button again to connect.",
+            "socialFailedFacebook": "Signing you up with Facebook did not work. This is the error we got:<br /> \"__error__\"",
+            "socialFailedEmail": "We could not retrieve your email address at this time. Please sign up through a different option.<br />We're very sorry about that.",
+            "createUser": "We couldn't create your user. Please <a href=''>reload the page</a> and try again, or <a href='http://help.issuu.com'>contact our support</a>.",
+            "captcha_not_loaded": "No Captcha showing? Try __linkReload.openHTML__reloading the page__linkReload.closeHTML__ and make sure that you can load __linkCaptcha.openHTML__Google's reCAPTCHA__linkCaptcha.closeHTML__ service."
+        },
+        "orDivider2": "or connect with Facebook or Google+"
+    },
+    "clippings": {
+        "overlay": {
+            "title": "Clip __clippingIndex__ of __clippingCount__",
+            "headerShares": "Shares",
+            "headerComments": "Comments",
+            "commentsDisabled": "Commenting on this publication was not allowed by the publisher.",
+            "loadMoreComments": "Load more comments",
+            "placeholderNoComments": "Share your thoughts...",
+            "placeholderExistingComments": "Join the conversation...",
+            "ctaLoginPart1": "Sign in",
+            "ctaLoginPart2NoComments": "to share your thoughts.",
+            "ctaLoginPart2ExistingComments": "to join the conversation.",
+            "buttonSubmitComment": "Post",
+            "navigationLinkText": "Navigate to page __pageNumber__",
+            "errorPostingComment": "There was a connection or server error.<br />Please try posting your comment again."
+        },
+        "creator": {
+            "buttonCreateClipping": "Clip it",
+            "buttonCancel": "Cancel",
+            "errorCreatingClip": "There was a connection or server error.<br />Please try creating your clipping again."
+        },
+        "comment": {
+            "anonymousOwner": "An issuu user",
+            "explanationDeletedByOwner": "This comment was deleted by its author.",
+            "deleteLink": "Delete",
+            "deleteConfirm": "Yes, delete it",
+            "deleteCancel": "No, keep it",
+            "deleteErrorMessage": "Comment not deleted"
+        },
+        "playVideo": "Play video"
+    },
+    "flagdocument": {
+        "inappropriate": "Inappropriate?",
+        "introduction": "Please select the reason that most closely reflects your concern about the publication, so that we can review it and determine whether it violates our Community Guidelines or isn't appropriate for all viewers.<br /> Abusing this feature is also a violation of the Community Guidelines, so don't do it.",
+        "sexual": "Sexual or pornographic",
+        "violent": "Violent or repulsive",
+        "hateful": "Hateful",
+        "spam": "Spam",
+        "quarantined": "I am the legal owner of the copyright in this document (or authorized to act on behalf of the owner).",
+        "buttonflag": "Report document",
+        "buttonclose": "Cancel",
+        "feedback_success": "\"__docname__\" has been reported as \"__flagtype__\".",
+        "feedback_fail": "Document could not be reported.<br/>__errormessage__"
+    },
+    "stack": {
+        "openstack": "Open stack",
+        "emptystack": "No publications added yet"
+    },
+    "headerSimple": {
+        "back": "Back",
+        "cancel": "Cancel",
+        "alreadyMember": "Already a member?",
+        "signIn": "Sign in"
+    },
+    "stackswidget": {
+        "stacknamePlaceholder": "New stack name",
+        "createnewstack": "Create a new stack",
+        "stacknameHelper": "Press 'Enter' to create stack",
+        "addto": "Stack",
+        "stacks": "Select one or more stacks",
+        "publications": "__count__ publication",
+        "publications_plural": "__count__ publications",
+        "button_noneselected": "Add to stack",
+        "button_someselected": "Add to stack",
+        "button_someselected_plural": "Add to stacks",
+        "button_cancel": "Cancel",
+        "errorCouldnotcreatestack": "Bummer, there was an error creating your stack. You can always try again, though.<br />__errorcode__: __errormessage__",
+        "errorCouldnotadddoctostack": "For some reason, we couldn't add the documents to your selected stacks.<br />__errorcode__: __errormessage__",
+        "errorCouldnotloadstack": "Yikes! There was an error loading your stacks.<br />__errorcode__: __errormessage__",
+        "addedtostacksingularsingular": "\"__docname__\" has been added to \"__stackname__\".",
+        "addedtostacksingularplural": "\"__docname__\" has been added to __stackcount__ stacks.",
+        "addedtostacksingularcountsingular": "__doccount__ publication has been added to \"__stackname__\".",
+        "addedtostacksingularcountplural": "__doccount__ publication has been added to __stackcount__ stacks.",
+        "addedtostackpluralsingular": "__doccount__ publications have been added to \"__stackname__\".",
+        "addedtostackpluralplural": "__doccount__ publications have been added to __stackcount__ stacks."
+    },
+    "stackselector": {
+        "stacks": "Select one or more stacks",
+        "selectstack": "Select a stack",
+        "button_noneselected": "Select stack",
+        "button_someselected": "Select stack",
+        "button_selectstacks": "Select __count__ stacks",
+        "button_cancel": "Cancel",
+        "errorCouldnotloadstack": "Yikes! There was an error loading your stacks.<br />__errorcode__: __errormessage__"
+    },
+    "footer": {
+        "about": "About issuu",
+        "pricing": "Plans &amp; Pricing",
+        "developers": "Developers",
+        "careers": "Careers",
+        "team": "Team",
+        "legal": "Legal",
+        "help": "Help &amp; Support"
+    },
+    "socialpermissions": {
+        "headline": "We need your email address",
+        "bodyText": "In order to create an issuu account for you, we need your email address.<br />Please allow Facebook to provide your email to us and you'll have your shiny new issuu account in seconds!",
+        "buttonRetry": "Try again",
+        "buttonCancel": "Cancel"
+    },
+    "editSuiteTopNav": {
+        "info": "Document Settings",
+        "embed": "Embed Widget",
+        "links": "Web & Video links"
+    },
+    "linkeditor": {
+        "errors": {
+            "problemTryLater": "Oops! We have problems getting data, please try again later.",
+            "problemsSavingToServer": "Oops! Having problems saving data. Retrying.. please wait, we should be back online shortly",
+            "pleaseNoticeYouHaveBeenSignedOutOfIssuuCom": "Please notice: You have been signed out of issuu.com"
+        },
+        "pageNumber": "Page __pageNumber__/__numPages__",
+        "numLinks": "__count__ link",
+        "numLinks_plural": "__count__ links",
+        "//numLinks": {
+            "extracted": "max_chars: 10"
+        },
+        "menu": {
+            "addLinksAndButtons": "Add links & buttons",
+            "index": "Index",
+            "//index": {
+                "extracted": "max_chars: 6"
+            },
+            "showLargeBitmap": "Show large bitmap",
+            "saved": "Saved",
+            "//saved": {
+                "extracted": "max_chars: 6"
+            },
+            "save": "Save",
+            "//save": {
+                "extracted": "max_chars: 6"
+            },
+            "saving": "Saving",
+            "//saving": {
+                "extracted": "max_chars: 8"
+            },
+            "view": "View",
+            "//view": {
+                "extracted": "max_chars: 6"
+            },
+            "linkeditor": "Link editor",
+            "overview": "Overview",
+            "//overview": {
+                "extracted": "max_chars: 8",
+                "flag": "max_chars: 8"
+            },
+            "zoomIn": "Zoom in",
+            "//zoomIn": {
+                "extracted": "max_chars: 7"
+            },
+            "convertLinks": "Convert Links",
+            "//convertLinks": {
+                "extracted": "max_chars: 13"
+            }
+        },
+        "linkPop": {
+            "hyperlink": "Hyperlink",
+            "action": "Action",
+            "styling": "Styling",
+            "linkTypes": {
+                "pageFirst": "Go to first page",
+                "pageLast": "Go to last page",
+                "pageNext": "Go to next page",
+                "page": "Go to page",
+                "pagePrevious": "Go to previous page",
+                "pageNumber": "Page number"
+            },
+            "done": "Done",
+            "cancel": "Cancel",
+            "webAndVideo": "Web or Video",
+            "webVideoLink": "Web or Video Link",
+            "shopping": "Shopping",
+            "websiteOrVideoLink": "Web or Video (YouTube or Vimeo) URL:",
+            "webOrVideoLink": "Web or Video (YouTube or Vimeo) URL",
+            "goToPage": "Go to Page",
+            "goToPageAction": "Go to Page Action",
+            "url": "URL",
+            "selectTheTypeOfLinkYouWant": "Select the type of link you want",
+            "displayLinksWithAShoppingIcon": "Displays link with a shopping icon so readers know they can click through to buy the item or service."
+        },
+        "box": {
+            "localMenu": {
+                "edit": "Edit",
+                "delete": "Delete",
+                "gotoPage": "Goto page"
+            }
+        },
+        "linkSharedWarning": {
+            "header": "You're about to change what somebody shared.",
+            "text": "This link has been shared by one or more issuu users. Editing it means the original will no longer be available.",
+            "confirm": "OK, I understand"
+        },
+        "newbieText": {
+            "title": "Get started",
+            "description": "Create new buttons and links simply by drawing a square"
+        },
+        "justPageNumber": "Page __pageNumber__",
+        "backToOverview": "Back to overview",
+        "addLink": "Add link",
+        "editLink": "Edit link",
+        "convertmodal": {
+            "convert": "Convert",
+            "changesWillNotApply": "Changes will not apply to Goto Page Links",
+            "pageNumber": "Page number",
+            "specificPage": "Specific page",
+            "entireDocument": "Entire document",
+            "applyChangesTo": "Apply changes to",
+            "webAndVideoLinks": "Web and Video links",
+            "shoppingLinks": "Shopping links",
+            "convertTo": "Convert to",
+            "documentHasXLinks": "Document has __count__ link.",
+            "documentHasXLinks_plural": "Document has __count__ links.",
+            "willBeAffected": "will be affected.",
+            "linksWillBeAffected": "links will be affected."
+        },
+        "leavePageWarning": "It looks like you have been editing something. Did you forget to click the save button? If you leave without saving, your changes will be lost."
+    },
+    "deleteaccountwarning": {
+        "header": "Are you sure you want to delete your account?",
+        "body": "Your account, including all your publications and statistics, will be gone. They cannot be retrieved.<br><br>To confirm, please click the link in the confirmation email we have sent to your email address <a href='mailto:__email__'>__email__</a>. If you do not get this email, please check your spam folder.",
+        "linkClose": "Close",
+        "serverError": "Some problem with the server, please try later.",
+        "outstandingBalanceError": "It is not possible to delete an account if you have an outstanding balance."
+    },
+    "mobilereader": {
+        "clip": {
+            "tutorial": {
+                "title": "Introducing Issuu Clip",
+                "description": "<p>Issuu Clip is an exciting new way to engage with individual clips of content. Now you can share and comment on any part of a publication that inspires you.</p><p>Tap blue outlines to interact with clips by the publisher. Tap the plus to see clips by fellow readers or create your very own.</p>",
+                "learnmore": "Learn more",
+                "ok": "OK"
+            }
+        },
+        "menubar": {
+            "authoranddate": "By <a href=\"__ownerlink__\">__owner__</a>, published __documentdate__."
+        }
+    },
+    "header": {
+        "languages": "Languages",
+        "mypublications": "My Publications",
+        "publish": "Upload",
+        "createaccount": "Create Account",
+        "signin": "Sign In",
+        "search": "Search __issuu__",
+        "publisherSuite": "Publisher Tools",
+        "insight": "Statistics",
+        "campaigns": "Campaigns",
+        "services": "Services",
+        "settings": "Account Settings",
+        "home": "Feed",
+        "explore": "Explore",
+        "stacks": "Stacks",
+        "following": "Following",
+        "logout": "Sign Out",
+        "about": "About",
+        "business": "Business",
+        "professionalfeatures": "Professional Features",
+        "helpsupport": "Help & Support",
+        "plansandpricing": "Plans & Pricing",
+        "plans": "Plans",
+        "close": "Close",
+        "activity": "Activity",
+        "profile": "Profile",
+        "publishingissuu": "Publishing on issuu"
+    },
+    "signinWidget": {
+        "title": "See you on the other side",
+        "letMeIn": "Let me in",
+        "cantRemember2": "I don't remember my password",
+        "username": "Username",
+        "usernameOrEmail": "Email or username",
+        "password": "Password",
+        "usernameOrEmailTitle": "An email or username with at least 4 characters is required",
+        "passwordTitle": "A password with at least 4 characters is required",
+        "facebookMeIn": "Facebook me in",
+        "connectWithFacebook": "Connect with Facebook",
+        "googleMeIn": "Connect with Google+",
+        "signinWithLinkedIn": "Connect with LinkedIn",
+        "createAccount": "Create Account",
+        "signin": "Sign in",
+        "signingin": "Signing in...",
+        "or": "Or",
+        "cancel": "Cancel",
+        "done": "Done",
+        "next": "Next",
+        "back": "Back",
+        "titleNeedLogin": "You need to be logged in to do that",
+        "pleaseEnterUAP": "Please enter both your username and your password",
+        "connectNow": "Connect now using",
+        "serverResponse": {
+            "thatwasnotright3": "We couldn't log you in. If you dont have an account yet, you can __linkStartHTML__create one here__linkEndHTML__.",
+            "hmmstillwrong": "Hmm.. Still wrong",
+            "thisisjustembarrassing": "ಠ_ಠ This is getting embarrassing...",
+            "youknowwecanhelp": "You know <a href=\"\" class=\"error-msg-help\">we can help</a> you, right?"
+        },
+        "youWereNotSignedInWithFacebook": "You were not signed in with Facebook",
+        "youWereNotSignedInWithGooglePlus": "You were not signed in with Google+"
+    },
+    "signupWidget": {
+        "changeDecision": "You can always change your decision later on.",
+        "chooseTitle": "Are you a ...",
+        "choosePlan": "Pick your plan. First 14-days are free.",
+        "chooseLevel": "Choose your membership level.",
+        "whatToDo": "What would you like to do?",
+        "reader": "Reader",
+        "publisher": "Publisher",
+        "title": "Great to have you with us!",
+        "email": "Email",
+        "displayName": "Display name",
+        "ageShort": "Age",
+        "age": "What is your age?",
+        "captcha": "Enter the text in the image below",
+        "captchaUnreadable": "Unreadable? Get a new one",
+        "acceptTerms": "I accept the <a target='_blank' href='http://issuu.com/about/terms'>terms of service</a>.",
+        "confirmation": "Almost done! Please click the link in the email we just sent you to verify your account.",
+        "youMustAgreeToTheTerms": "You must agree to the terms",
+        "allFieldsRequired": "Please fill in all the fields correctly",
+        "readSub": "Explore over 18 milion publications and discover your favorites.",
+        "read": "Read",
+        "upload": "Upload",
+        "uploadSub": "Publish your content to issuu and share it worldwide.",
+        "basicPublisher": "Basic publisher",
+        "plusPublisher": "Plus publisher",
+        "premiumPublisher": "Premium publisher",
+        "itIsFree": "It is always FREE to browse and publish unlimited publications on all platforms",
+        "onlyMoments": "Only moments away from a beautiful publication",
+        "biz": {
+            "noCreditCard": "No credit card required",
+            "freeTrial": "14 day free trial",
+            "back": "Back",
+            "linkLearnMore": "Learn more about issuu",
+            "linkSeeFeatures": "See the full list of features",
+            "linkFaq": "Read the FAQ"
+        }
+    },
+    "forgotPasswordWidget": {
+        "title": "Forgot your password?",
+        "tip": "Make sure you can receive email from no-reply@issuumail.com",
+        "sendEmail": "Send email",
+        "remember": "I remember the password ...",
+        "emailWasSent": "The email was sent, please check your inbox and follow the instructions.",
+        "ok": "OK"
+    },
+    "newpassword": {
+        "mustBeSameAsPassword": "Passwords must match",
+        "invalidresetcode": "Invalid reset code",
+        "somethingwentwrongpleasetryagain": "Something went wrong, please try again.",
+        "nosuchuser": "We could not find this user",
+        "enterANewPassword": "Enter a new password",
+        "savePassword": "Save password",
+        "repeatPassword": "Repeat password",
+        "newPassword": "New password"
+    },
+    "embedForm": {
+        "listDropDown": {
+            "update": "Update",
+            "save": "Save style",
+            "create": "Create new"
+        },
+        "embedCode": "Embed code",
+        "link": "Link",
+        "formv4": {
+            "size": "Size",
+            "title": "Design your widget",
+            "startPage": "Starting page",
+            "layout": "Page layout",
+            "autoflip": "Autoflip the pages",
+            "color": "Color",
+            "customBg": "Custom background color",
+            "download": "Download",
+            "buyDownloads": "Buy Global Downloads",
+            "allowDownload": "Allow all users to download",
+            "downloadLeftCount": "left",
+            "buyMoreDownloads": "Buy more",
+            "socialOptions": "Social options menu",
+            "upgradePremium": "Upgrade to Premium",
+            "showLinksBellowEmbed": "Links below embedding",
+            "readerInterface": "Reader interface",
+            "readerBgColor": "Reader background color",
+            "readerBgImage": "Reader background image",
+            "readerBgImageStretch": "Stretch",
+            "readerBgImageTopLeft": "Top left",
+            "shareBtn": "Share button",
+            "searchBtn": "Search button",
+            "otherPublications": "My other publications",
+            "addLogo": "Add your logo",
+            "addLogoPlaceholder": "Enter URL to the logo",
+            "clippings": "Issuu Clip ",
+            "sizeEmbedInfo": "Your embed is too big for this preview, but don't worry. The code is alright.",
+            "processingPublicationInfo": "You're embedding a publication that we're still working on converting.<br>If it eventually fails to convert you will need to reupload and reembed.",
+            "embedCodeAlternative": "Alternative embed code",
+            "embedUpdatingInfo": "Please allow a few minutes for your changes to appear",
+            "embedUrlInfo": "Use this URL for emails, social sharing, or easy embedding on Tumblr and WordPress ",
+            "backToMyPublications": "Back to My Publications",
+            "embedUrlInfo2": "Use this URL for emails, social sharing, or easy embedding on Tumblr and WordPress ",
+            "socialOptionsOverlay": "__stylePreHTML__Social options menu __stylePostHTML__ When your readers are finished reading, they are shown social features like Facebook, Twitter, email share, embed, and a link to the publication.",
+            "readerBgImageOverlay": "__stylePreHTML__Reader background image __stylePostHTML__ Link to any jpg, gif, or png graphics file. Remember that a large image could take a long time to load.",
+            "showArchiveOverlay": "__stylePreHTML__My other publicatons __stylePostHTML__ Displays a preview of your other publications on the right side of the screen. It&#x27;s a great way to expose other documents in the archive to your readers.",
+            "addLogoOverlay": "__stylePreHTML__Add a logo to the top left corner __stylePostHTML__ Link to any jpg, gif, or png graphics file.",
+            "updatePremiumOverlay": "This is available with the Premium plan.",
+            "embedInfoOverlay": "Some websites do not support the default Issuu embed code. If you have problems, please try this alternative version. Read more about embedding __linkPreHTML__here__linkPostHTML__.",
+            "embedInfoTumblrOverlay": "On Tumblr you can easily insert an Issuu publication by creating a video post with the URL. On WordPress 4.0+ just include the URL in your blog post. __linkPreHTML__Read more__linkPostHTML__.",
+            "oldEmbedLink": "Looking for __linkPreHTML__ the old embed page __linkPostHTML__?"
+        },
+        "formv3": {
+            "oldEmbedLink": "Looking for __linkPreHTML__ the old embed page __linkPostHTML__?",
+            "titleAddToSite": "Add it to your site",
+            "styleOptions": "Styling options",
+            "signInStylingOpts": "Sign in to get more styling options",
+            "page": "Page",
+            "startOnPage": "Start on page",
+            "colors": {
+                "default": "Default",
+                "orange": "Orange",
+                "red": "Red",
+                "green": "Green",
+                "blue": "Blue",
+                "mint": "Mint",
+                "grey": "Grey",
+                "rosy": "Rosy",
+                "blueDusty": "Blue dusty",
+                "blueDark": "Blue dark",
+                "brown": "Brown",
+                "greyLight": "Grey light",
+                "greyDark": "Grey dark",
+                "black": "Black",
+                "custom": "Custom"
+            },
+            "showOptions": "Show",
+            "socialOptionsDescription": "When your readers are finished reading, they are shown social features like Facebook, Twitter, email share, embed, and a link to the publication.",
+            "linkBellowEmbed": "Links below embedding",
+            "downloadBtn": "Download button",
+            "shareBtn": "Share button",
+            "searchBtn": "Search button",
+            "publisherPublications": "My other publicatons",
+            "publisherPublicationsDescription": "Displays a preview of your other publications on the right side of the screen. It&#x27;s a great way to expose other documents in the archive to your readers.",
+            "availableInPremium": "This is available with the Premium plan.",
+            "links": "Links",
+            "linksOpenOption": "Open links in",
+            "linkOpenNewWindow": "a new window",
+            "linkOpenSameWindow": "same window",
+            "logo": "Logo",
+            "logoToLeftCorner": "Add a logo to the top left corner",
+            "logoDescription": "Choose between using your Issuu profile image or simply linking to any jpg, gif, or png graphics file.",
+            "profileImage": "Profile image",
+            "profileImageChange": "You can change your profile image __linkPreHTML__here__linkPostHTML__",
+            "profileImageChangeUrl": "Enter URL to the logo bitmap",
+            "bgColor": "Background color ",
+            "bgImage": "Background image ",
+            "bgImageDescription": "Link to any jpg, gif, or png graphics file.Remember that a large image could take a long time to load.",
+            "embedCodeAlternativeDescription": "Some websites do not support the default Issuu embed code.If you have problems, please try this alternative version.Read more about embedding __linkPreHTML__ here __linkPostHTML__."
+        }
+    },
+    "stream": {
+        "featured": "Featured",
+        "new": "New",
+        "endofstream": "That's it.",
+        "emptyresult": "Would you believe it? We've got more than 30 million publications on issuu but nothing here. <br />Why don't you <a href=\"/explore\">go exploring</a>?",
+        "errorloadingstream": "Oh no! There was an error trying to load more publications. You can <a href=\"\">click here to reload the whole page</a>.<br />__errorcode__: __errormessage__",
+        "readnow": "Read now",
+        "preview": "Preview",
+        "seeprofile": "See profile",
+        "follow": "Follow",
+        "unfollow": "Unfollow",
+        "publications": "Publications",
+        "followed": "Followed",
+        "unfollowed": "Unfollowed",
+        "advertisement": "ADVERTISEMENT"
+    },
+    "stackeditor": {
+        "placeholder": {
+            "stacktitle": "Title of your stack",
+            "stackdescription": "You can add a short description. It will help others find your stack."
+        },
+        "label": {
+            "private": "Unlisted stack. Only users with the direct link will be able to see it."
+        },
+        "buttons": {
+            "savechanges": "Save changes",
+            "createstack": "Create stack",
+            "cancel": "Cancel",
+            "deletestack": "Delete this stack",
+            "deleteStackPositive": "Yes, delete it"
+        },
+        "title_editstack": "Stack settings",
+        "title_createstack": "Create a new stack",
+        "//title_createstack": {
+            "extracted": "max_chars: 24"
+        },
+        "deleteStackHeadline": "Are you sure?",
+        "deleteStackParagraph": "You are about to delete your stack <em>__stackname__</em>. This can not be undone. People who were following it will not be able to see the stack's contents anymore.",
+        "errors": {
+            "apiFailed": "There was an error saving the stack: __errormsg__."
+        }
+    },
+    "sharer": {
+        "headerDirectLink": "Direct link",
+        "toggleMore": "more",
+        "toggleLess": "less"
+    },
+    "publishnowbtn": {
+        "publishnow": "Publish Now",
+        "now": "Now",
+        "later": "Later",
+        "laterLocked": "Later (unlock feature)",
+        "secret": "Unlisted",
+        "unlisted": "Unlisted",
+        "unlimited": "Unlimited",
+        "unlistedleft": "left",
+        "selected": {
+            "publishnow": "Publish Now",
+            "lateron": "Publish on",
+            "secret": "Keep it unlisted",
+            "unlisted": "Keep unlisted"
+        },
+        "buyMore": "(Buy more)",
+        "modal": {
+            "outOfStorageStock": "Out of Unlisted Storage",
+            "youCanBuyMore": "You can buy more unlisted storage on the __pageLinkHTML__",
+            "servicesAndPlansPage": "Services and Plans Page",
+            "back": "Back"
+        },
+        "noneLeft": "None left",
+        "notEnoughUnlisted": "You don't have enough unlisted",
+        "left": "__count__ left",
+        "left_plural": "__count__ left",
+        "publicationVisibility": "Publication visibility",
+        "public": "Public",
+        "buyMoreUnlisted": "Buy more unlisted storage",
+        "scheduling": "Schedule publish date",
+        "upgradeToPremium": "Upgrade to Premium",
+        "upgradeToPlus": "Upgrade to Plus",
+        "publishAtLaterDate": "Publish on issuu at a later date",
+        "publicationVisibilityMustBePublic": "Publication visibility must be public",
+        "//publicationVisibilityMustBePublic": {
+            "extracted": "max_chars: 45"
+        },
+        "publishNow": "Publish now",
+        "publishLater": "Publish later",
+        "keepUnlisted": "Keep unlisted"
+    },
+    "publishwidget": {
+        "cancel": "Cancel",
+        "login": {
+            "loginneeded": "You need to login before you can upload your publications.",
+            "confirmneeded": "You need to confirm your account before you can upload your publications."
+        },
+        "select": {
+            "pagetitle": "Publish to the biggest community<br/>of readers in the world.",
+            "pagetitlerestart": "We are experiencing connection problems... <br />Please select your files again.",
+            "selectfiles": "Select a file to get started",
+            "dropfilehere": "... or simply drop your document here.",
+            "dropfileshere": "... or simply drop your documents here."
+        },
+        "progress": {
+            "pagetitle": "Thanks, we're getting your work ready to meet the readers of the world"
+        },
+        "servicedown": {
+            "pagetitle": "Publishing is temporarily out of service",
+            "description": "Due to maintenance, publishing of new documents to issuu is temporarily unavailable. <br />Please try again in an hour or two. <br /><br />Sorry for any inconvenience caused."
+        },
+        "error": {
+            "headerprefix": "Aw snap!",
+            "FileLimitExceeded": "We only support 20 files to be uploaded at a time.",
+            "LoginRequired": "You need to be logged in",
+            "MultiUploadSomeFailed": "One of your publications failed.<br />You can still publish the ones that succeeded.",
+            "MultiUploadSomeFailed_plural": "__count__ of your publications failed.<br />You can still publish the ones that succeeded.",
+            "MultiUploadAllFailed": "Aw snap! It looks like all your documents failed uploading. Please try again...",
+            "MultiUploadAllSuccess": "Nice! All of your documents have been uploaded.",
+            "InternalError": "Internal error. Please try again...",
+            "InternalError_short": "Internal error. Please try again.",
+            "UnknownError": "An unknown error occurred. Please try again...",
+            "UnknownError_short": "An unknown error occurred. Please try again.",
+            "UploadConnectionError": "We've lost the connection. Please try again.",
+            "UploadConnectionError_short": "We've lost the connection. Please try again.",
+            "UploadFileSizeError100": "The document is too large. We support up to 100 MB on Free and Pro plans. Go to <a href='https://issuu.com/home/services'>Services Page</a> and upgrade to either Plus plan (250MB) or Premium plan (500MB) to raise limit.<br />Also see <a href='http://help.issuu.com/entries/23962903-Reduce-file-size' target='_blank'>how to reduce file size.</a>",
+            "UploadFileSizeError250": "The document is too large. We support up to 250 MB on Plus plan. Go to <a href='https://issuu.com/home/services'>Services Page</a> and upgrade to Premium plan to raise limit to 500MB.<br />Also see <a href='http://help.issuu.com/entries/23962903-Reduce-file-size' target='_blank'>how to reduce file size.</a>",
+            "UploadFileSizeError500": "The document is too large. We support up to 500 MB on Premium plan. See <a href='http://help.issuu.com/entries/23962903-Reduce-file-size' target='_blank'>how to reduce file size.</a>",
+            "UploadFileExtensionError": "File extension unsupported. We support PDF, Word (doc), Powerpoint (ppt), Open Office (odt, odp), WordPerfect (wdp), Rich Text Format (RTF), Star Office (SXI, SXW).",
+            "UploadFileExtensionError_short": "File extension unsupported. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocMalformed": "It appears that the file you're trying to convert is not a proper PDF. Try opening it with a PDF reader (such as Adobe Reader). If you can't open it, try creating the PDF again with whatever software you were using. When the document looks right in a PDF reader, try uploading it again to issuu.",
+            "DocMalformed_short": "Document was malformed, please test it in a PDF reader. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocInvalidPageCount": "The PDF you are trying to convert is above our 500 pages limit or is malformed. Consider splitting up your document into smaller PDFs (less than 500 pages), otherwise we won't be able to convert it for you.",
+            "DocInvalidPageCount_short": "Exceeding our 500 pages limit. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocEncrypted": "The PDF you are trying to convert is encrypted. Encryption means that the document is protected by a password or some other form of access restriction. Please remove the encryption and try again. If you have not actively encrypted your PDF, there might be a default encryption in the software you used to create the PDF. Try to switch off this encryption and create the PDF again.",
+            "DocEncrypted_short": "The PDF is password protected. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocConvertPageFailed": "One or more pages in the given document is either malformed or too complex to render. Please make sure your PDF looks right in a PDF Reader (e.g. Adobe Reader) and none of the pages are loading slowly. Otherwise they might be too complex to be converted (i.e. many different fonts, page elements etc.). The solution is to 'flatten' the complex pages into bitmap (JPG) before uploading. A quick test is to remove these pages first, to see if upload is successful.",
+            "DocConvertPageFailed_short": "One or more pages are malformed or too complex. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocConvertToPDFError": "We could not convert the given document. Try converting it to a PDF first, and then upload it again to issuu.",
+            "DocConvertToPDFError_short": "Conversion to PDF failed. <a href='http://help.issuu.com/entries/23951492-Getting-your-publication-ready' target='_blank'>Learn more.</a>",
+            "DocErrorGetSupport": "<a href='http://help.issuu.com/entries/240315-I-have-problems-with-conversion' target='_blank'>Get support for conversion</a>"
+        }
+    },
+    "topnavigation": {
+        "basicsettings": "My Information",
+        "notifications": "Notifications",
+        "services": "Services",
+        "billing": "Billing",
+        "API": "API"
+    },
+    "publishpage": {
+        "data": {
+            "cancel": "Cancel",
+            "pagetitle": "Help your readers find your publication",
+            "title": "Title",
+            "description": "Description",
+            "ispreview": "This is a preview",
+            "orgpublishlabel": "Original publication date",
+            "orgpublishdate": "The date this was created (optional)",
+            "//orgpublishdate": {
+                "extracted": "max_chars: 40"
+            },
+            "orgpublishdateselected": "Org. publishing date:",
+            "showDetectedLinks": "Include detected links",
+            "comment": "Readers can comment",
+            "allowDownload": "Allow download",
+            "allowDownloadCreditsLeft": "credits left",
+            "allowDownloadUnlockPremium": "Unlock the __linkPreHTML__Premium Plan__linkPostHTML__ to enable download without sign-in from embeds.",
+            "acceptterms": "By clicking the above button to publish on issuu, you are agreeing to issuu's",
+            "accepttermslink": "Terms of Service",
+            "please": "Please only upload documents that you own the rights to.",
+            "titleerror": "The title must be between 3 and 100 characters.",
+            "error": "Your publication was not published. If you keep getting this error, you may have to cancel the upload and try again.",
+            "premiumFeature": "This is available with the Premium plan",
+            "unlock": "Upgrade to Premium",
+            "cancelupload": "Cancel upload",
+            "dateMalformed": "Please format date __format__",
+            "dateOutOfMaxRange": "Date must be before __maxdate__"
+        },
+        "done": {
+            "pagetitle": "All done! We're still converting but you can start using your publication right away.",
+            "pendingTitle": "Pending \"safe mode\" approval",
+            "pendingExplain": "We review each publication uploaded to issuu. It usually only takes a few minutes, and you can start sharing right away. Once approved it will also be available for readers in \"safe mode\". <a href='http://help.issuu.com/entries/103848873'>Learn more about \"safe mode\"</a>",
+            "publishDoneTitle": "Voilà! Your publication is on issuu",
+            "publishDoneDescription": "Now give it the readership it deserves. Share it socially or embed it on your website or blog.",
+            "openpreview": "Open publication",
+            "openmypub": "Publications List",
+            "directlink": "Direct link",
+            "publishDoneMessages": "Your publication is on issuu.",
+            "shareLink": "Share it socially.",
+            "createEmbedLink": "Create an embed.",
+            "orderPrintedCopiesLink": "Order printed copies.",
+            "modal": {
+                "close": "Close",
+                "share": "Share"
+            }
+        }
+    },
+    "user": {
+        "mylibrary": {
+            "actions": {
+                "edit": {
+                    "header": "Edit",
+                    "title": {
+                        "label": "Title",
+                        "error": "The title must be between 3 and 100 characters long."
+                    },
+                    "description": {
+                        "label": "Description",
+                        "placeholder": "Optional"
+                    },
+                    "issuuUrl": "issuu URL",
+                    "readerUrl": "Reader URL",
+                    "download": {
+                        "label": "Download",
+                        "allow": "Allow download",
+                        "creditsLeft": "credits left",
+                        "unlockPremium": "Unlock the __linkPreHTML__Premium Plan__linkPostHTML__ to enable download without sign-in from embeds."
+                    },
+                    "comment": {
+                        "label": "Comments",
+                        "allowComment": "Allow issuu members to comment"
+                    },
+                    "detectedLinks": {
+                        "label": "Detected links",
+                        "includeDetectedLinks": "Include detected links"
+                    },
+                    "availability": {
+                        "label": "Availability",
+                        "secret": "Document is unlisted",
+                        "makePublic": "Make it public",
+                        "alternativeSetDate": "or set the publish date"
+                    },
+                    "sound": {
+                        "label": "Audio URL",
+                        "addAudio": "Add audio playback",
+                        "error": "Please add a valid URL pointing to an .mp3 or .m3u file."
+                    },
+                    "save": "Save changes",
+                    "backToPublicationList": "Back to Publication List",
+                    "success": "Success! ‘__title__’ is now in it's brand new state.",
+                    "error": "Something went wrong when we tried editing ‘__title__’. Please try again.",
+                    "upgradeToPremium": "Upgrade to Premium"
+                }
+            }
+        }
+    },
+    "publisherSuite": {
+        "cancel": "Cancel",
+        "save": "Save",
+        "continue": "Continue",
+        "menu": {
+            "home": "Home",
+            "fbapp": "Facebook App",
+            "publications": "Publication List",
+            "promotions": "Promotions",
+            "statistics": "Statistics",
+            "widgets": "Widgets"
+        },
+        "errors": {
+            "pageLoadFailed": "Cosmic interference? Rat gnawing on wires? Whatever the cause, something went wrong. Please reload the page.",
+            "actionFailed": "We failed completing action. Please try again later or contact support.",
+            "reuploadFailed": "Failed to update publication",
+            "embedModelLoadFailed404": "We did not find the requested document.",
+            "embedModelLoadFailed500": "The embed editor failed loading. Please try again later or contact support."
+        },
+        "publicationList": {
+            "msgHub": {
+                "delete": "You just deleted <b>__count__ publications<b>",
+                "delete_plural": "You just deleted <b>__count__ publications<b>",
+                "deleteTargetedPublication": "Publication with Targeted Distribution was not deleted",
+                "deleteNo": "No publications were deleted",
+                "makePublic": "You just made <b>__count__ publication<b> public",
+                "makePublic_plural": "You just made <b>__count__ publications<b> public",
+                "makePublicNo": "No publications were made public",
+                "stackedNone": "No publications were added to a stack"
+            },
+            "header": {
+                "publicationsCount": "__count__ publication",
+                "publicationsCount_plural": "__count__ publications",
+                "selectedAll": "all",
+                "selected": "selected"
+            },
+            "multiActions": {
+                "publishTitle": "Make selected publications public",
+                "publish": "Publish",
+                "selectAllCheckboxtitle": "Select or deselect all",
+                "addToStackIconTitle": "Add selected publications to a stack",
+                "deleteIconTitle": "Delete selected publications",
+                "formPlaceholder": "Search publication list ..."
+            },
+            "sort": {
+                "options": {
+                    "publicOnIssuuTime": "issuu Publish Date",
+                    "originalPublishDate": "Original Publish Date",
+                    "title": "Title"
+                }
+            },
+            "filter": {
+                "title": "Show",
+                "options": {
+                    "all": "All",
+                    "explicit": "Explicit",
+                    "unreviewed": "Unreviewed",
+                    "scheduled": "Scheduled",
+                    "quarantined": "Quarantined",
+                    "unlisted": "Unlisted"
+                }
+            },
+            "item": {
+                "checkboxTitle": "Select or deselect this publication",
+                "nameTitle": "View publication",
+                "seeMoreTitle": "Show rest of description",
+                "seeMore": "See more",
+                "seeLess": "See less",
+                "promote": "PROMOTE",
+                "menu": {
+                    "distribute": "Distribute",
+                    "//distribute": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "publishNow": "Publish Now",
+                    "//publishNow": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "updatePublication": "Re-upload Publication",
+                    "//updatePublication": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "reupload": "Upload Again",
+                    "//reupload": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "edit": "Document Settings",
+                    "//edit": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "links": "Web & Video Links",
+                    "//links": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "embed": "Embed",
+                    "//embed": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "share": "Share",
+                    "//share": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "addtostack": "Add to Stack",
+                    "//addtostack": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "promote": "Promote",
+                    "//promote": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "statistics": "Statistics",
+                    "//statistics": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "download": "Download",
+                    "//download": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "delete": "Delete",
+                    "//delete": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "printOnDemandNotEligible": "Not eligible for print",
+                    "//printOnDemandNotEligible": {
+                        "extracted": "max_chars: 25"
+                    },
+                    "printOnDemandOrder": "Order print:",
+                    "//printOnDemandOrder": {
+                        "extracted": "max_chars: 25"
+                    }
+                },
+                "state": {
+                    "quarantined3": "Quarantined. Delete or contact support.",
+                    "failed100": "Upload failed: An unknown error occurred. Please try again.",
+                    "failed200": "Upload failed: Publication data was malformed.",
+                    "failed201": "Upload failed: Exceeding our 500 pages limit.",
+                    "failed202": "Upload failed: The PDF is password protected.",
+                    "failed203": "Upload failed: Unsupported PDF version.",
+                    "failed204": "Upload failed: One or more pages are malformed or too complex.",
+                    "failed205": "Upload failed: An unknown error occurred. Please try again.",
+                    "failed206": "Upload failed: Conversion to PDF failed.",
+                    "failed207": "Upload failed: API download failed.",
+                    "failed208": "Upload failed: Invalid URL API parameter.",
+                    "failed209": "Upload failed: Publication is too large.",
+                    "failed210": "Upload failed: Conversion to PDF failed.",
+                    "failed211": "Upload failed: File extension unsupported.",
+                    "failed212": "Upload failed: API download failed.",
+                    "failed500": "Upload failed: An unknown error occurred. Please try again.",
+                    "failed999": "Upload failed: An unknown error occurred. Please try again.",
+                    "pending": "Converting...",
+                    "scheduled": "Scheduled to be public on <br>__date__",
+                    "explicit2": "Flagged as potentially unsafe.",
+                    "unreviewed2": "Pending \"Safe Mode\" review."
+                },
+                "iconTitle": {
+                    "quarantined": "Publication is quarantined",
+                    "failed": "Publication upload failed",
+                    "pending": "Publication is converting",
+                    "protected": "Publication is protected",
+                    "scheduled": "Publication is scheduled",
+                    "unlisted": "Publication is unlisted",
+                    "explicit": "Publication is potentially unsafe",
+                    "unreviewed": "Publication is unreviewed"
+                },
+                "supportLink": {
+                    "hoverText": {
+                        "explicit": "Read more about \"Safe Mode\"",
+                        "unreviewed": "Read more about unreviewed publications",
+                        "quarantined": "Read more about quarantined publications"
+                    },
+                    "linkText": "Learn more"
+                },
+                "learnMoreAboutPending": "issuu reviews all uploads to make sure they comply with our community guidelines. If your publication is still pending review 24hrs after upload, please email __linkPreHTML__support@issuu.com__linkPostHTML__."
+            },
+            "noPublications": {
+                "nothingUploadedHeadline": "You haven't uploaded anything yet.",
+                "nothingUploaded": "Why don't you get started right away and upload something to issuu? We think you'll like it. Your publication will look gorgeous on all devices - and you can share and add it to your website, and keep track of how your publication performs. For free. Forever!",
+                "uploadButton": "Upload a publication",
+                "search": "Nothing seems to match your search.",
+                "searchHelp": "Try using some other terms.",
+                "scheduled": "There are no scheduled documents.",
+                "quarantined": "There are no quarantined documents.",
+                "unlisted": "There are no unlisted documents.",
+                "explicit": "There are no explicit documents.",
+                "unreviewed": "There are no unreviewed documents.",
+                "scheduled2": "There are no scheduled publications.",
+                "quarantined2": "There are no quarantined publications.",
+                "unlisted2": "There are no unlisted publications.",
+                "explicit2": "There are no explicit publications.",
+                "unreviewed2": "There are no unreviewed publications."
+            },
+            "modalDelete": {
+                "headline": "Delete  __count__ document?",
+                "headline_plural": "Delete __count__ documents?",
+                "areYouSure": "Are you sure?",
+                "peopleAreEngagingWithThisContent": "People are engaging with this content. Deleting it will remove",
+                "clips": "__count__ Clip",
+                "clips_plural": "__count__ Clips",
+                "shares": "__count__ Share",
+                "shares_plural": "__count__ Shares",
+                "embeds": "__count__ Embed",
+                "embeds_plural": "__count__ Embeds",
+                "allRelatedStatisticalData": "All related statistical data will also be permanently removed from issuu.",
+                "deletingWillPermanentlyRemoveThisContent": "Deleting will permanently remove this content and all related statistical data from issuu. Any embedded versions of this content will also stop working.",
+                "targetedDist": {
+                    "title": "Can not delete",
+                    "body": "One or more of the publications you're trying to delete are part of a Targeted Distribution campaign. You need to first remove them from the campaign."
+                },
+                "cancel": "Cancel",
+                "delete": "Delete"
+            },
+            "modalMakePublic": {
+                "title": "Publish __count__ document?",
+                "title_plural": "Publish __count__ documents?",
+                "cancel": "Cancel",
+                "publishNow": "Publish Now"
+            },
+            "modalShare": {
+                "title": "Share",
+                "close": "Close"
+            },
+            "modalUploadAgain": {
+                "title": "Update Publication",
+                "areYouSure": "Are you sure? People are engaging with this content. Updating it will remove",
+                "clips": "__count__ Clip",
+                "clips_plural": "__count__ Clips",
+                "doYouWishTo": "Do you wish to continue?"
+            }
+        },
+        "statistics": {
+            "clippingUpsell": {
+                "msg": "Clip statistics are available for a limited time to all publishers. Want unlimited access?",
+                "upgradeLink": "Upgrade your plan"
+            },
+            "clippingsTotals": {
+                "title": "Clip Totals",
+                "selectedDateRange": "for selected date range"
+            },
+            "charts": {
+                "eventTypes": {
+                    "impressions": "Impressions",
+                    "readTime": "Read Time",
+                    "avgTimeSpent": "Average Time Spent",
+                    "reads": "Reads",
+                    "shares": "Shares",
+                    "comments": "Comments",
+                    "clicks": "Link Outs"
+                },
+                "infobar": {
+                    "fetchFailed": "Aw! The lookup failed...",
+                    "loading": "Loading..",
+                    "placeholderTitle": "None for __ordinal__ place",
+                    "pubTopThree": "Top three publications",
+                    "trafficDistribution": "Traffic distribution"
+                },
+                "series": {
+                    "organic": "Organic",
+                    "promoted": "Promoted",
+                    "publisher": "Publisher",
+                    "user": "User"
+                },
+                "seriesTooltip2": {
+                    "organic": "Show statistics coming from organic traffic. Note that statistics can shift if your publication is picked up by the automatic Issuu recommendation system. We assume you don't mind this.",
+                    "promotedDisabled": "Show statistics coming from promotions. Don’t have any promotions yet? __linkStartHTML__Try it out__linkEndHTML__.",
+                    "promoted": "Show statistics coming from promotions. __linkStartHTML__Manage your campaigns__linkEndHTML__.",
+                    "publisher": "Show statistics for clips created by you, the publisher.",
+                    "user": "Show statistics for clips created by Issuu users."
+                },
+                "title": {
+                    "pagePerformance": "Page Performance",
+                    "publisherOverview": "Publication Performance",
+                    "clippingsPerformance": "Clip Performance"
+                },
+                "xaxis": {
+                    "pagenum": "Page"
+                }
+            },
+            "demographics": {
+                "eventTypes": {
+                    "country": "Readers Around the World",
+                    "device": "Reading Devices",
+                    "deviceDescription": "See which kind of devices your readers are using",
+                    "source": "Source",
+                    "sourceDescription": "See where your reads are occurring"
+                },
+                "series": {
+                    "desktop": "Desktop",
+                    "external": "Embeds",
+                    "internal": "issuu.com",
+                    "mobile": "Mobile",
+                    "tablet": "Tablet"
+                },
+                "title": "From Who to Where"
+            },
+            "noData": "No data available for selected data range",
+            "publicationPerformance": {
+                "showAll": "Show all",
+                "table": {
+                    "avgTimeSpent": "Avg. Time Spent",
+                    "impressions": "Impressions",
+                    "origPublishDate": "Orig. Publish Date",
+                    "reads": "Reads",
+                    "title": "Title",
+                    "titleLinkTitle": "Sort publications by title",
+                    "readsLinkTitle": "Sort publications by number of reads",
+                    "impressionsLinkTitle": "Sort publications by number of impressions",
+                    "avgTimeLinkTitle": "Sort publications by average read time",
+                    "publishDateLinkTitle": "Sort publications by original publish date",
+                    "noDataForPeriod": "No data available for the selected period."
+                },
+                "title": "All Publications",
+                "description": "Click on the the title to see the detailed statistics of an individual publication",
+                "seeMoreStatisticsAbout": "See more statistics about",
+                "clickThruRates": {
+                    "header": "Best Covers",
+                    "description": "Reads per 1000 impressions"
+                },
+                "avgReadTimes": {
+                    "header": "Most Engaging",
+                    "description": "Average time spent reading"
+                },
+                "shares": {
+                    "header": "Most Shared",
+                    "description": "Shares"
+                }
+            },
+            "topPerformance": {
+                "title": "Best In Class",
+                "description": "See which publications are performing best for the selected time period"
+            },
+            "totals": {
+                "avgTimeSpent": "Average Time Spent",
+                "followers": "Followers",
+                "impressions": "Impressions",
+                "likes": "Likes",
+                "reads": "Reads",
+                "readTime": "Read Time",
+                "shares": "Shares",
+                "publications": "Publications uploaded",
+                "publicationShares": "Publication Shares",
+                "stacked": "Times Stacked",
+                "title": "Lifetime Statistics for",
+                "memberSince": "You have been a member since",
+                "clipping": {
+                    "title": "Clip Statistics",
+                    "helpText": "Clips are great for driving traffic. Don’t have any clips? __linkStartHTML__Try it out__linkEndHTML__.",
+                    "shares": "Shares",
+                    "comments": "Comments",
+                    "clicks": "Link-outs"
+                },
+                "noticeUnlisted1": "This publication is currently unlisted. Go to",
+                "noticeUnlisted2": "Publication List",
+                "noticeUnlisted3": "to make it public and see your statistics grow.",
+                "noticePostponed": "This publication is scheduled to be published on",
+                "noticeNormal": "This publication was made publicly available on",
+                "help": {
+                    "overview": {
+                        "followers": "The number of users following your issuu profile.",
+                        "//followers": {
+                            "extracted": "max_chars: 100"
+                        },
+                        "impressions": "Counted each time a publication was displayed to a user in an embed or on issuu.",
+                        "//impressions": {
+                            "extracted": "max_chars: 100"
+                        },
+                        "reads": "Counted each time a user opened a publication for more than 2 seconds.",
+                        "//reads": {
+                            "extracted": "max_chars: 100"
+                        },
+                        "likes": "The number of issuu users who liked your publications on issuu.",
+                        "//likes": {
+                            "extracted": "max_chars: 100"
+                        },
+                        "shares": "The number of times a user shared your publications from issuu.",
+                        "//shares": {
+                            "extracted": "max_chars: 100"
+                        },
+                        "publications": "The number of publications you have uploaded to issuu.",
+                        "clipping": {
+                            "shares": "The number of times a clip has been shared.",
+                            "//shares": {
+                                "extracted": "max_chars: 55"
+                            },
+                            "comments": "Total number of comments made on all Clips.",
+                            "//comments": {
+                                "extracted": "max_chars: 55"
+                            },
+                            "clicks": "Number of clicks on a publisher made link.",
+                            "//clicks": {
+                                "extracted": "max_chars: 55"
+                            }
+                        }
+                    },
+                    "publication": {
+                        "impressions": "Counted each time a publication was displayed to a user in an embed or on issuu.",
+                        "reads": "Counted each time a user opened a publication for more than 2 seconds.",
+                        "likes": "The number of users who liked this publication on issuu.",
+                        "avgTimeSpent": "The average time readers spent reading this publication.",
+                        "readTime": "The total time readers spent reading this publication.",
+                        "shares": "The number of times a user shared this publication from issuu.",
+                        "stacked": "The number of times this publication was added to a stack."
+                    }
+                }
+            },
+            "publicationPage": {
+                "coverLink": "Open"
+            }
+        },
+        "dateRangeSelector": {
+            "header": "Date Range",
+            "//header": {
+                "extracted": "max_chars: 10"
+            },
+            "from": "From",
+            "fromPlaceholder": "Start date",
+            "to": "To",
+            "toPlaceholder": "End date",
+            "interval_7": "Last 7 days",
+            "interval_30": "Last 30 days",
+            "interval_180": "Last 6 months",
+            "interval_all": "All Time",
+            "interval_custom": "Custom",
+            "explore_1": "Explore the last month of statistics with the Basic plan. Want more?",
+            "//explore_1": {
+                "extracted": "max_chars: 74"
+            },
+            "explore_6": "Explore up to the last six months of your data below. Want to go deeper?",
+            "//explore_6": {
+                "extracted": "max_chars: 74"
+            },
+            "explore_12": "Explore up to the last 12 months of your data below. Want to go deeper?",
+            "explore_all": "Explore all your data below",
+            "exploreUpgrade": "Upgrade",
+            "free": "Free plan: 6 months",
+            "plus": "Plus plan: 12 months",
+            "premium": "Premium plan: Unlimited",
+            "apply": "Apply"
+        },
+        "home": {
+            "accountStatistics": {
+                "title": "Lifetime Statistics",
+                "title2": "__strongPreHTML__Lifetime Statistics__strongPostHTML__ for all your publications",
+                "cta": "Dive into Statistics"
+            },
+            "featureTips": {
+                "learnMore": "Learn more",
+                "upload": {
+                    "button": "Go on, upload",
+                    "headLine": "Up, Up, Upload Away!",
+                    "text1": "Using all of issuu’s powerful features begins with uploading your publication.",
+                    "text2": "Did you know you can even plan ahead with scheduled release dates and control privacy by making your publication unlisted?"
+                },
+                "clips": {
+                    "button": "Get clipping",
+                    "headLine": "Clips are Your Friends",
+                    "text1": "Engage your audience by adding Clips — interactive web, video or shopping links.",
+                    "text2": "From your Publication List, add Clips by selecting “Web and Video Links” under a publication’s dropdown options."
+                },
+                "distribute": {
+                    "button": "Find more readers",
+                    "headLine": "Distribute Far and Wide",
+                    "text1": "Get more readers by __link1PreHTML__embedding__link1PostHTML__ your publication on your website or blog, or by __link2PreHTML__sharing__link2PostHTML__ it socially.",
+                    "text2": "From your Publication List, select \"Embed\" to create a fully customized embed. Or, select \"Share\" to share directly on social media platforms like Facebook, Twitter, and Pinterest."
+                }
+            },
+            "toolkit": {
+                "heading": "Be Extra Awesome",
+                "text1": "Our __italicPreHTML__Toolkit for Digital-Publishing Awesomeness__italicPostHTML__ is packed with useful tips for all publishers. It begins with the basics of issuu, then moves on to more advanced topics like growing and engaging your audience, and monetizing your publications.",
+                "text2": "Below is an example of how an embedded publication from issuu can look on your own website or blog."
+            },
+            "intro": {
+                "button": "Got it, thanks",
+                "text1": "Why the different look? We decided to design this page as a way to give you a better overview of your account, as well as tips for getting the most out of issuu as a publisher. Hopefully you’ll be as excited about it as we are. To explore and read the 30+ million publications on issuu, visit Explore above."
+            }
+        }
+    },
+    "home": {
+        "settings": {
+            "billing": {
+                "title": "Billing",
+                "summaryTitle": "Summary",
+                "summaryPreamble": "Here is your billing overview. To see which specific services you are currently subscribing to, you can check out your <a href=\"__servicesPageUrl__\">services page</a>.",
+                "voucherText": "You have <strong>$__amount__</strong> worth of issuu AdPages vouchers.",
+                "currentServices": "Current services",
+                "activeServices": "You have <strong>__count__ active service</strong>.",
+                "activeServices_plural": "You have <strong>__count__ active services</strong>.",
+                "billingCycle": "Billing cycle",
+                "billingCycleNotStarted": "Your billing cycle has not started yet.",
+                "adpagesVouchers": "Issuu AdPages vouchers",
+                "nextBillingDateAndAmount": "Your next billing date is <strong>__nextBillingDate__</strong> where you will be billed <strong>$__nextBillingAmount__</strong>.",
+                "nextBillingDate": "Your next billing date is <strong>__nextBillingDate__</strong>.",
+                "billingTitle": "Billing information",
+                "billingPreamble": "This is the payment source you will be charged from and the information that will be written on your invoices.",
+                "paymentMethod": "Payment method",
+                "changePaymentMethod": "Change payment method",
+                "addPaymentMethod": "Add payment method",
+                "paymentCreditCardNumberPrefix": "Credit card",
+                "billingAddress": "Billing address",
+                "changeBillingAddress": "Change billing address",
+                "addBillingAddress": "Add billing address",
+                "billingEmail": "Billing email",
+                "changeBillingEmail": "Change billing email",
+                "addBillingEmail": "Add billing email",
+                "invoiceOverlayTitle": "Invoice #__invoiceNumber__",
+                "numberOfInvoices": "__count__ invoice",
+                "numberOfInvoices_plural": "__count__ invoices",
+                "invoiceNumber": "Invoice #__invoiceNumber__",
+                "noInvoicesForYear": "No invoices available for __year__.",
+                "deleteAccountTitle": "Delete account",
+                "deleteAccountText1": "Deleting your account will permanently deactivate your profile and delete all of your publications. This cannot be undone.",
+                "deleteAccountText2": "If you would like to cancel your paid subscription, but keep your profile and publications, simply unsubscribe from these <a href=\"__link__\">services</a>.",
+                "deleteAccountButton": "Delete my account",
+                "transactionHistoryTitle": "Your invoice history",
+                "transactionHistoryEmpty": "You have no invoices.",
+                "paymentInformationUpdated": "Your payment information was successfully updated."
+            },
+            "apikey": {
+                "title": "API",
+                "subTitle": "API Keys",
+                "create": {
+                    "title": "Create new API key",
+                    "description": "Manage API keys that are associated with your issuu account. The keys allows external applications to do stuff on issuu on your behalf.",
+                    "submit": "Create API Key",
+                    "agreement": "When creating an API key you agree on the terms of service regarding API usage as described in our <a href='/legal/terms'>Terms and Conditions</a>."
+                },
+                "update": {
+                    "submit": "Save API Key",
+                    "delete": "Delete this API Key"
+                },
+                "delete": {
+                    "title": "Are you sure?",
+                    "body": "Deleting this API key will prevent any application using it from contacting the issuu API.<br/><br/>This cannot be undone.",
+                    "button": "Yes, delete it!",
+                    "cancel": "Cancel"
+                },
+                "fields": {
+                    "name": "Application name",
+                    "key": "API key",
+                    "secret": "API secret",
+                    "web": "Website",
+                    "description": "Description",
+                    "terms": "I agree to the <a href='/about/terms' target='_blank'>terms and conditions</a> for the use of the API",
+                    "optional": "(Optional)",
+                    "required": "(Required)"
+                },
+                "errors": {
+                    "required": "__fieldName__ is required",
+                    "accept": "Terms and conditions must be accepted"
+                },
+                "broadcasts": {
+                    "created": "We have created your API key and secret. Now give it a name if needed.",
+                    "destroyed": "Your API key is now deleted.",
+                    "notCreated": "We couldn't create your API key. Please try again or contact issuu support.",
+                    "notDestroyed": "We couldn't delete your API key. Please try again or contact issuu support.",
+                    "notUpdated": "We couldn't save your API key. Please try again or contact issuu support.",
+                    "limitExceeded": "You can't create anymore API keys.",
+                    "problemsContactingServer": "There was a problem on our servers. Please reload the page."
+                },
+                "linkCancel": "Cancel"
+            }
+        },
+        "services": {
+            "v4": {
+                "title": "Services & Plans",
+                "bundles": {
+                    "free": "Free",
+                    "plus": "Plus",
+                    "premium": "Premium",
+                    "pro": "Pro"
+                },
+                "allFeaturesLink": "Learn more about our features",
+                "couponServices": {
+                    "info": "The __descriptionHTML__ will be applied, adding __valueHTML__ to your account.",
+                    "errors": {
+                        "generic": "The __descriptionHTML__ is not valid.",
+                        "isUsed": "The __descriptionHTML__ has previously been applied and cannot be reused.",
+                        "isExpiredOrRevoked": "The __descriptionHTML__ has expired and is no longer applicable.",
+                        "incompatiblePlanSelected": "The __descriptionHTML__ does not apply to your current plan selection."
+                    }
+                },
+                "detailsHide": "Hide details",
+                "detailsShow": "Show details",
+                "errors": {
+                    "cannotChangePeriod": "You can't change the period during free trial.",
+                    "cannotChangeTier": {
+                        "unlisted": "It's not possible to downgrade to a tier that allows less unlisted publications than you currently have."
+                    },
+                    "cantConfirm": "An error occurred. Unfortunately, no changes were made. Please <a href=''>reload the page</a> and try again, or <a href='http://help.issuu.com' target=\"_blank\">contact our support</a>.",
+                    "couponAlreadyUsed": "You have already used this discount code.",
+                    "loadError": "We couldn't load your services data. Please <a href=''>reload the page</a> and try again, or <a href='http://help.issuu.com'>contact our support</a>."
+                },
+                "free": "FREE",
+                "loading": "Loading...",
+                "magma": {
+                    "magmaCannotBeAltered": "Please make changes to your Magma subscription within Magma itself.",
+                    "text": "The simplest collaborative tool for editorial teams.",
+                    "title": "Magma",
+                    "details": {
+                        "ads": "Easily see what ads need to be sold and where it is placed in the issue. Give advertisers a drop-off link and get notified when ad material is delivered.",
+                        "colaboration": "Seamlessly collaborate with editors, proofreaders and photographers in the Magma article editor. Keep track of what has been done and by whom.",
+                        "flatplan": "Get an instant overview of your publication from the flatplan and keep track of the status of articles and ads to ensure everything stays on time."
+                    },
+                    "heading": "The simplest collaboration tool for editorial teams.",
+                    "description": "Powered by issuu, Magma helps you manage your publication from start to finish, and keeps your editorial, design and ad-sales teams on track every step of the way.",
+                    "descriptionPart2": "Magma is included with issuu __featurePreHTML__Optimum__featurePostHTML__.",
+                    "bucket1heading": "Plan",
+                    "bucket1": "Start planning your publication page by page. Place articles and ads and delegate tasks to the editorial team.",
+                    "bucket2heading": "Collaborate",
+                    "bucket2": "Collect and collaborate on content for articles and ads. Ensure everything is delivered on time.",
+                    "bucket3heading": "Integrated InDesign",
+                    "bucket3": "Use the InDesign plug-in to pull content directly onto the layout. Then click a button to upload it to Magma for team review.",
+                    "bucket4heading": "Publish",
+                    "bucket4": "Publish the final issue to both tablets and desktop readers or send individual articles directly to the website."
+                },
+                "messages": {
+                    "downgrade": "We successfully updated your services. Your downgrade will take effect on your next billing __date__.",
+                    "updatedServices": "We successfully updated your services.",
+                    "termination": "We successfully updated your services. Your current plan will expire on __date__.",
+                    "actionFailed": "We failed completing the action. Please try again later or contact support."
+                },
+                "money": {
+                    "annually": "__price__/year",
+                    "monthly": "__price__/mo"
+                },
+                "plans": {
+                    "trial": "Free 14-day trial",
+                    "current": "Current Plan",
+                    "names": {
+                        "free": "Free",
+                        "plus": "Plus",
+                        "premium": "Premium",
+                        "pro": "Pro"
+                    }
+                },
+                "premiumTrialMessage2": "You currently have free access to all of our Premium features. This access will expire automatically on April 30. You can upgrade to Premium permanently at any time.",
+                "price": {
+                    "btnGetTrial": "Start your 14-day trial",
+                    "btnDowngradeBundle": "Complete downgrade",
+                    "btnUpdate": "Proceed to check out",
+                    "proYearlyDisclaimer": "Does not apply to the Pro Bundle.",
+                    "proDiscontinued": "Please note: The Pro plan has been discontinued. If you change plans, you'll be offered Plus or Premium.",
+                    "regionalCaveat": "Promotional pricing is only available for a limited period of time.",
+                    "scrollUp": "Scroll up to see total",
+                    "title": "Your subscription",
+                    "trialInformation3": "Your trial expires __humanCount__.",
+                    "yearlyDiscount1": "You will save",
+                    "yearlyDiscount2": "per year.",
+                    "yearBargaing": "Get billed annually and save 10%."
+                },
+                "publisherSubscription": {
+                    "current2": "Current Plan",
+                    "pending": "Pending Plan",
+                    "cancelling": "will expire on __date__",
+                    "//cancelling": {
+                        "extracted": "max_chars: 32"
+                    },
+                    "willRenewOn": "will renew on __date__",
+                    "//willRenewOn": {
+                        "extracted": "max_chars: 32"
+                    },
+                    "until": "until __date__",
+                    "//until": {
+                        "extracted": "max_chars: 32"
+                    }
+                },
+                "summary": {
+                    "addedServicesTitle": "Added services",
+                    "cancelledServicesTitle": "Cancelled services"
+                },
+                "unlisted": {
+                    "current": "Current",
+                    "title": "Unlisted Storage Size",
+                    "notUnlimited": "For more than 1500 unlisted publications, please contact <a href='mailto:partnerships@issuu.com'>partnerships@issuu.com</a> for pricing.",
+                    "description": "Unlisted publications are not listed or visible on Google, issuu or similar, but still accessible by anyone with the link to your publication. This will determine the number of unlisted publications you can have at the same time.",
+                    "planPrefix": "Unlisted",
+                    "plans": {
+                        "unlisted-100": "100",
+                        "unlisted-1500": "1500",
+                        "unlisted-25": "25",
+                        "unlisted-500": "500",
+                        "unlisted-unlimited": "Unlimited"
+                    }
+                },
+                "pricePeriodMonthly": "/mo",
+                "pricePeriodAnnual": "/yr",
+                "pricePeriodBiennial": "/2y",
+                "tryPeriodLeftText": "__days__ days trial left",
+                "xLeft": "__remaining__ left",
+                "xOutOfyUsed": "__used__ of __allowed__ used",
+                "xUsed": "__used__ used",
+                "confirmation": {
+                    "headerLine2": "your new plan",
+                    "trial": {
+                        "headerLine1": "Please confirm",
+                        "footerDowngrade": "You are currently enrolled in a trial, please enjoy the features for the balance of your trial period.",
+                        "footerChanges": "Plans are charged after the trial period and will renew automatically unless cancelled prior to the next renewal date.",
+                        "daysRemaining": "Days remaining of your trial",
+                        "expires": "Your trial expires"
+                    },
+                    "termsLink1": "See",
+                    "termsLink2": "Terms of Service",
+                    "termsLink3": "for details.",
+                    "generic": {
+                        "headerLine1": "Please confirm",
+                        "headerRenewal": "As of",
+                        "headerInvoice": "Invoice preview",
+                        "footerAnnual": "Plans will automatically renew annually unless cancelled prior to the next renewal date.",
+                        "footerMonthly": "Plans will automatically renew monthly unless cancelled prior to the next renewal date."
+                    },
+                    "lineItems": {
+                        "totalChargedNow": "Total to be charged now",
+                        "total": "Total",
+                        "carriedForward": "Credit carried forward",
+                        "discount": "discount"
+                    },
+                    "nextPayment": "Next recurring payment",
+                    "downgrade": {
+                        "expireOn": "Your current plan will expire on",
+                        "noMoreCharges": "after which you will no longer be charged for your issuu account.",
+                        "title": "Sorry to see you go",
+                        "whyLeaving": "Why are you leaving us?",
+                        "reasons": {
+                            "tooExpensive": "Paid features were too expensive",
+                            "notSureWhatPayingFor": "Not sure what I was paying for",
+                            "paidFeaturesNotMatchingNeeds": "The paid features didn’t match my need",
+                            "noLongerNeed": "No longer need a publishing tool",
+                            "foundBetterTool": "Found a better publishing tool",
+                            "other": "Other reason..."
+                        },
+                        "letUsKnowWhyHere": "Let us know why here..."
+                    },
+                    "button": {
+                        "cancel": "Cancel",
+                        "ok": "Confirm",
+                        "continue": "Continue"
+                    }
+                }
+            },
+            "subscriptionChange": {
+                "downgrade": {
+                    "featureloss": {
+                        "features": {
+                            "brandpackage": "You won't be able to use Customization features for embeds.",
+                            "norelated": "You will see related issuu content on your embeds.",
+                            "hideAdsInReader": "You will see ads next to your publications on issuu.com.",
+                            "statsmonths": "You will only see the last 7 days' worth of statistics.",
+                            "schedulePublishDate": "You won't be able to schedule the release of publications.",
+                            "anonymousDownloadFromEmbed": "Your readers will be required to sign in to download.",
+                            "uploadlimitmb": "Your publications are limited to 100MB.",
+                            "stillFree": "It's still free to read and upload on issuu.",
+                            "upgradeAnyTime": "You can upgrade and get the features back anytime.",
+                            "stillLoveYou": "We still love you.",
+                            "unlisted": "You will not be able to upload more unlisted publications."
+                        },
+                        "header1": "Downgrade?",
+                        "header2": "Here are a few things you should know.",
+                        "separator": "However,",
+                        "cancelButton": "Keep __plan__",
+                        "cancelButtonBasic": "Go back",
+                        "continueButton": "Continue"
+                    },
+                    "survey": {
+                        "options": {
+                            "tooExpensive": "It's too expensive.",
+                            "noLongerNeed": "I no longer need a publishing tool.",
+                            "dontUse": "I don't use my account anymore.",
+                            "notMatchedNeeds": "The paid features didn't match my needs.",
+                            "notSureWhatPayingFor": "I'm not sure what I'm paying for.",
+                            "foundAnotherTool": "I found a better tool.",
+                            "seasonalOrOnHold": "My publication is seasonal or on hold. I'll be back.",
+                            "technicalProblems": "Too many technical problems.",
+                            "other": "Other."
+                        },
+                        "header": "Quick question - Why?",
+                        "subheader": "If applicable, make multiple selections. And thanks!",
+                        "cancelButton": "Keep __plan__",
+                        "inputPlaceholder": "Anything to add?",
+                        "confirmButton": "Downgrade"
+                    },
+                    "reassurance": {
+                        "header1": "Downgrade complete.",
+                        "header2": "You are officially Basic.",
+                        "subheader": "You can upgrade again anytime.",
+                        "confirmButton": "Got it, thanks"
+                    }
+                }
+            }
+        },
+        "subscriptions": {
+            "sortBy": "Sort by",
+            "date": "Date",
+            "popularity": "Popularity",
+            "title": "Title",
+            "manage": "Manage",
+            "unfollowed": "Unfollowed",
+            "nomorepubs": "You won't see publications from it again",
+            "undo": "Undo",
+            "back": "Back",
+            "addedto": "__stacktitle__ by __stackowner__"
+        },
+        "fbapp": {
+            "facebookapp": "Facebook App",
+            "addtofacebookpage": "Add to Facebook page",
+            "editor": "Edit",
+            "preview": "Preview",
+            "headerimage": "Header image",
+            "publications": "Publications",
+            "stacks": "Stacks",
+            "minimizebranding": "Remove issuu logo",
+            "upgradetopremium": "Upgrade to premium",
+            "saveconfiguration": "Save settings",
+            "mostrecentpublications": "Most recent publications",
+            "mostrecentfromstack": "Most recent from stack",
+            "addimagetoyourpage": "Add a 770x250 pixel custom header image",
+            "addstacks": "Add stacks",
+            "configsavenote": "These settings will apply to all installed tabs",
+            "poweredby": "Powered by ",
+            "aboutissuu": "issuu is the leading digital publishing platform delivering exceptional reading experience of magazines, catalogs and newspapers. Millions of people have published their best publications to create beautiful digital editions.",
+            "addtoyourpage": "Add issuu to your page",
+            "likeissuu": "Like issuu:",
+            "explicitnote": "Note: Only publications available in Safe Mode will be shown",
+            "upgradenow": "upgrade now!",
+            "choosefile": "Choose file",
+            "ordropithere": "or drop it here",
+            "removeimage": "Remove image",
+            "changeheaderimage": "Change header image",
+            "tooltipheaderimage": "Add a custom image to your Facebook app",
+            "tooltipbranding": "Remove issuu logo to focus readers on your brand and content",
+            "uploadphoto": "Upload photo",
+            "remove": "Remove",
+            "cancel": "Cancel",
+            "errorUploadingImage": "Upload failed. Please try again.",
+            "menu": {
+                "publications": "Publication List",
+                "statistics": "Statistics",
+                "pagestab": "Facebook App",
+                "new": "New",
+                "home": "Home"
+            },
+            "readnow": "Read Now",
+            "share": "Share"
+        }
+    },
+    "pricing": {
+        "headline": "Reach 100 million readers anytime, anywhere",
+        "selectPlan": "Select a Plan",
+        "getBilledAnnually": "Select annual billing for a 10% discount",
+        "billedAnnually": "10% discount for annual billing",
+        "monthlyBilling": "MONTHLY",
+        "annualBilling": "ANNUAL",
+        "features": "Features",
+        "plusAndPremium": "Plus &amp; Premium",
+        "embeddedReader": {
+            "headline": "Embedded reader",
+            "description": "Embed your publication anywhere on the web in a beautiful digital reader. Place it on your website or blog with a few simple lines of code. Customize your reader for each platform or audience with unique background, size and format. Keep your readers focused on your content by removing ads or related content around your publication.",
+            "plusText": "Standalone reader link<br>Ad-free reader",
+            "premiumText": "Standalone reader link<br>Ad-free reader<br>Add logo and background image",
+            "feature1": "Add logo and background image",
+            "feature2": "Ad-free reader",
+            "feature3": "Standalone reader link"
+        },
+        "recommended": "Recommended",
+        "mobileReader": {
+            "headline": "Mobile HTML5 Reader",
+            "description": "Your readers don’t have to install an app to enjoy your publication from their mobile devices. Deliver the same immersive reading experience on all major mobile browsers with our HTML5 reader.",
+            "plans": "Available on all plans"
+        },
+        "nativeSupport": {
+            "headline": "Native iOS and Android apps",
+            "description": "Distribute your publication on all major mobile platforms with native iOS, Android and Windows apps. Keep readers engaged longer and on the go with an immersive reading experience.",
+            "plans": "Available on all plans"
+        },
+        "socialSharing": {
+            "headline": "Social sharing",
+            "description": "Sharing an issuu link on Facebook, Google, LinkedIn, Tumblr, Twitter or email allows your followers to read your entire publication. Increase engagement with your publications by delivering your content directly to readers on their social networks.",
+            "premiumHeadline": "Premium only",
+            "feature1": "Sharing and commenting controls"
+        },
+        "analytics": {
+            "headline": "Analytics",
+            "description": "Track and understand readers’ digital engagement with each piece of content in your publications on all platforms. Learn how your cover turns impressions into reads, how much time readers spend on each page, what content readers are sharing most, and much more.",
+            "plusText": "Analyze impressions, reads, and read time for a limited time",
+            "premiumText": "Analyze entire history of impressions, reads, read time, shares, and&nbsp;clicks",
+            "premiumText2": "Reader sharing and commenting analytics",
+            "feature1": "Analyze impressions, read time, reads, shares and comments for your entire history",
+            "feature2": "Analyze impressions, read time and reads for a limited time"
+        },
+        "unlimitedPublishing": {
+            "headline": "Unlimited publishing",
+            "description": "Publish as often as you like. Unlimited storage and unlimited traffic means you can use issuu for reliable distribution and storage of all your publications. Upload high resolution publications with ease and convert them from all major document formats.",
+            "plusPremiumHeadline": "Plus and Premium",
+            "feature1": "Schedule publications up to 30 days in advance"
+        },
+        "automaticLinks": {
+            "headline": "Automatic links",
+            "description": "Any links in your publication are automatically included when you upload to issuu. Add more links at any time with our interactive editor."
+        },
+        "searchOptimized": {
+            "headline": "Search optimized",
+            "description": "Your publication is like its own website on issuu. Top search engines index each publication so readers everywhere can easily find your work."
+        },
+        "pod": {
+            "headline": "Print on demand",
+            "description": "Print and ship copies of your publication anywhere in the world. No pre-orders required."
+        },
+        "support": {
+            "headline": "Support",
+            "description1": "Get answers to your publishing questions from our",
+            "description2": "comprehensive knowledge base",
+            "description3": "and",
+            "description4": "international support team"
+        },
+        "api": {
+            "headline": "API",
+            "description": "Use issuu’s API to automate uploads and customize integrations with your site."
+        },
+        "clip": {
+            "headline": "Clip",
+            "description": "With clip, readers can share any piece of your publication to all their favorite social media sites, driving new readers directly into your document."
+        },
+        "mostPopular": "Most popular",
+        "newPlan": "New",
+        "priceMonthly": "/ month",
+        "priceAnnually": "/ year",
+        "returnToPlans": "RETURN TO PLANS",
+        "regionalCaveat": "Promotional pricing is only available for a limited period of time.",
+        "plans": {
+            "basic": {
+                "name": "Basic",
+                "price": "Free",
+                "billing": "No credit card required",
+                "actionButton": "CONTINUE",
+                "featuresHeadline": "Upload and share",
+                "featuresText": "On iOS &amp; Android apps<br>Embed anywhere<br>Unlimited publishing",
+                "featuresText2": "Upload your publications<br>+ Include on your site<br>+ Mobile optimized"
+            },
+            "plus": {
+                "name": "Plus",
+                "billingAnnually": "Billed annually",
+                "billingMonthly": "Billed monthly",
+                "featuresHeadline": "Customize your reader",
+                "featuresText": "Basic Features<br>+ Ad-free reader<br>+ Standalone reader<br>+ Limited Analytics",
+                "actionButton": "FREE 14-DAY TRIAL",
+                "featuresText2": "Unlimited uploads<br>+ Mobile optimized<br>+ Include on your site<br>+ Standalone reader<br>+ Limited statistics<br>+ Remove related publications<br>+ Ad-free Reader"
+            },
+            "pro": {
+                "name": "Pro",
+                "billingAnnually": "Billed annually",
+                "billingMonthly": "Billed monthly",
+                "featuresHeadline": "Grandfathered plan",
+                "featuresText": "Legacy features",
+                "actionButton": "FREE 14-DAY TRIAL"
+            },
+            "premium": {
+                "name": "Premium",
+                "billingAnnually": "Billed annually",
+                "billingMonthly": "Billed monthly",
+                "actionButton": "FREE 14-DAY TRIAL",
+                "featuresHeadline": "Drive user engagement",
+                "featuresText": "Plus Features<br>+ Branded reader<br>+ Share &amp; comment controls<br>+ Advanced Analytics",
+                "featuresText2": "Unlimited uploads<br>+ Mobile optimized<br>+ Include on your site<br>+ Customized standalone reader<br>+ Social controls<br>+ Advanced statistics<br>+ Remove related publications<br>+ Ad-free reader"
+            },
+            "optimum": {
+                "featuresHeadline": "Magma flatplan and collaboration",
+                "featuresText": "Premium Features<br>+ Unlimited unlisted<br>+ Unlimited API calls",
+                "featuresText2": "+ Customized standalone reader<br />+ Advanced statistics<br />+ Remove related publications<br />+ Ad-free reader<br />+ Unlimited unlisted publications<br />+ Unlimited API calls<br />+ All other Premium features<br />"
+            },
+            "custom": {
+                "name": "Custom",
+                "price": "Flexible solutions",
+                "billing": "&nbsp;",
+                "actionButton": "CONTACT US",
+                "featuresHeadline": "Customized solutions",
+                "featuresText1": "For unique or large-scale applications,",
+                "featuresText2": "contact us",
+                "featuresText3": "for more information"
+            }
+        },
+        "trial": {
+            "actionButton": "FREE 14-DAY TRIAL"
+        },
+        "variation-1": {
+            "headline": "Going digital has never been so simple",
+            "monthlyBilling": "Monthly",
+            "annualBilling": "Annual – save 10%",
+            "plans": {
+                "basic": {
+                    "features": "Unlimited uploads<br>+ Mobile optimized<br>+ Include on your site",
+                    "continueFromPricing": "Get started",
+                    "continueFromSignup": "Continue"
+                },
+                "plus": {
+                    "periodAnnual": "per month billed annually",
+                    "periodMonthly": "per month billed monthly",
+                    "features": "Unlimited uploads<br>+ Mobile optimized<br>+ Include on your site<br>+ Standalone reader<br>+ Limited metrics<br>+ Ad-free reader"
+                },
+                "premium": {
+                    "features": "Unlimited uploads<br>+ Mobile optimized<br>+ Include on your site<br>+ Customized reader<br>+ Social management tools<br>+ Advanced metrics<br>+ Ad free reader",
+                    "periodAnnual": "per month billed annually",
+                    "periodMonthly": "per month billed monthly"
+                }
+            }
+        },
+        "periodAnnual": "per month billed annually",
+        "periodMonthly": "per month billed monthly",
+        "headline2": "Pick a plan. Publish in minutes. High-five yourself.",
+        "pricesInUsd": "All prices are U.S. dollars. Any discounts are reflected in the price as stated.",
+        "flatplan": {
+            "blurb": "Magma flatplan and collaboration"
+        },
+        "faq": {
+            "q1": {
+                "headline": "How do I sign up for a plan?",
+                "text": "It’s as easy as choosing one of the plans above. Then, simply create an account and you can start publishing right away. If only everything was this easy, right?"
+            },
+            "q2": {
+                "headline": "How does the free 14-day trial work?",
+                "text": "All you need to sign up is a credit card. During the trial period, you are free to switch between plans without incurring any fees. If you are not interested in continuing with a paid plan after the trial period, you must downgrade your account to Basic before the end of your 14-day trial. Otherwise, at the end of the 14-day trial, your subscription will automatically begin and your credit card will be charged. Free 14-day trials are for new account holders only. If you have an existing account, you are not eligible. "
+            },
+            "q3": {
+                "headline": "What payment methods do you accept?",
+                "text": "We accept most major credit and debit cards, including Visa, AMEX, MasterCard, Discover, JBC and Diner’s Club. At this time we do not accept checks, purchase orders, PayPal or EFT."
+            },
+            "q4": {
+                "headline": "No credit card for a Basic account? Really?",
+                "text": "Really. No credit card. Yup, we thought you’d like that. "
+            },
+            "q5": {
+                "headline": "How long is the contract?",
+                "text": "With issuu, you can cancel anytime. Be aware, however, that all plans do renew automatically and refunds are not given for cancellations or downgrades."
+            },
+            "q6": {
+                "headline": "How do I switch plans?",
+                "text": "You can switch plans at any time from your Account Services page. If you downgrade to Basic during a service period, you can still enjoy the paid features for the remainder of that service period. If you downgrade to a less expensive paid plan you’ll receive a credit on your account that will be applied to any future monthly or annual services."
+            },
+            "q7": {
+                "headline": "Is there a discount for an annual subscription?",
+                "text": "Yes! If you decide to pay annually, you will automatically receive a 10% discount. The discounted price is reflected in the pricing plans shown above. Toggle between monthly and annually to see the difference in price. "
+            },
+            "q8": {
+                "headline": "Do you charge tax, VAT or any other hidden fees?",
+                "text": "No hidden taxes or fees whatsoever. We promise."
+            },
+            "q9": {
+                "headline": "What file types can I upload?",
+                "text": "We love PDFs and encourage you to upload with this format whenever possible. You can also upload most common file types, including DOC, PPT, RTF, WPD, ODT and more. Visit our Help Center for great tips on how to best export your PDFs for our system.  "
+            },
+            "q10": {
+                "headline": "What is the standalone reader?",
+                "text": "The standalone reader gives your readers an uncluttered reading environment for your publications. In fact, for paid publishers, the standalone reader won’t even appear as if it’s on the issuu site. Publishers love this feature, and so will you. Using the embed creator in the publisher tools section you can customize, add your other publications as related content and even add your logo. Our system then generates a specific URL that can be shared directly with your readers, or on your social networks."
+            },
+            "q11": {
+                "headline": "What does “Remove related publications” mean?",
+                "text": "Related publications can be removed from standalone readers, full-page readers and embeds with our Plus and Premium plans. When readers view your publication on issuu or embedded onto your site, they will see related suggestions along with your publication. The related publications are determined automatically by our system based on information we have about your publication, as well as the reader’s browsing history. By removing these your readers can focus solely on your publication. "
+            },
+            "q12": {
+                "headline": "What is Magma?",
+                "text": "Magma, powered by issuu, is an editorial collaboration and flatplanning tool included with the issuu Optimum subscription. Magma helps you manage your publication from start to finish, and keeps your editorial, design and ad-sales teams on track every step of the way. Includes Adobe InDesign integration, as well as unlimited users, issues and storage."
+            }
+        },
+        "comparison": {
+            "feature1": "Publication Size",
+            "feature2": "Storage Limit",
+            "feature3": "Embedded Reader<br />Mobile Friendly<br />In-document Search<br />Unlimited Traffic<br />Social Sharing<br />SEO<br />PDF Conversion<br />Include Video and Audio<br />Full-Screen Read Mode<br />",
+            "feature4": "API Access",
+            "feature5": "Available Statistics",
+            "feature6": "Standalone Reader",
+            "feature7": "Remove Related Publications from Embeds and Readers",
+            "feature8": "Schedule Publications",
+            "feature8explanation": "up to 30 days in advance",
+            "feature9": "Customize Reader",
+            "feature9explanation": "add logo, background photo, remove social links, etc.",
+            "feature10": "Sharing and Commenting Controls",
+            "feature11": "Automatic Detection of Text Links in Publications",
+            "feature12": "Enable Non-Member Downloads",
+            "feature13": "Disable User-Generated Clips",
+            "feature14": "Unlisted Publications",
+            "feature15": "Publisher Print on Demand",
+            "feature16": "Magma Flatplan",
+            "feature17": "Magma Editorial Collaboration",
+            "unlimited": "Unlimited",
+            "restricted": "Restricted",
+            "full": "Full",
+            "week": "__count__ week",
+            "week_plural": "__count__ weeks",
+            "month": "__count__ month",
+            "month_plural": "__count__ months",
+            "year": "__count__ year",
+            "year_plural": "__count__ years",
+            "free": "__count__ free",
+            "free_plural": "__count__ free",
+            "additionalfee": "Available at an additional fee",
+            "asterisk": "For a limited time",
+            "yes": "Yes",
+            "no": "No",
+            "headline": "Compare plans by features",
+            "toggleShow": "Compare plans in detail"
+        }
+    },
+    "paymentWidgets": {
+        "upsell": {
+            "confirm": "Confirm your purchase.",
+            "payAnnually": "pay annually",
+            "payMonthly": "pay monthly",
+            "month": "month",
+            "header": "Live the __planName__ life.",
+            "providePaymentInfo": "Please provide payment information to upgrade.",
+            "promotionalNotice": "Promotional pricing is only available for a limited period of time.",
+            "confirmed": {
+                "header": "Welcome to __planName__.",
+                "body": "We've successfully upgraded your account.",
+                "button": "Enjoy the spoils"
+            }
+        }
+    },
+    "paymentWidget": {
+        "issuuServerMsg": {
+            "failure": "Communication with issuu backend failed, please wait and reload page...<br> __explain__",
+            "commProbs": "Communication problems, please try again.",
+            "unknownErr": "Unknown error, please try again."
+        },
+        "validationError": {
+            "number": "Credit card number invalid",
+            "expiry": "Expiry date invalid",
+            "postal_code": "Zip code invalid",
+            "last_name": "Last name required, up to 50 characters",
+            "first_name": "First name required, up to 50 characters",
+            "cvv": "CVV invalid",
+            "address1": "Address is required",
+            "country": "Country is required",
+            "email": "Email address invalid"
+        },
+        "creditCardHeader": "Credit card information",
+        "firstName": "First name",
+        "firstNamePlaceholder": "John",
+        "lastName": "Last name",
+        "lastNamePlaceholder": "Doe",
+        "cardNumber": "Credit card number",
+        "cardNumberHelp": "A credit card number usually looks like this: 1234 5678 1234 5678.",
+        "cardNumberPlaceholder": "0000 0000 0000 0000",
+        "expiryDate": "Expiry date",
+        "expiryDatePlaceholder": "MMYY",
+        "expiryDateHelp": "MMYY (Month Year)",
+        "cvv": "CVV",
+        "cvvPlaceholder": "000",
+        "cvvHelp": "A CVV (Card Verification Value) usually has 3 or 4 digits.",
+        "addressHeader": "Billing information",
+        "addressInfoText": "This information will also appear on your invoices.",
+        "companyName": "Company name (optional)",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "city": "City",
+        "state": "State/Region",
+        "zip": "Post/Zip code",
+        "country": "Country",
+        "dropdownSelectCountry": "Select country",
+        "email": "Billing email",
+        "phone": "Phone (optional)",
+        "vat": "VAT",
+        "creditCard": "Credit card",
+        "overlayHeader": "Your payment information",
+        "overlayHeaderUpdate": "There was a problem with your credit card",
+        "overlayHeaderDescription": "During verification of your credit card we got the following error from you issuing bank. Please contact your bank or update your credit card details.",
+        "overlayCancel": "Cancel",
+        "overlaySubmit": "Submit",
+        "createAccountInfo": {
+            "plusChosen": "You've selected the Plus plan.",
+            "optimumChosen": "You've selected the Optimum plan.",
+            "premiumChosen": "You've selected the Premium plan.",
+            "annualPlanPrice": "You will be billed __price__ annually after your free 14-day trial.",
+            "monthlyPlanPrice": "You will be billed __price__ monthly after your free 14-day trial.",
+            "couponInfo": "Discount code __descriptionHTML__ will be applied to your account, saving you __valueHTML__ on your first payment."
+        }
+    },
+    "signupPricing": {
+        "back": "Back"
+    },
+    "signupOnboarding": {
+        "headline": "Complete your publisher profile",
+        "subheadline": "Take a few seconds to complete your profile or __link.open__skip this step &raquo;__link.close__",
+        "companyName": "Company name",
+        "companyDescription": "Company description",
+        "companyDescriptionPlaceholder": "Tell us about your company...",
+        "website": "Website",
+        "websitePlaceholder": "http://",
+        "websiteTitle": "A valid URL usually looks like 'http://issuu.com'.",
+        "submit": "Submit",
+        "addProfilePicture": "Add profile picture",
+        "errorProfilePicture": "We're sorry, there was an error uploading your profile picture.",
+        "errorForm": "We're sorry, there was an error submitting your information. Please check all fields and try again."
+    },
+    "signupPayment": {
+        "headline": "Enter credit card information",
+        "back": "Back",
+        "submit": "Submit",
+        "choosePlan": "Choose different plan"
+    },
+    "signupWelcome": {
+        "welcome": "Welcome",
+        "headlinePublishers": "Now publish your content — it's surprisingly easy",
+        "buttonPublishers": "Learn how",
+        "headlineBenefit1": "No extra work",
+        "bodyBenefit1": "No coding and easy-to-read statistics. Just upload and you're done.",
+        "headlineBenefit2": "Dynamic & beautiful",
+        "bodyBenefit2": "Just the way you designed it, on any browser and any device. Optimized for search and social.",
+        "headlineBenefit3": "Grow your audience",
+        "bodyBenefit3": "Expand your reach by tapping into issuu's audience of over 85 million readers.",
+        "headlineReaders": "Not ready to publish?",
+        "buttonReaders": "Start reading on issuu, it's free"
+    },
+    "homenavigation": {
+        "feed": "Feed",
+        "activity": "Activity"
+    },
+    "settings": {
+        "apikey": {
+            "apikey": "Api key"
+        },
+        "basic": {
+            "basicsettings": "My Information",
+            "displayname": "Display name",
+            "webaddress": "Web address",
+            "email": "Email",
+            "oldpassword": "Old password",
+            "newpassword": "New password",
+            "repeatnewpassword": "Repeat new password",
+            "password": "Password",
+            "firstname": "First name",
+            "lastname": "Last name",
+            "city": "City",
+            "country": "Country",
+            "website": "Website",
+            "about": "About me",
+            "safesearch": "Safe mode",
+            "on": "On",
+            "off": "Off",
+            "save": "Save changes",
+            "changepicture": "Change<br>picture",
+            "changeaccountpicture": "Change account picture",
+            "newpicture": "New picture",
+            "size": "JPG, GIF or PNG file. File size limit is 4 MB.",
+            "seemyprofile": "See my profile",
+            "profile": "Profile",
+            "profileinfo": "This is your public profile info - it helps others get an idea of who you are.",
+            "personalinfo": "Personal information",
+            "personalinfotxt": "From here on down, the information is private to you. We won't show or tell anyone.",
+            "profiletype": "Profile type",
+            "personal": "Personal",
+            "business": "Business",
+            "company": "Company",
+            "changepassword": "Click to set a new password",
+            "//changepassword": {
+                "extracted": "max_chars: 30"
+            },
+            "changeemail": "Click to set a new email",
+            "//changeemail": {
+                "extracted": "max_chars: 30"
+            },
+            "choosenewpassword": "Choose a new password",
+            "setnewpassword": "Set new password",
+            "cancel": "Cancel",
+            "changeyouremail": "Set a new email address",
+            "setnewemail": "Set new email",
+            "newemail": "New email",
+            "change": "Change",
+            "done": "Done",
+            "sitesettings": "Site Settings",
+            "sitesettingstext": "How do you want to see issuu?",
+            "language": "Language",
+            "languageBilling": "Apply to my billing",
+            "safesearchoffexplanation2": "Explicit content <strong>will be</strong> shown",
+            "//safesearchoffexplanation2": {
+                "extracted": "max_chars: 57"
+            },
+            "safesearchonexplanation2": "Explicit content <strong>will not be</strong> shown",
+            "//safesearchonexplanation2": {
+                "extracted": "max_chars: 57"
+            },
+            "errors": {
+                "email": "Really? From our experience, emails tend to have this format: name@domain.com.",
+                "nopassword": "Please specify your password.",
+                "wrongpassword": "Nope, wrong password. Give it another go.",
+                "emailnotavailable": "Email not available.",
+                "emailinuse": "Email already in use.",
+                "wrongcurrentpassword": "Nope, the current password is wrong. Give it another go.",
+                "unknown": "Whoops, something's wrong there. Please try again.",
+                "nooldpassword": "You need to enter your old password.",
+                "nonewpassword": "You need to enter your new password.",
+                "nonewpasswordretype": "You need to re-type your new password.",
+                "newparsswordmatch": "The fields for your new password don't match.",
+                "newpasswordsameasold": "New password must be different than the old one."
+            }
+        },
+        "notifications": {
+            "notifications": "Notifications",
+            "commenting": "Commenting",
+            "mydocs": "My publications",
+            "doctostack": "We’ll hit you up when someone digs one of your publications so much that they put it into their stacks.",
+            "friends": "--",
+            "followers": "Followers",
+            "signup": "--",
+            "followme": "We’ll let you know when someone just can’t leave you alone and decides to follow you or your stacks.",
+            "groups": "Groups",
+            "newsletter": "issuu news and tips",
+            "getemails": "Receive valuable emails as we help you get up to speed, plus occasional emails with product news, #issuusuccess stories and tips.",
+            "yes": "On",
+            "no": "Off",
+            "save": "Save changes",
+            "digest": "Digest email",
+            "weeklyemail": "About once a week we’ll send you an inspirational email bursting with tasty content from the stacks and creators you're following.",
+            "publisher_statistics": "Insights",
+            "publisher_statistics_description": "Receive emails about how well your publications are performing, and some helpful hints on how to juice those numbers. No more than once per month.",
+            "promotion": "Promotions & Offers",
+            "promotionexplain": "Receive emails about promotions that will benefit you, such as lowered prices on products. A maximum of one per month and no ads. Promise.",
+            "pushnotifications": "Push notifications (requires the issuu app to be installed)",
+            "push": "Receive push notifications on your iOS or Android device to be in on the action on your followed profiles."
+        },
+        "changeEmailScreen": {
+            "header": "We've sent you a verification email",
+            "text": "Please verify your new address by opening the email we've just sent you and clicking on the verify button."
+        }
+    },
+    "deleteaccount": {
+        "defaultHeaderText": "Are you sure?",
+        "bodyText": "We would hate to see you go, but if you are completely sure, enter your password and we will close your account and delete all your publications.<br>Remember: there is no going back.",
+        "whyText": "Why are you leaving?",
+        "passwordPlaceholder": "Enter your password",
+        "reasonPlaceholder": "Let us know why here...",
+        "buttonDelete": "Delete my account",
+        "buttonCancel": "Cancel",
+        "linkCancel": "Cancel",
+        "wantedToolGotPlatform": "I wanted a tool, I got a platform.",
+        "otherBetterTool": "Found a better publishing tool.",
+        "myPublicationsWereNotGreat": "My publications did not look great.",
+        "inappropriateContent": "Related/recommended content was not appropriate.",
+        "other": "Other...",
+        "noBenefit": "I don't see the benefit.",
+        "noLongerUsingIt": "I'm not using it anymore.",
+        "tooManyEmails": "You send too many emails.",
+        "inappropriateSuggestions": "Suggestions contained adult content.",
+        "adultContentNotice": "Did you know that can hide adult content by turning on 'Safe mode' from the <a href='__settingslink__'>settings page</a>?",
+        "tooManyEmailsNotice": "Did you know that you can control what emails you get from your <a href='__notificationslink__'>notification settings page</a>?",
+        "tooLongDescriptionError": "Please use less than 1000 characters for the description.",
+        "serverError": "There was a problem with the server. Please try later.",
+        "invalidInfo": "Your confirmation code has timed out. If you still want to delete your account, try again on the <a href='__billinglink__'>billing page</a>.",
+        "invalidExplore": "Stay with us, explore issuu"
+    },
+    "activityfeed": {
+        "actions": {
+            "you_create": "You created a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "you_share": "You shared a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a> on <span class=\"social-service\">__shareLocation__</span>.",
+            "you_share_unknown": "You shared a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "you_share_directlink": "You shared a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a> via direct link.",
+            "you_comment": "You commented on a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "someone_share_you_created": "An issuu user shared a <a href=\"__clippingUrl__\">clip</a> you created in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "someone_comment_you_created": "<a href=\"__actorUrl__\">__actorDisplayName__</a> commented on a <a href=\"__clippingUrl__\">clip</a> you created in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "someone_share_you_commented": "An issuu user shared a <a href=\"__clippingUrl__\">clip</a> you commented on in <a href=\"__publicationUrl__\">__publicationTitle__</a>.",
+            "someone_comment_you_commented": "<a href=\"__actorUrl__\">__actorDisplayName__</a> commented on a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a> you previously commented on. ",
+            "someone_share_you_shared": "An issuu user shared a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a> you shared.",
+            "someone_comment_you_shared": "<a href=\"__actorUrl__\">__actorDisplayName__</a> commented on a <a href=\"__clippingUrl__\">clip</a> in <a href=\"__publicationUrl__\">__publicationTitle__</a> you shared."
+        },
+        "noresults": "That's it. No more results.",
+        "introheading": "Introducing Clip",
+        "intro1": "Clip lets you easily share and comment on any part of a publication that inspires you. Simply clip out any piece of a publication page, comment on it, and share it to your social channels with a simple click.",
+        "intro2": "Experience the power of<br> issuu Clip in these publications",
+        "learnmore": "Learn more",
+        "showolder": "Show older activity"
+    },
+    "search": {
+        "sortBy": "Sort by",
+        "relevance": "Relevance",
+        "date": "Date",
+        "popularity": "Popularity",
+        "location": "Location",
+        "language": "Language",
+        "language_all": "All",
+        "publishers": "Publishers",
+        "stacks": "Stacks",
+        "publications": "Publications",
+        "publicationsNum": "__count__ publication",
+        "publicationsNum_plural": "__count__ publications",
+        "noResults": "Bummer, nothing seems to match your search.<br />Why don't you try searching for something else? Or you can always <a href='/explore'>go exploring</a>.",
+        "seeprofile": "See profile",
+        "safeMode": "Safe mode",
+        "safeon": "On - hide explicit content",
+        "safeoff": "Off - show explicit content",
+        "on": "On",
+        "off": "Off"
+    },
+    "userprofile": {
+        "follow": "Follow",
+        "unfollow": "Unfollow",
+        "stackFollow": "Follow stack",
+        "stackUnfollow": "Unfollow stack",
+        "signFollow": "p",
+        "signUnfollow": "C",
+        "editprofile": "Edit profile",
+        "publication": "__count__ Publication",
+        "publication_plural": "__count__ Publications",
+        "stack": "__count__ Stack",
+        "stack_plural": "__count__ Stacks",
+        "follower": "__count__ Follower",
+        "follower_plural": "__count__ Followers",
+        "errorLoadingContent": "This is embarrassing. There was an error while loading what we wanted to show you. You can <a href=\"\">click here to reload the page</a>.<br />__errorcode__: __errormessage__"
+    },
+    "userstack": {
+        "editstack": "Edit stack",
+        "done": "Done",
+        "settings": "Settings",
+        "documentRemoved": "The publication has been removed from the stack",
+        "documentRemovedUndo": "Undo",
+        "errorRemovingPublication": "Sorry, the publication was not removed from the stack. You can always try again.<br />__errorcode__: __errormessage__",
+        "errorReaddingPublication": "Sorry, the publication was not re-added to the stack. You can always try again.<br />__errorcode__: __errormessage__",
+        "stackDeleted": "Your stack <em>__stackname__</em> has been deleted. You will be directed to your stacks shortly."
+    },
+    "documentpage": {
+        "readmore": "Read more",
+        "by": "By",
+        "addto": "Stack",
+        "share": "Share",
+        "download": "Download",
+        "embed": "Embed",
+        "like": "<span class='issuuicon issuuicon-heart'></span> Like",
+        "link": "Link",
+        "likes": "__count__ <span class='issuuicon issuuicon-heart'></span>",
+        "likes_plural": "__count__ <span class='issuuicon issuuicon-heart'></span>",
+        "likesindropdown": "__count__ person <span class='issuuicon issuuicon-heart'></span> this",
+        "likesindropdown_plural": "__count__ people <span class='issuuicon issuuicon-heart'></span> this",
+        "metainfo": "Info",
+        "openpublicationwhere": "Where do you want to open the publication?",
+        "firstpage": "From first page",
+        "currentpage": "From current page",
+        "report": "Report",
+        "editdocument": "Edit publication",
+        "explicittitle": "Content warning",
+        "explicitmessage": "This publication may contain content that is inappropriate for some users, as flagged by issuu's user community.",
+        "explicitsignup": "To view this publication, please verify that you are 18 or older by <a href='/signin' class='explicit-login'>signing in</a> or <a href='/signup' class='explicit-signup'>signing up</a>.",
+        "explicitok": "I understand",
+        "safetitle": "Content warning",
+        "safemessage": "This publication is pending review or has already been marked as potentially unsafe and may contain content that is inappropriate for some users. <br><a href='http://help.issuu.com/entries/103848873'>Learn more about issuu’s Safe Mode Guidelines.</a>",
+        "safesignup": "To view this publication, please <a href='#' class='explicit-login'>sign in</a> or <a href='#' class='explicit-signup'>sign up</a>.<br>You can turn off “Safe Mode” in your account settings.",
+        "safeok": "I understand",
+        "downloadlimitreached": "You've already downloaded 25 awesome publications today. Try again tomorrow or let us know if you can't wait.",
+        "documentnotdownloadable": "The author of this publication has not made it available for download.",
+        "relatedpublications": "Related publications",
+        "morefromauthor": "More from this publisher",
+        "upgradeflash": "issuu will work much better with the latest Flash player. <a href='__url__'>Upgrade Adobe Flash Player</a>",
+        "adsClose": "close",
+        "cta": {
+            "youcanpublishtoo": "You can publish too",
+            "getissuuplus": "Get issuu Plus",
+            "learnmore": "Learn more",
+            "brandpackage": {
+                "customise": "You can customize this page. Add a logo or a custom background in seconds.",
+                "morefromauthor": "Get your own publications here."
+            },
+            "readertool": {
+                "noheader": "Get rid of the header.",
+                "noissuufunction": "Get rid of this issuu functionality.",
+                "norelated": "Get rid of these suggestions."
+            }
+        },
+        "pod": {
+            "orderPrint": "Order print:",
+            "//orderPrint": {
+                "extracted": "max_chars: 15"
+            },
+            "notEligibleForPrint": "Not eligible for print",
+            "//notEligibleForPrint": {
+                "extracted": "max_chars: 23"
+            }
+        },
+        "followbutton": {
+            "follow": "Follow publisher",
+            "//follow": {
+                "extracted": "max_chars: 23"
+            },
+            "unfollow": "Unfollow publisher",
+            "//unfollow": {
+                "extracted": "max_chars: 23"
+            },
+            "following": "Following",
+            "//following": {
+                "extracted": "max_chars: 23"
+            }
+        },
+        "tooltips": {
+            "like": "Like this publication.",
+            "share": "Spread the word.<br />Share this publication.",
+            "stack": "Organize your favorites into stacks.",
+            "follow": "Be the first to know about new publications."
+        },
+        "notavailabletitle": "Document not available"
+    },
+    "pagezero": {
+        "sign-in": {
+            "header": "If you're a fan of __documentNameHTML__",
+            "text": "Sign up for a free __issuuHTML__ account.<br>Once you join we can recommend more of the content you love!",
+            "button": "Facebook me in",
+            "link": "or sign up with G+ or email"
+        },
+        "follow-publisher": {
+            "text": "Like this publication?<br>Follow to know when this publisher<br>has new publications on issuu."
+        }
+    },
+    "specialdocumentstate": {
+        "quarantined": "There might be copyright issues with this publication, so we are not allowed to show it to you at this time.",
+        "failed": "Sorry, this publication is not available. Why don't you <a href=\"/explore\">go exploring</a>?",
+        "pending": "We're converting the publication, please come back later.",
+        "converting": "We're converting the publication, please come back later.",
+        "scheduled": "This publication is not publicly available yet."
+    },
+    "pageTitle": {
+        "p404": "Page not found - issuu",
+        "p503": "Page Not Available - issuu",
+        "acceptterms": "Terms and conditions - issuu",
+        "confirmEmail": "Confirm email - issuu",
+        "freeTrialCampaign": "Free trial campaign - issuu",
+        "newEmail": "New email - issuu",
+        "newPwd": "New password - issuu",
+        "publish": "Publish - issuu",
+        "signin": "Sign In - issuu",
+        "signup": "Sign Up - issuu",
+        "search": "Search - issuu",
+        "explore": "Digital Publishing Platform for Magazines, Catalogs, and more - issuu",
+        "topic": "__topicName__ - issuu",
+        "user": "__owner__ - issuu",
+        "userStacksStack": "__stackTitle__ by __owner__ - issuu",
+        "userDocsDocument": "__docname__ by __owner__ - issuu",
+        "userDocsDocumentPage": "__docname__ by __owner__ (page __pagenumber__) - issuu",
+        "home": "My Feed - issuu",
+        "homeAdpages": "Promote - issuu",
+        "homeAdpagesCreate": "Promote - issuu",
+        "homeAdpagesSpendingLimit": "Promote - issuu",
+        "homeAdpagesManage": "Promote - issuu",
+        "homeAdpagesCampaign": "Promote - issuu",
+        "homeAdpagesAd": "Promote - issuu",
+        "homeAdpagesAction": "Promote - issuu",
+        "homeHistory": "History - issuu",
+        "homePublication": "My Publications - issuu",
+        "homePublisherSuite": "Publisher Tools - issuu",
+        "homeServices": "Services - issuu",
+        "homeSettings": "Basic Settings - issuu",
+        "homeSettingsNotification": "Notification Settings - issuu",
+        "homeSettingsBilling": "Billing Settings - issuu",
+        "homeSettingsPayment": "Payment Settings - issuu",
+        "homeSettingsApikey": "API key - issuu",
+        "homeStacks": "Stacks - issuu",
+        "homeStatistics": "Statistics - issuu",
+        "homeSubscription": "Following - issuu",
+        "curated": "__curatedTitle__ - issuu",
+        "editSuiteEmbed": "Edit your embed widget - issuu",
+        "editSuiteDocInfo": "Edit your document settings - issuu",
+        "editSuiteLinks": "Edit your links & buttons - issuu",
+        "linkeditorAdform": "Edit your links & buttons - issuu",
+        "mailNotifications": "Edit your notification settings - issuu",
+        "pricing": "Plans & Pricing - issuu",
+        "signupCreditCard": "Credit Card Information - issuu",
+        "welcome": "Welcome - issuu",
+        "deleteaccount": "Delete account - issuu",
+        "invalidDeleteToken": "Code timed out - issuu"
+    },
+    "fbapp": {
+        "poweredby": "Powered by ",
+        "aboutissuu": "issuu is the leading digital publishing platform delivering exceptional reading experience of magazines, catalogs and newspapers. Millions of people have published their best publications to create beautiful digital editions.",
+        "addtoyourpage": "Add issuu to your page",
+        "likeissuu": "Like issuu:",
+        "followonissuu": "Follow on issuu",
+        "othersfollow": "others already follow",
+        "onissuu": "on issuu",
+        "unfollow": "Unfollow",
+        "readnow": "Read Now",
+        "share": "Share"
+    },
+    "messagebar": {
+        "exploreHeadline": "Reading and publishing<br><span class='secondline'>simple, beautiful and powerful.</span>",
+        "buttontext": "Create an account",
+        "facebooksignup": "Facebook me in"
+    },
+    "notificationsLite": {
+        "yourPreferencesHaveBeenSaved": "Your changes have been saved",
+        "weAreHavingTroubleSavingYourPrferences": "We are having trouble saving your preferences",
+        "youAreNowUnsubscribedFromXNotifications": "You are now unsubscribed from __unsubscribe__ notifications",
+        "youAreNowSubscribedToXNotifications": "You are now subscribed to __subscribe__ notifications",
+        "digest": "Digest email",
+        "stacked": "My publications",
+        "followers": "Followers",
+        "newsletter": "Newsletter",
+        "manageNotifications": "Manage Notifications",
+        "unsubscribeSuccess": "Unsubscribe Successful",
+        "unsubscribeMessages": {
+            "digest": "We're going to stop sending you our weekly <strong>Digest email</strong> bursting with inspirational content from the stacks and creators you are following.<br/>Start receiving it again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences.",
+            "myPublications": "We'll stop sending you <strong>My Publications</strong> updates when someone adds one of your publications to a stack.<br/>Start receiving them again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences.",
+            "followers": "We'll stop sending you notifications about new <strong>Followers</strong> of your profile or stacks.<br/>Start receiving them again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences.",
+            "newsletter": "You’ll no longer receive our product related <strong>issuu Newsletter</strong> with important news and updates.<br/>Start receiving it again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences.",
+            "promotion": "You'll no longer receive emails about <strong>Promotions</strong> and Offers that may benefit you.<br/> Start receiving them again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences.",
+            "push": "You have disabled <strong>Push Notifications</strong> .<br/>Enable them again at anytime by changing your <a href='__settingsLink__'>Notifications</a> preferences."
+        },
+        "errors": {
+            "yourUnsubscribeLinkHasExpired": "Your unsubscribe link has expired. <a href=\"/\">Please log in to your issuu account to change notification settings</a>.",
+            "yourUnsubscribeLinkIsInvalid": "Your unsubscribe link is invalid. <a href=\"/\">Please log in to your issuu account to change notification settings</a>."
+        }
+    },
+    "newemail": {
+        "newemail": "Change of email",
+        "pleaseconfirm": "Please confirm the new email by clicking on the button below.",
+        "skipstep": "Skip this step if you want to keep your old email.",
+        "confirmnewemail": "Confirm new email",
+        "cancel": "Cancel",
+        "changeemail": "to change your email.",
+        "wrongurl": "Something is wrong with the URL",
+        "loginnow": "Log in now",
+        "unabletochange": "Unable to change your email address to:",
+        "continue": "OK, got it",
+        "emailchanged": "Your new email address is",
+        "errors": {
+            "needlogin": "You need to be logged in.",
+            "nouser": "We could not find that user.",
+            "invalidformat": "Invalid field format.",
+            "invalidcode": "This confirmation code is not valid.",
+            "alreadyconfirmed": "This email is already confirmed.",
+            "expired": "This confirmation link has expired.",
+            "nopending": "Could not get pending confirmation."
+        }
+    },
+    "formerrors": {
+        "isrequired": "This field is required",
+        "mustbebetweenminlengthandmaxlengthcharacters": "Please enter between __minlength__ and __maxlength__ characters",
+        "cantbemorethanmaxlengthcharacters": "Please don't enter more than __maxlength__ characters",
+        "mustbegreaterthanorequaltomin": "You must be __min__ years old to use issuu",
+        "mustbelessthanorequaltomax": "Please enter a value less than or equal to __max__",
+        "mustbebetweenminandmax": "Please enter a value between __min__ and __max__",
+        "mustbeatleastminlengthcharacters": "Please enter at least __minlength__ characters",
+        "mustbevalidemailaddress": "Please enter a valid email address",
+        "mustbevalidurl": "Please enter a valid URL",
+        "mustbeanumber": "Please enter a number",
+        "mustbeonlydigits": "Please use only digits",
+        "mustbethesamevalue": "These fields don't match",
+        "cannotbethisvalue": "No good. Please try another value",
+        "notavalidusername": "This is not a valid username",
+        "notavalidusernameoremail": "This is not a valid username or email",
+        "notavaliddocumentname": "This is not a valid document name",
+        "usernamealreadyexists": "This username is taken. Why don't you come up with a different one?",
+        "usernamenotvalid": "No fancy characters. Stick to 'a-z', '0-9', and '-_'. And give use at least four of them, please.",
+        "emailnotavailable": "This email is already used for an issuu account. You can <a href='/signin'>sign in here</a>.",
+        "bothWrong": "Please enter both fields"
+    },
+    "fishbone": {
+        "errors": {
+            "pageLoadFailed": "Cosmic interference? Rat gnawing on wires? Whatever the cause, something went wrong. Please reload the page.",
+            "actionFailed": "We failed completing action. Please try again later or contact support."
+        },
+        "formatValue": {
+            "orderSeparator": ",",
+            "decimalSeparator": ".",
+            "units": {
+                "days": "day",
+                "days_plural": "days",
+                "page": "Page"
+            }
+        }
+    },
+    "world": {
+        "countries": {
+            "AD": "Andorra",
+            "AF": "Afghanistan",
+            "AG": "Antigua and Barbuda",
+            "AI": "Anguilla",
+            "AL": "Albania",
+            "AM": "Armenia",
+            "AN": "Netherlands Antilles",
+            "AO": "Angola",
+            "AQ": "Antarctica",
+            "AR": "Argentina",
+            "AS": "American Samoa",
+            "AT": "Austria",
+            "AU": "Australia",
+            "AW": "Aruba",
+            "AX": "Aland Islands",
+            "DZ": "Algeria",
+            "AZ": "Azerbaijan",
+            "BA": "Bosnia and Herzegovina",
+            "BB": "Barbados",
+            "BD": "Bangladesh",
+            "BE": "Belgium",
+            "BF": "Burkina Faso",
+            "BG": "Bulgaria",
+            "BH": "Bahrain",
+            "BI": "Burundi",
+            "BJ": "Benin",
+            "BM": "Bermuda",
+            "BN": "Brunei Darussalam",
+            "BO": "Bolivia",
+            "BR": "Brazil",
+            "BS": "Bahamas",
+            "BT": "Bhutan",
+            "BV": "Bouvet Island",
+            "BW": "Botswana",
+            "BY": "Belarus",
+            "BZ": "Belize",
+            "CA": "Canada",
+            "CC": "Cocos (Keeling) Islands",
+            "CD": "The Democratic Republic of The Congo",
+            "CF": "Central African Republic",
+            "CG": "Congo",
+            "CK": "Cook Islands",
+            "CI": "Cote Divoire",
+            "CL": "Chile",
+            "CM": "Cameroon",
+            "CN": "China",
+            "CO": "Colombia",
+            "CR": "Costa Rica",
+            "RS": "Serbia",
+            "CV": "Cape Verde",
+            "CX": "Christmas Island",
+            "CU": "Cuba",
+            "CY": "Cyprus",
+            "CZ": "Czech Republic",
+            "DJ": "Djibouti",
+            "DK": "Denmark",
+            "DM": "Dominica",
+            "DO": "Dominican Republic",
+            "EC": "Ecuador",
+            "EE": "Estonia",
+            "EG": "Egypt",
+            "EH": "Western Sahara",
+            "ER": "Eritrea",
+            "ET": "Ethiopia",
+            "FI": "Finland",
+            "FJ": "Fiji",
+            "FK": "Falkland Islands (Malvinas)",
+            "FM": "Federated States Of Micronesia",
+            "FO": "Faroe Islands",
+            "FR": "France",
+            "GA": "Gabon",
+            "GG": "Guernsey",
+            "DE": "Germany",
+            "GB": "United Kingdom",
+            "GD": "Grenada",
+            "GE": "Georgia",
+            "GF": "French Guiana",
+            "GH": "Ghana",
+            "GI": "Gibraltar",
+            "GL": "Greenland",
+            "GM": "Gambia",
+            "GN": "Guinea",
+            "GP": "Guadeloupe",
+            "GQ": "Equatorial Guinea",
+            "GR": "Greece",
+            "GS": "S. Georgia and S. Sandwich Islands",
+            "GT": "Guatemala",
+            "GU": "Guam",
+            "GW": "Guinea-bissau",
+            "GY": "Guyana",
+            "HK": "Hong Kong",
+            "HM": "Heard Island and Mcdonald Islands",
+            "HN": "Honduras",
+            "HR": "Croatia",
+            "HT": "Haiti",
+            "HU": "Hungary",
+            "IN": "India",
+            "ID": "Indonesia",
+            "IE": "Ireland",
+            "IM": "Isle Of Man",
+            "IL": "Israel",
+            "IO": "British Indian Ocean Territory",
+            "IQ": "Iraq",
+            "IR": "Islamic Republic Of Iran",
+            "IS": "Iceland",
+            "IT": "Italy",
+            "JE": "Jersey (Channel Island)",
+            "JM": "Jamaica",
+            "JO": "Jordan",
+            "JP": "Japan",
+            "KE": "Kenya",
+            "KG": "Kyrgyzstan",
+            "KH": "Cambodia",
+            "KI": "Kiribati",
+            "KM": "Comoros",
+            "KN": "Saint Kitts and Nevis",
+            "KP": "Democratic People\"s Republic Of Korea",
+            "KR": "Republic Of Korea",
+            "KW": "Kuwait",
+            "KY": "Cayman Islands",
+            "KZ": "Kazakhstan",
+            "LA": "Lao People\"s Democratic Republic",
+            "LB": "Lebanon",
+            "LC": "Saint Lucia",
+            "LI": "Liechtenstein",
+            "LK": "Sri Lanka",
+            "LR": "Liberia",
+            "LS": "Lesotho",
+            "LT": "Lithuania",
+            "LU": "Luxembourg",
+            "LV": "Latvia",
+            "LY": "Libyan Arab Jamahiriya",
+            "MA": "Morocco",
+            "ME": "Montenegro",
+            "MC": "Monaco",
+            "MD": "Republic Of Moldova",
+            "MG": "Madagascar",
+            "MH": "Marshall Islands",
+            "MK": "Macedonia",
+            "ML": "Mali",
+            "MM": "Myanmar",
+            "MN": "Mongolia",
+            "MO": "Macau",
+            "MP": "Northern Mariana Islands",
+            "MQ": "Martinique",
+            "MR": "Mauritania",
+            "MS": "Montserrat",
+            "MT": "Malta",
+            "MU": "Mauritius",
+            "MV": "Maldives",
+            "MW": "Malawi",
+            "MX": "Mexico",
+            "MY": "Malaysia",
+            "MZ": "Mozambique",
+            "NA": "Namibia",
+            "NC": "New Caledonia",
+            "NE": "Niger",
+            "NF": "Norfolk Island",
+            "NG": "Nigeria",
+            "NI": "Nicaragua",
+            "NL": "Netherlands",
+            "NO": "Norway",
+            "NP": "Nepal",
+            "NR": "Nauru",
+            "NU": "Niue",
+            "NZ": "New Zealand",
+            "OM": "Oman",
+            "PA": "Panama",
+            "PR": "Puerto Rico",
+            "PE": "Peru",
+            "PF": "French Polynesia",
+            "PG": "Papua New Guinea",
+            "PH": "Philippines",
+            "PK": "Pakistan",
+            "PL": "Poland",
+            "PM": "Saint Pierre and Miquelon",
+            "PN": "Pitcairn",
+            "PS": "State of Palestine",
+            "PT": "Portugal",
+            "PW": "Palau",
+            "PY": "Paraguay",
+            "QA": "Qatar",
+            "RE": "Reunion",
+            "RO": "Romania",
+            "RU": "Russian Federation",
+            "RW": "Rwanda",
+            "SA": "Saudi Arabia",
+            "SB": "Solomon Islands",
+            "SC": "Seychelles",
+            "ES": "Spain",
+            "SD": "Sudan",
+            "SE": "Sweden",
+            "CH": "Switzerland",
+            "BL": "Saint Bartholemy",
+            "MF": "Saint Martin",
+            "SG": "Singapore",
+            "SH": "Saint Helena",
+            "SI": "Slovenia",
+            "SJ": "Svalbard and Jan Mayen",
+            "SK": "Slovakia",
+            "SL": "Sierra Leone",
+            "SM": "San Marino",
+            "SN": "Senegal",
+            "SO": "Somalia",
+            "SR": "Suriname",
+            "SS": "South Sudan",
+            "ST": "Sao Tome and Principe",
+            "SV": "El Salvador",
+            "SY": "Syrian Arab Republic",
+            "SZ": "Swaziland",
+            "TC": "Turks and Caicos Islands",
+            "TD": "Chad",
+            "TF": "French Southern Territories",
+            "TG": "Togo",
+            "TH": "Thailand",
+            "TJ": "Tajikistan",
+            "TL": "Timor-Leste",
+            "TK": "Tokelau",
+            "TM": "Turkmenistan",
+            "TN": "Tunisia",
+            "TO": "Tonga",
+            "TR": "Turkey",
+            "TT": "Trinidad and Tobago",
+            "TV": "Tuvalu",
+            "TW": "Taiwan",
+            "TZ": "United Republic Of Tanzania",
+            "UA": "Ukraine",
+            "UG": "Uganda",
+            "AE": "United Arab Emirates",
+            "UM": "United States Minor Outlying Islands",
+            "US": "United States",
+            "UY": "Uruguay",
+            "UZ": "Uzbekistan",
+            "VA": "Holy See (Vatican City State)",
+            "VC": "Saint Vincent and the Grenadines",
+            "VE": "Venezuela",
+            "VG": "Virgin Islands, British",
+            "VI": "Virgin Islands, U.S.",
+            "VN": "Vietnam",
+            "VU": "Vanuatu",
+            "WF": "Wallis and Futuna",
+            "WS": "Samoa",
+            "YE": "Yemen",
+            "YT": "Mayotte",
+            "ZA": "South Africa",
+            "ZM": "Zambia",
+            "ZW": "Zimbabwe"
+        },
+        "regions": {
+            "CA": {
+                "AB": "Alberta",
+                "BC": "British Columbia",
+                "MB": "Manitoba",
+                "NB": "New Brunswick",
+                "NL": "Newfoundland",
+                "NS": "Nova Scotia",
+                "NU": "Nunavut",
+                "ON": "Ontario",
+                "PE": "Prince Edward Island",
+                "QC": "Quebec",
+                "SK": "Saskatchewan",
+                "NT": "Northwest Territories",
+                "YT": "Yukon Territory"
+            },
+            "US": {
+                "AK": "Alaska",
+                "AL": "Alabama",
+                "AS": "American Samoa",
+                "AR": "Arkansas",
+                "AZ": "Arizona",
+                "CA": "California",
+                "CO": "Colorado",
+                "CT": "Connecticut",
+                "DE": "Delaware",
+                "DC": "District of Columbia",
+                "FL": "Florida",
+                "GA": "Georgia",
+                "GU": "Guam",
+                "HI": "Hawaii",
+                "IA": "Iowa",
+                "ID": "Idaho",
+                "IL": "Illinois",
+                "IN": "Indiana",
+                "KS": "Kansas",
+                "KY": "Kentucky",
+                "LA": "Louisiana",
+                "MA": "Massachusetts",
+                "MD": "Maryland",
+                "ME": "Maine",
+                "MI": "Michigan",
+                "MN": "Minnesota",
+                "MO": "Missouri",
+                "MS": "Mississippi",
+                "MT": "Montana",
+                "NC": "North Carolina",
+                "ND": "North Dakota",
+                "MP": "Northern Marianas Islands",
+                "NE": "Nebraska",
+                "NH": "New Hampshire",
+                "NJ": "New Jersey",
+                "NM": "New Mexico",
+                "NV": "Nevada",
+                "NY": "New York",
+                "OH": "Ohio",
+                "OK": "Oklahoma",
+                "OR": "Oregon",
+                "PA": "Pennsylvania",
+                "PR": "Puerto Rico",
+                "RI": "Rhode Island",
+                "SC": "South Carolina",
+                "SD": "South Dakota",
+                "TN": "Tennessee",
+                "TX": "Texas",
+                "UT": "Utah",
+                "VA": "Virginia",
+                "VT": "Vermont",
+                "WA": "Washington",
+                "WV": "West Virginia",
+                "WI": "Wisconsin",
+                "WY": "Wyoming"
+            }
+        }
+    },
+    "lang": {
+        "english": "english",
+        "spanish": "spanish",
+        "portuguese": "portuguese",
+        "portugueseBrazil": "portuguese (Brazil)",
+        "german": "german",
+        "french": "french",
+        "italian": "italian"
+    }
+}};

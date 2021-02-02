@@ -1,0 +1,491 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title> Contact Us </title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <load all styles >
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+	
+	<style>
+		
+		
+		@import url('https://fonts.googleapis.com/css?family=Bungee+Outline&display=swap');
+		@import url('https://fonts.googleapis.com/css?family=Raleway:100i,200,200i,300,300i,400&display=swap');
+		
+		body{ 
+			  background: url() no-repeat center center fixed; 
+			  -webkit-background-size: cover;
+			  -moz-background-size: cover;
+			  -o-background-size: cover;
+			  background-size: cover;
+			}
+
+		
+		#map{
+			height:400px;
+			width:45%;	
+			}
+			
+		.jumbotron{
+			height:34em;
+			text-align:center;
+			background-color:#39C;
+			background-image:url(Contact%20bg2.jpg);
+			background-repeat:no-repeat;
+			background-attachment:fixed;
+			background-size: 100% 100%;
+			
+				}
+		
+		#Footer{
+			background-color:#333;
+			color:#FFF;
+			}
+	
+		.col-sm-3{
+			margin:30px;
+			}
+		
+		.container{
+			color:#666;
+			`}
+		#info{
+			color:#F33;
+			}
+		
+	
+		
+		.icons{
+				
+		}
+		
+		.btn1{
+			display:inline-block;
+			width:50px;
+			height:50px;
+			background-color:#f1f1f1;
+			margin:7px;
+			border-radius:37%;
+			box-shadow: 0 5px 15px -5px #00000070;
+			color:#3498db;
+			overflow:hidden;
+			position:relative;
+			}
+			
+		.btn1 i{
+			line-height:37px;
+			font-size:24px;
+			transition:0.2s linear;
+			
+			}
+			
+		.btn1:hover i{
+			transform:scale(1.3);
+			color:#f1f1f1;
+					}
+					
+		.btn1::before{
+			content:"";
+			position:absolute;
+			width:120%;
+			height:120%;
+			background:#3498db;
+			transform:rotate(45deg);
+			left:-110%;
+			top:90%;
+					
+					}
+			
+		.btn1:hover::before{
+			animation:aaa 0.7s 1;
+			top:-10%;
+			left:-10%;
+			
+					}
+		@keyframes aaa{
+			
+			0%{
+				left:-110%;
+				top:90%;
+				
+					}
+				
+			50%{
+				left:10%;
+				top:-30%;
+				
+					}
+				
+			100%{
+				top:-10%;
+				left:-10%;	
+				
+					}
+			
+						}	
+		
+	</style>
+    
+		<script>
+		
+			function ShowMap(){
+			var num = new google.maps.LatLng(24.9176064,67.02612479999999); 
+			
+			var myOptions = { 
+				zoom: 16, 
+				center: num
+			};
+		
+			var mymap = new google.maps.Map(document.getElementById("map"), myOptions); 
+			
+			
+			var marker = new google.maps.Marker(
+			{ 
+				position: num, 
+				map: mymap, 
+					title:"Theatredotcom"
+				});
+			}
+			
+	</script>
+
+	<script async defer
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAOfoQEnSeEMhNmp8NI6ZZGulHloVCIZUA
+		&callback=ShowMap">
+    </script>
+
+
+</head>
+
+<body onload="ShowMap()">
+
+	
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            
+            <a href="#" class="navbar-brand"> 
+                 <img src="logo1.png" height="70px;" width="140px;" />
+                 <b style="font-size:36px; font-family: 'Bungee Outline',cursive;"> Theatre .com </b> 
+            </a> 
+        
+    
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsiblenavbar">
+        <span class="navbar-toggler-icon"></span>
+        </button> 
+        
+        <div class="collapse navbar-collapse" id="collapsiblenavbar">
+        
+        
+        <ul class="navbar-nav" style="font-family: 'Raleway', sans-serif;">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="Auditorium.html">Auditorium</a></li>
+        <li class="nav-item"><a class="nav-link" href="Events.html"> Events</a></li>
+        <li class="nav-item"><a class="nav-link" href="Magazines.html">Magazines</a></li>
+        
+        
+            <li class="dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="Theatre.html">Theatre</a>
+            <ul class="dropdown-menu bg-dark">
+            <li class="nav-item"><a class="nav-link" href="Urdu Theatre.html">	Urdu Theatre	</a></li>
+            <li class="nav-item"><a class="nav-link" href="Hindi Theatre.html">	Hindi Theatre	</a></li>
+            <li class="nav-item"><a class="nav-link" href="English Theatre.html">	English Theatre </a></li>
+           
+               
+        
+        </ul>
+            
+            <li class="nav-item"><a class="nav-link" href="Contact Us.html">	Contact Us	</a></li>
+            
+        </ul>
+        
+  
+        
+  </nav>
+  
+  <div style="height:3px; background-color:#CCC;">  </div>       
+            
+	 <div class="jumbotron">
+        
+		 <br /><br />
+		 
+     </div>
+		
+        <div class="container">
+            <div  class="row text-center">
+            
+                <div class="col-sm-4">
+                    <h4>Address:</h4>
+                </div>
+                
+                <div class="col-sm-4">
+                    <h4>Phone:</h4>
+                </div>
+                
+                <div class="col-sm-4">
+                    <h4>Email:</h4>
+                </div>
+			</div>
+			
+			<br /><br />
+           
+			<div  class="row text-center" id="info">
+                
+                        <div class="col-sm-4">
+                            <h6> Theatre.com, Surjani Rd. 7477 Karachi.  </h6>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <h6>(021) 012345678 </h6>
+                        </div>
+                        
+                        <div class="col-sm-4">
+                            <h6> info@theatre.com </h6>
+                        </div>
+            </div>
+			
+            <br /><br />
+	
+	
+    	<div class="row">
+    		<form action="#" method="post" class="bg-light col-sm-6">
+				
+				<div class="form-group">
+					
+               		<label> User Name:  </label>
+                	<input type="text" class="form-control" id="name" placeholder="Enter Name" name="name" required="required" autocomplete="off" />
+					<p id="UserNames" class="text-danger font-weight-bold"></p>
+					               
+				</div>
+				
+    			<div class="form-group">
+					
+               		<label> Email:  </label>
+                	<input type="text" class="form-control" id="email" placeholder="Enter Email" name="email" required="required" autocomplete="off" />
+					<p id="UserEmails" class="text-danger font-weight-bold"> </p>
+					
+                </div>
+				
+                <div class="form-group">
+							
+                	<label> Password:  </label>
+                	<input type="Password" class="form-control" id="Pswd" placeholder="Enter Password" name="Password" required="required" autocomplete="off" />
+					<p id="UserPswd" class="text-danger font-weight-bold"> </p>
+			
+                </div>
+                
+                <div class="form-group form-check">
+                <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" /> Remember me
+                </label>
+                </div>
+                
+                <div class="form-group form-check-inline">
+       
+					<label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="userRadio" />  Free user
+                    </label>
+                  
+                </div>
+                          
+                <div class="form-group form-check-inline">
+      
+                    <label class="form-check-label">
+                    <input type="radio" class="form-check-input" name="userRadio" />  Premium user
+                    </label>
+       
+				</div>   
+   
+   				<div class="from-group">
+                    <label for="CityOption"> City Option </label>
+                    <select class="form-control" id="CityOption">
+                    <option>  Karachi </option>
+                    <option>  Lahore </option>
+                    <option>  Islamabad </option>
+                    <option>  Quetta </option>
+                    <option>  Peshawar </option> 
+                    </select>               
+            	</div><br />
+   
+				
+				<input class="btn btn-success" type="Submit" onclick="if(!PersonalInfoValidation()) {return false};" value="Submit">
+    		</form>
+			
+			
+	<script>
+		
+		function PersonalInfoValidation(){
+ 				
+				
+			var userName = document.getElementById("name").value;
+			//alert(userName);
+			var userEmail = document.getElementById("email").value;
+			
+			var userPass = document.getElementById("Pswd").value;
+			
+			var nameRegex = /^[A-Za-z ]{3,}$/
+			var emailRegex=/^([A-Za-z0-9_\-\.])+\@([A-Za-z]{4,8})+\.([A-Za-z]{2,4})$/;
+			var PswdRegex = /^([0-9]{8,})$/;
+
+			if (!userName.match(nameRegex))
+			{
+				document.getElementById("UserNames").innerHTML = "Please enter valid  name. (Minimum 3 Characters)";
+				return false;
+			}
+			else
+			{
+				document.getElementById("UserNames").innerHTML = "";
+			}
+			if (!userEmail.match(emailRegex))
+			{
+				document.getElementById("UserEmails").innerHTML = "Please enter valid email.";
+				return false;
+			}
+			else
+			{
+				document.getElementById("UserEmails").innerHTML = "";
+			}
+			if (!userPass.match(PswdRegex))
+			{
+				document.getElementById("UserPswd").innerHTML = "Please enter valid password (Minimum 8 Characters).";
+				return false;
+			}
+			else
+			{
+				document.getElementById("UserPswd").innerHTML = "";	
+			}
+			return true;
+
+
+		}
+</script>
+			
+		 <br />
+    	<div class="col-sm-6" id="map">
+		</div>
+       </div> 
+       </div>
+	
+       <br /><br />
+       
+       
+       
+    	<footer id="Footer">
+    
+    	<div class="footer-top">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-lg-3 col-md-6 footer-info">
+                    	
+                        <div style="border:#333 solid; border-left-color:#F90; padding:10px;">
+                            <h3> THEATRE.COM </h3>
+                            <h3>  </h3>
+                        </div>
+                        
+                        <br />
+                        
+                    	<p> 
+                        
+                         In fact the purpose of theater is to provide through joy to people. The theatre is a branch of the                         performing arts and it is concerned with the acting out stories in front of the audience. The main        	             benefits of performing arts include improving life skills and academic performance.
+                         
+                        </p>
+                     
+                        <p>
+                        
+                          In fact the purpose of theater is to provide through joy to people.
+                         
+                        </p>
+            		</div>
+                    
+                        
+                        <div class="col-lg-3 col-md-6 footer-info">
+                        	
+                            <div style="border:#333 solid; border-bottom-color:#F90;">
+                            	<h3> Usefull Links</h3>
+                            </div>
+                            
+                            <br />
+          
+                                <ul>
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="index.html"> Home </a></li>
+                                    <hr style="background-color:#999;" />
+                                    
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="Auditorium.html"> Auditorium </a></li>
+                                    <hr style="background-color:#999;" />
+                                    
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="Magazines.html"> Magazines </a></li>
+                                    <hr style="background-color:#999;" />
+                                    
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="Events.html"> Events </a></li>
+                                    <hr style="background-color:#999;" />
+                                    
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="Urdu Theatre.html"> 
+									Urdu Theatre </a></li>
+                                    <hr style="background-color:#999;" />
+                                    
+                                    <li> <i class="ion-ios-arrow-right"></i> <a href="Contact Us.html"> Contact Us </a></li>
+                                    <hr style="background-color:#999;" />
+                                </ul>
+                        </div>
+                        
+                    <div class="col-lg-3 col-md-6 footer-contact text-center">
+                    	
+                        <div style="border:#333 solid; border-bottom-color:#F90;">
+                        <h3> Follow Us </h3>
+                    </div>
+                    
+                        <br /><br />
+                        
+                        	<div class="icons">
+                        
+                                <a class="btn btn1" href="#" class="twitter"><i class="fa fa-twitter"></i></a><br />
+                                
+                                <a class="btn btn1" href="#" class="facebook"><i class="fa fa-facebook"></i></a><br />
+                                
+                                <a class="btn btn1" href="#" class="instagram"><i class="fa fa-instagram"></i></a><br />
+                                
+                                <a class="btn btn1" href="#" class="google-plus"><i class="fa fa-google-plus"></i></a><br />
+                                
+                                <a class="btn btn1" href="#" class="linkedin"><i class="fa fa-linkedin"></i></a><br />
+                                
+                            </div>
+                                  
+                    </div>
+                    
+                    
+                    <div class="col-lg-3 col-md-6 footer-info">
+                    	<div style="border:#333 solid; border-bottom-color:#F90;">
+                    	<h3> Our News Letter</h3>
+                        </div>
+                        
+                        <br />
+                        
+                       	     <p>  PerformInk is a Chicago theater and entertainment industry website, which began in 1989 as a bi-weekly newspaper. It included show openings and reviews, audition listings, and industry and union news for Chicago actors, directors, dancers, designers, and other entertainment professionals.  and industry and union news for Chicago actors </p>
+                        
+                    <form action="#" method="post"> 
+                        <input style="width:165px;" type="email" name="email"/> 
+                        <input style="width:85px; background-color:#F90; border-bottom:5%;" type="submit" value="subscribe" />
+                    </form>
+                    
+                       
+                    
+                    </div>
+    			</div> 
+    		</div>
+    	</div>
+        
+        <br />
+        
+        <div style="border:#333 solid; border-top-color:#F90;">
+        	<p><center> @Theatre.com </center></p>
+        </div>
+    </footer>
+    
+</body>
+</html>

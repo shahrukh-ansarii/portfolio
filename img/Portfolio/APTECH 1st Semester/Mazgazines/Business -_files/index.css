@@ -1,0 +1,4194 @@
+@charset "UTF-8";
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+@import url("//fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+.ixu-cascading-base {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+.ixu-cascading-base *,
+.ixu-cascading-base *::before,
+.ixu-cascading-base *::after {
+  box-sizing: inherit; }
+
+.ixu-cascading-typography {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1; }
+
+.ixu-cascading-focus *:focus,
+.ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.ixu-cascading-focus *:focus + .is-focusable {
+  outline-color: #006fe9;
+  outline-style: auto;
+  outline-width: 3px; }
+
+.is-mouse-mode .ixu-cascading-focus *:focus,
+.is-mouse-mode .ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.is-mouse-mode .ixu-cascading-focus *:focus + .is-focusable,
+.is-mouse-mode.ixu-cascading-focus *:focus,
+.is-mouse-mode.ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.is-mouse-mode.ixu-cascading-focus *:focus + .is-focusable {
+  outline: none; }
+
+/* postcss-bem-linter: define ixu-background */
+/*
+@bemagic {
+    intro: Component used as a container with background.
+    description: Applies background that matches the theme used by its parent.
+    required: true
+}
+*/
+.ixu-background {
+  background-color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-background, .ixu-background.ixu-cascading-theme-issuu {
+  background-color: #e66a5c; }
+
+.ixu-cascading-theme-positive .ixu-background, .ixu-background.ixu-cascading-theme-positive {
+  background-color: #00bf9f; }
+
+.ixu-cascading-theme-danger .ixu-background, .ixu-background.ixu-cascading-theme-danger {
+  background-color: #d94c58; }
+
+/*
+@bemagic {
+    intro: Secondary variation of the background
+    description: Applies secondary background that matches the theme used by its parent
+    required: false
+}
+*/
+.ixu-background--secondary {
+  background-color: #f9f9f9; }
+
+/* postcss-bem-linter: define ixu-badge */
+/*
+@bemagic {
+    intro: A decorational element that provides emphasis on a characteristic of an object, e.g., a "new" or "beta" badge on a feature. Badges are generally actionless.
+    tag: span
+    text: New
+}
+*/
+.ixu-badge {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border-color: #f26f61;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  color: #535353;
+  display: inline-block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 2px 3px 1px 4px;
+  text-transform: uppercase; }
+
+.ixu-cascading-theme-positive .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+/*
+@bemagic {
+    description: Use for indicating positive characteristics, e.g. savings
+    text: Save
+}
+*/
+.ixu-badge--positive {
+  border-color: #00bf9f; }
+
+/*
+@bemagic {
+    description: Use for indicators that should not stand out from the content excessively
+    text: Beta
+}
+*/
+.ixu-badge--discreet {
+  border-color: #e0e0e0;
+  color: #bbb; }
+
+.ixu-cascading-theme-positive .ixu-badge--discreet {
+  border-color: #45e6cb;
+  color: #73e6d2; }
+
+.ixu-cascading-theme-danger .ixu-badge--discreet {
+  border-color: #ff808a;
+  color: #ff99a1; }
+
+.ixu-cascading-theme-issuu .ixu-badge--discreet {
+  border-color: #ff988c;
+  color: #ffa399; }
+
+/* stylelint-disable declaration-no-important */
+
+@keyframes ixu-button-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.ixu-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 24px;
+  position: relative;
+  transition: 150ms; }
+
+.ixu-button:disabled {
+  background-color: transparent !important;
+  border: 2px dashed #d6d6d6 !important;
+  color: #bbb !important;
+  cursor: not-allowed; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled {
+  border-color: #bf4f43 !important;
+  color: #bf4f43 !important; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled {
+  border-color: #00a68a !important;
+  color: #00a68a !important; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled {
+  border-color: #b33640 !important;
+  color: #b33640 !important; }
+
+.ixu-button:disabled[class*='is-'] {
+  border: 2px solid transparent !important;
+  color: transparent !important; }
+
+.ixu-button:disabled[class*='is-']::before {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+.ixu-button:disabled.is-loading::before {
+  animation: ixu-button-spin 1.6s linear infinite;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M0 16q0-1.11.78-1.89t1.892-.782 1.883.78T5.328 16t-.773 1.89-1.883.782-1.89-.78T0 16zm3.86 9.406q0-1.094.772-1.883t1.883-.79q1.078 0 1.875.798t.797 1.876q0 1.11-.79 1.89t-1.882.782q-1.11 0-1.883-.78t-.773-1.892zm.03-18.843q0-1.125.798-1.89.78-.782 1.875-.782 1.11 0 1.906.782t.796 1.89-.79 1.884-1.913.773q-1.094 0-1.883-.774t-.79-1.883zm9.376 22.765q0-1.11.78-1.89.767-.767 1.876-.767t1.89.774.782 1.883-.78 1.89T15.92 32t-1.883-.782-.774-1.89zm.062-26.656q0-1.11.78-1.89T16 0t1.89.78.782 1.892-.78 1.883T16 5.328t-1.89-.773-.782-1.883zm9.406 22.734q0-1.078.797-1.875t1.907-.796q1.078 0 1.875.797t.797 1.876q0 1.11-.79 1.89t-1.883.782q-1.11 0-1.906-.78t-.796-1.892zm0-18.843q0-1.125.797-1.89.814-.782 1.907-.782t1.883.782.79 1.89-.79 1.884-1.883.773q-1.125 0-1.914-.774t-.79-1.883zM26.672 16q0-1.11.78-1.89t1.876-.782q1.11 0 1.89.78T32 16t-.78 1.89-1.892.782-1.883-.78T26.672 16z'/%3E%3C/svg%3E");
+  transform: translate3d(0, 0, 0); }
+
+.ixu-button:disabled.is-done::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M10.6 27.3c-.3 0-.7-.1-.9-.3L.4 17.7c-.5-.5-.5-1.3 0-1.8s1.3-.5 1.8 0l8.4 8.4L29.8 5.1c.5-.5 1.3-.5 1.8 0s.5 1.3 0 1.8l-20.2 20c-.2.3-.5.4-.8.4z'/%3E%3C/svg%3E"); }
+
+.ixu-button:disabled.is-error::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M15.9 3.5c.8 0 1.4.4 1.9 1.1L29 23.3c.5.8.5 1.9 0 2.7-.4.8-1.3 1.4-2.3 1.4H5.2c-1 0-1.9-.5-2.3-1.4-.5-.8-.4-1.9 0-2.7L14.1 4.7c.4-.7 1.1-1.2 1.8-1.2M16 1c-1.7 0-3.1.8-4.1 2.3L.7 22c-.9 1.6-1 3.7-.1 5.3s2.6 2.6 4.5 2.6h21.7c2 0 3.6-1 4.5-2.6.9-1.6.9-3.7-.1-5.2L20 3.4c-.9-1.6-2.4-2.3-4-2.4z'/%3E%3Cpath d='M15.9 18.7c-.7 0-1.3-.6-1.3-1.3V9.8c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3v7.6c0 .8-.5 1.3-1.3 1.3zm0 6c-.7 0-1.3-.6-1.3-1.3v-1.2c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3v1.2c0 .8-.5 1.3-1.3 1.3z'/%3E%3C/svg%3E"); }
+
+/* postcss-bem-linter: define ixu-button */
+/*
+@bemagic {
+    intro: Create a button with a `<button>` or `<a>` element to retain the native click function. Use a `disabled` attribute when a button can’t be clicked. NOTE, using an `<input>` tag does not work with the various `is-` state classes.
+    description: A neutrally looking button used for common user actions
+    required: true
+}
+*/
+.ixu-button {
+  background-color: #bbb;
+  border-color: #bbb;
+  color: #fff; }
+
+.ixu-button:hover, .ixu-button:focus {
+  background-color: #d6d6d6;
+  border-color: #d6d6d6;
+  color: #fff; }
+
+.ixu-button:active {
+  background-color: #bbb;
+  border-color: #bbb;
+  color: #fff; }
+
+.ixu-button:disabled[class*="is-"] {
+  background-color: #bbb !important; }
+
+.ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button {
+  background-color: #cc5547;
+  border-color: #cc5547;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:hover, .ixu-cascading-theme-issuu .ixu-button:focus {
+  background-color: #d95a4c;
+  border-color: #d95a4c;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:active {
+  background-color: #cc5547;
+  border-color: #cc5547;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled[class*="is-"] {
+  background-color: #cc5547 !important; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button {
+  background-color: #009980;
+  border-color: #009980;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:hover, .ixu-cascading-theme-positive .ixu-button:focus {
+  background-color: #00a68a;
+  border-color: #00a68a;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:active {
+  background-color: #009980;
+  border-color: #009980;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled[class*="is-"] {
+  background-color: #009980 !important; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button {
+  background-color: #a1303a;
+  border-color: #a1303a;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:hover, .ixu-cascading-theme-danger .ixu-button:focus {
+  background-color: #b33640;
+  border-color: #b33640;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:active {
+  background-color: #a1303a;
+  border-color: #a1303a;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled[class*="is-"] {
+  background-color: #a1303a !important; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+/*
+@bemagic {
+    description: A button using the issuu primary/brand color
+}
+*/
+.ixu-button--pronounced {
+  background-color: #f26f61;
+  border-color: #f26f61;
+  color: #fff; }
+
+.ixu-button--pronounced:hover, .ixu-button--pronounced:focus {
+  background-color: #f77d6f;
+  border-color: #f77d6f;
+  color: #fff; }
+
+.ixu-button--pronounced:active {
+  background-color: #f26f61;
+  border-color: #f26f61;
+  color: #fff; }
+
+.ixu-button--pronounced:disabled[class*="is-"] {
+  background-color: #f26f61 !important; }
+
+.ixu-button--pronounced:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced {
+  background-color: #fff;
+  border-color: #fff;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:hover, .ixu-cascading-theme-issuu .ixu-button--pronounced:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:active {
+  background-color: #fff;
+  border-color: #fff;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:disabled[class*="is-"] {
+  background-color: #fff !important; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:disabled[class*="is-"]::before {
+  color: #f26f61; }
+
+/*
+@bemagic {
+    description: Use *only* for dangerous user actions such as deleting an account or publication
+}
+*/
+.ixu-button--danger {
+  background-color: #d94c58;
+  border-color: #d94c58;
+  color: #fff; }
+
+.ixu-button--danger:hover, .ixu-button--danger:focus {
+  background-color: #e6505d;
+  border-color: #e6505d;
+  color: #fff; }
+
+.ixu-button--danger:active {
+  background-color: #d94c58;
+  border-color: #d94c58;
+  color: #fff; }
+
+.ixu-button--danger:disabled[class*="is-"] {
+  background-color: #d94c58 !important; }
+
+.ixu-button--danger:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--danger {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:hover, .ixu-cascading-theme-danger .ixu-button--danger:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:active {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:disabled[class*="is-"] {
+  background-color: #fff !important; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:disabled[class*="is-"]::before {
+  color: #d94c58; }
+
+.ixu-button--outline {
+  color: #535353;
+  background-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--outline, .ixu-cascading-theme-danger .ixu-button--outline, .ixu-cascading-theme-issuu .ixu-button--outline {
+  background-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--outline {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--outline {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--outline {
+  color: #fff; }
+
+.ixu-button--discreet {
+  color: #535353;
+  background-color: transparent;
+  border-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--discreet, .ixu-cascading-theme-danger .ixu-button--discreet, .ixu-cascading-theme-issuu .ixu-button--discreet {
+  background-color: transparent;
+  border-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-button--rounded {
+  height: 36px;
+  line-height: 1;
+  overflow: hidden;
+  padding: 0;
+  width: 36px; }
+
+.ixu-button--large {
+  font-size: 16px;
+  border-radius: 27px;
+  line-height: 48px; }
+
+/* postcss-bem-linter: define ixu-checkbox; */
+/*
+@bemagic {
+    intro: The ability to style checkboxes with CSS varies across browsers. To ensure that checkboxes look the same everywhere, we use a custom DOM. Pay close attention to the markup, because all elements must exist for the styles to work. **NOTE** The tag for this component should be `<label>` when used by itself (without a label). See `ixu-form-element` for usage with a label
+    description: A customly styled checkbox that fits the issuu design system
+    tag: label
+    text: ''
+}
+*/
+.ixu-checkbox {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: block;
+  position: relative; }
+
+/*
+@bemagic {
+    description: The actual checkbox (hidden to allow custom styling)
+    required: true
+}
+*/
+.ixu-checkbox__native {
+  cursor: pointer;
+  height: 20px;
+  opacity: 0;
+  position: absolute;
+  width: 20px;
+  z-index: 1;
+  /* stylelint-disable-next-line declaration-no-important */
+  margin: 0 !important; }
+
+/*
+@bemagic {
+    description: A "fake" (artificial) checkbox used for custom styling,
+    text: ''
+    required: true
+}
+*/
+.ixu-checkbox__faux {
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: transparent;
+  height: 20px;
+  position: relative;
+  transition: 150ms;
+  width: 20px; }
+
+.ixu-checkbox__native:hover:enabled + .ixu-checkbox__faux {
+  color: #bbb; }
+
+.ixu-checkbox__native:active:enabled + .ixu-checkbox__faux,
+.ixu-checkbox__native:checked:enabled + .ixu-checkbox__faux {
+  color: #353535; }
+
+.ixu-checkbox__native:focus + .ixu-checkbox__faux {
+  border-color: #006fe9; }
+
+.ixu-checkbox__native:disabled + .ixu-checkbox__faux {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-checkbox__faux::after {
+  border-bottom: 3px solid currentColor;
+  border-left: 3px solid currentColor;
+  box-sizing: border-box;
+  color: currentColor;
+  content: '';
+  height: 7px;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  width: 12px; }
+
+/* postcss-bem-linter: define ixu-dropdown */
+/*
+@bemagic {
+    intro: This is a menu with a small pointy triangle that can be used to create dropdowns. If you use `ixu-dropdown--above` you place the arrow on the bottom, this is for menues that open upwards.
+    description: This is the css for an issuu dropdown.
+    required: true
+}
+*/
+.ixu-dropdown {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23);
+  display: inline-block;
+  min-width: 165px;
+  position: relative; }
+
+.ixu-dropdown::before {
+  background-color: #fff;
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  content: '';
+  display: block;
+  height: 12px;
+  position: absolute;
+  right: 12px;
+  top: -6px;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  width: 12px; }
+
+/*
+@bemagic {
+    description: When you want the list to show above and the arrow on the bottom.
+}
+*/
+.ixu-dropdown--above::before {
+  bottom: -6px;
+  box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, 0.23);
+  top: auto;
+  -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg); }
+
+/*
+@bemagic {
+    description: Use this to group items. Sections are seperated with a line.
+}
+*/
+.ixu-dropdown__section {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0; }
+
+.ixu-dropdown__section:last-child {
+  border-bottom: 0; }
+
+/*
+@bemagic {
+    description: The individual lines you can click on.
+}
+*/
+.ixu-dropdown__item {
+  color: #353535;
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 12px;
+  text-decoration: none; }
+
+.ixu-dropdown__item:focus {
+  color: currentColor; }
+
+.ixu-dropdown__item:hover:not(.ixu-dropdown__item--disabled) {
+  color: #707070; }
+
+.ixu-dropdown__item--disabled, .ixu-dropdown__item--disabled:hover {
+  color: #bbb;
+  cursor: not-allowed; }
+
+/*
+@bemagic {
+    description: To hide dropdown and make it ready to be animated in.
+}
+*/
+.ixu-dropdown.is-enter-start {
+  opacity: 0;
+  -ms-transform: scale(0.97);
+      transform: scale(0.97);
+  transition: 150ms;
+  visibility: hidden; }
+
+/*
+@bemagic {
+    description: To animate the dropdown in.
+}
+*/
+.ixu-dropdown.is-enter-end {
+  opacity: 1;
+  -ms-transform: scale(1);
+      transform: scale(1);
+  visibility: visible; }
+
+/*
+@bemagic {
+    description: To make dropdown ready to be animated out.
+}
+*/
+.ixu-dropdown.is-leave-start {
+  opacity: 1; }
+
+/*
+@bemagic {
+    description: To animate the dropdown out.
+}
+*/
+.ixu-dropdown.is-leave-end {
+  opacity: 0;
+  -ms-transform: scale(0.97);
+      transform: scale(0.97);
+  transition: 150ms;
+  visibility: hidden; }
+
+/* postcss-bem-linter: define ixu-form-element */
+/*
+@bemagic {
+    intro: A `layout` component for controlling spacing and orientation `labels` and `form-elements` within.
+    description: A wrapper for label and form-element with a default vertical layout
+    tag: label
+    required: true
+}
+*/
+.ixu-form-element {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column; }
+
+/*
+@bemagic {
+    description: Position `label` and some arbitrary form element (e.g. checkbox) side-by-side
+}
+*/
+.ixu-form-element--horizontal {
+  flex-direction: row; }
+
+/*
+@bemagic {
+    description: A "faux" (artificial) label
+    tag: div
+}
+*/
+.ixu-form-element__label {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 6px; }
+
+.ixu-form-element--horizontal .ixu-form-element__label {
+  margin: 0 6px 0 0; }
+
+.ixu-form-element--horizontal .ixu-form-element__label:last-child {
+  margin: 0 0 0 6px; }
+
+.ixu-form-element__label a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-form-element__label a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-form-element__label.is-error {
+  color: #cc4752; }
+
+.ixu-form-element__label.is-disabled {
+  opacity: #bbb; }
+
+/* stylelint-disable declaration-no-important */
+/*
+@bemagic {
+    intro: A layout component for controlling spacing and orientation of form elements.
+    description: This component is made to be used with the `ixu-form-element`.
+    required: true
+}
+*/
+.ixu-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+
+/*
+@bemagic {
+    description: Display form elements in a row instead of a column.
+}
+*/
+.ixu-form-group--horizontal {
+  flex-direction: row; }
+
+/*
+@bemagic {
+    description: Form group elements will be spaced evenly between each other.
+}
+*/
+.ixu-form-group__element {
+  margin: 0 0 12px 0 !important; }
+
+.ixu-form-group--horizontal .ixu-form-group__element {
+  margin: 0 12px 0 0 !important; }
+
+.ixu-form-group__element:last-child {
+  margin: 0 !important; }
+
+/* postcss-bem-linter: define ixu-heading */
+/*
+@bemagic {
+    intro: In our framework, all headings (h1–h6) are reset to the base (body text) size, with margins and padding reset to zero. When building an enterprise application, the heading level may vary depending on the context of the component or page. Using the correct heading level is important for accessibility
+    description: The default heading
+    required: true
+}
+*/
+.ixu-heading {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+  font-size: 20px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+    font-size: calc(20px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+    font-size: 24px; } }
+
+.ixu-cascading-theme-positive .ixu-heading {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-heading {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-heading {
+  color: #fff; }
+
+.ixu-heading em {
+  font-style: italic; }
+
+.ixu-heading strong {
+  font-weight: 600; }
+
+.ixu-heading a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-heading a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    description: A heading using the issuu primary (brand) color
+}
+*/
+.ixu-heading--pronounced {
+  color: #353535; }
+
+/*
+@bemagic {
+    description: Used for light headings
+}
+*/
+.ixu-heading--light {
+  font-weight: 300;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-heading--light strong {
+  font-weight: 400; }
+
+/*
+@bemagic {
+    description: Used for semibold headings
+}
+*/
+.ixu-heading--semibold {
+  font-weight: 600;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-heading--semibold strong {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: Used for bold headings
+}
+*/
+.ixu-heading--bold {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: This is typically the largest heading on a page and usually designates a page title
+}
+*/
+.ixu-heading--large {
+  font-size: 32px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+  font-size: 24px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+    font-size: calc(24px + 8 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+    font-size: 32px; } }
+
+/*
+@bemagic {
+    description: This is an extraordinarily big heading
+}
+*/
+.ixu-heading--hero {
+  font-size: 63px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+  font-size: 46px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+    font-size: calc(46px + 17 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+    font-size: 63px; } }
+
+/*
+@bemagic {
+    description: This is an insanely big heading
+}
+*/
+.ixu-heading--huge {
+  font-size: 46px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+  font-size: 32px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+    font-size: calc(32px + 14 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+    font-size: 46px; } }
+
+/*
+@bemagic {
+    description: Small Headings are used for smaller content areas such as list sections or card titles
+}
+*/
+.ixu-heading--small {
+  font-size: 20px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+    font-size: calc(16px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+    font-size: 20px; } }
+
+/*
+@bemagic {
+    description: A very tiny heading
+}
+*/
+.ixu-heading--tiny {
+  font-size: 16px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+  font-size: 14px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+    font-size: calc(14px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+    font-size: 16px; } }
+
+/* postcss-bem-linter: define ixu-icon */
+/*
+@bemagic {
+    intro: Apply this class to a SVG to get baseline styling for iCSSuu icons
+    required: true
+}
+*/
+.ixu-icon {
+  fill: currentColor;
+  height: 28px;
+  width: 28px; }
+
+/* postcss-bem-linter: define ixu-link */
+/*
+@bemagic {
+    intro: A standalone link. Links within `ixu-heading` or `ixu-paragraph` will be styled automatically
+    description: The default link styling
+}
+*/
+.ixu-link {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-link:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    intro: The `ixu-modal` provides a semi-transparent background (for overlaying a page) and a shell for modal content. It will position itself `fixed` within its closest positioned parent. In most cases, you'll probably want to have it as a direct descendant of the `<body>` so that it can take over the entire screen. We **strongly** recommend using the [`Modal`](ixu.issuu.com/react/#Modal) component in `issuu-ixu-react` package. But if you don't, make sure to address accesibility issues and support the same interactions.
+    description: The modal overlay and container for the modal contents. Mutes out the underlying page and centers the modal content.
+    experimental: true
+    container: true
+}
+*/
+.ixu-modal {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  transition: 150ms;
+  visibility: hidden;
+  width: 100%;
+  z-index: 9999; }
+
+.ixu-modal.is-open {
+  opacity: 1;
+  visibility: visible; }
+
+/*
+@bemagic {
+    description: The the wrapper for the modal content.
+    container: true
+    mandatory
+}
+*/
+.ixu-modal__inner {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 12px;
+  position: relative; }
+
+.ixu-cascading-theme-issuu .ixu-modal__inner {
+  background-color: #e66a5c; }
+
+.ixu-cascading-theme-positive .ixu-modal__inner {
+  background-color: #00bf9f; }
+
+.ixu-cascading-theme-danger .ixu-modal__inner {
+  background-color: #d94c58; }
+
+/*
+@bemagic {
+    description: A container adding padding to the contents of the modal. We have use-cases where it is necessary to omit padding within the modal. This is not required, but should almost always be used.
+    parent: inner
+    container: true
+}
+*/
+.ixu-modal__content {
+  padding: 30px; }
+
+/*
+@bemagic {
+    tag: button
+    parent: inner
+    description: A rounded button positioned absolutely in the top-right of the modal.
+    container: true
+    mandatory
+}
+*/
+.ixu-modal__close-button {
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bbb' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E");
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 20px; }
+
+.ixu-cascading-theme-issuu .ixu-modal__close-button {
+  background-color: #d95a4c;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffa399' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+.ixu-cascading-theme-positive .ixu-modal__close-button {
+  background-color: #00b395;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2373e6d2' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+.ixu-cascading-theme-danger .ixu-modal__close-button {
+  background-color: #cc4752;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff99a1' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+/* postcss-bem-linter: define ixu-paragraph */
+/*
+@bemagic {
+    intro: In our framework, all paragraphs are reset to the base (body text) size, with margins and padding reset to zero. Use this component to get a typical paragraph styling.
+    description: The default paragraph
+    required: true
+}
+*/
+.ixu-paragraph {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+  font-size: 14px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+    font-size: calc(14px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+    font-size: 16px; } }
+
+.ixu-cascading-theme-positive .ixu-paragraph {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-paragraph {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-paragraph {
+  color: #fff; }
+
+.ixu-paragraph em {
+  font-style: italic; }
+
+.ixu-paragraph strong {
+  font-weight: 600; }
+
+.ixu-paragraph a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-paragraph a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    description: A heading using the issuu primary (brand) color
+}
+*/
+.ixu-paragraph--pronounced {
+  color: #353535; }
+
+/*
+@bemagic {
+    description: Used for light headings
+}
+*/
+.ixu-paragraph--light {
+  font-weight: 300;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-paragraph--light strong {
+  font-weight: 400; }
+
+/*
+@bemagic {
+    description: Used for semibold paragraphs
+}
+*/
+.ixu-paragraph--semibold {
+  font-weight: 600;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-paragraph--semibold strong {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: Used for bold paragraphs
+}
+*/
+.ixu-paragraph--bold {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: A very large paragraph great for page intro's or large multiline text
+}
+*/
+.ixu-paragraph--huge {
+  font-size: 24px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+  font-size: 20px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+    font-size: calc(20px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+    font-size: 24px; } }
+
+/*
+@bemagic {
+    description: A very large paragraph great for page intro's or large multiline text
+}
+*/
+.ixu-paragraph--large {
+  font-size: 20px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+    font-size: calc(16px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+    font-size: 20px; } }
+
+/*
+@bemagic {
+    description: A small paragraph useful compressing lots of text in a small space
+}
+*/
+.ixu-paragraph--small {
+  font-size: 14px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+  font-size: 12px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+    font-size: calc(12px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+    font-size: 14px; } }
+
+/*
+@bemagic {
+    description: A very small paragraph useful compressing lots of text in a very small space
+}
+*/
+.ixu-paragraph--tiny {
+  font-size: 12px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+  font-size: 10px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+    font-size: calc(10px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+    font-size: 12px; } }
+
+/* postcss-bem-linter: define ixu-radio */
+/*
+@bemagic {
+    intro: The ability to style radio buttons with CSS varies across browsers. To ensure that radio buttons look the same everywhere, we use a custom DOM. Pay close attention to the markup, because all elements must exist for the styles to work. **NOTE** The tag for this component should be `<label>` when used by itself (without a label). See `ixu-form-element` for usage with a label
+    description: A customly styled radio button that fits the issuu design system
+    tag: label
+    text: ''
+}
+*/
+.ixu-radio {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/*
+@bemagic {
+    description: The actual radio button (hidden to allow custom styling)
+    required: true
+    tag: input
+}
+*/
+.ixu-radio__native {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0; }
+
+/*
+@bemagic {
+    description: A "fake" (artificial) radio button used for custom styling,
+    text: ''
+    required: true
+}
+*/
+.ixu-radio__faux {
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: transparent;
+  cursor: pointer;
+  height: 20px;
+  position: relative;
+  transition: 150ms;
+  width: 20px; }
+
+.ixu-radio__native:hover:enabled + .ixu-radio__faux {
+  color: #bbb; }
+
+.ixu-radio__native:active:enabled + .ixu-radio__faux,
+.ixu-radio__native:checked:enabled + .ixu-radio__faux {
+  color: #353535; }
+
+.ixu-radio__native:focus + .ixu-radio__faux {
+  border-color: #006fe9; }
+
+.ixu-radio__native:disabled + .ixu-radio__faux {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-radio__faux::after {
+  background-color: currentColor;
+  border-radius: 50%;
+  content: '';
+  height: 8px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 8px; }
+
+/* postcss-bem-linter: define ixu-select */
+/*
+@bemagic {
+    intro: Apply this class to a `select` html element to get the default iCSSuu select styling. Select `option`'s intentionally have native styling as it is hard to achieve consistent custom styling of these and also the native ones usually look acceptable.
+    description: A select designed for issuu components
+}
+*/
+.ixu-select {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='%23bbb'%3E%3Cpath d='M.078 6.375Q.234 6 .672 6h30.656q.422 0 .61.414t-.08.664L16.516 25.734Q16.295 26 16 26q-.345 0-.517-.266L.14 7.078q-.25-.25-.064-.703z'/%3E%3C/svg%3E");
+  background-position: calc(100% - 12px) 50%;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  color: #353535;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: normal;
+  outline: none;
+  padding: 0 36px 0 12px;
+  transition: 150ms;
+  width: 100%; }
+
+.ixu-select:hover:enabled {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='%23353535'%3E%3Cpath d='M.078 6.375Q.234 6 .672 6h30.656q.422 0 .61.414t-.08.664L16.516 25.734Q16.295 26 16 26q-.345 0-.517-.266L.14 7.078q-.25-.25-.064-.703z'/%3E%3C/svg%3E"); }
+
+.ixu-select:focus {
+  border-color: #006fe9; }
+
+.ixu-select:disabled {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+@media screen and (max-width: 480px) {
+  .ixu-select {
+    font-size: 16px; } }
+
+.ixu-select::-ms-expand {
+  display: none; }
+
+/* postcss-bem-linter: define ixu-tabs */
+/*
+@bemagic {
+    intro: A tab keeps related content in a single container that is shown and hidden through navigation. To get the best result, the proposed HTML elements should be used.
+    description: A container around the tabs controlling the layout
+    required: true
+    tag: ul
+}
+*/
+.ixu-tabs {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  list-style-type: none; }
+
+/*
+@bemagic {
+    description: A tab element that will be separated from other tabs
+    tag: li
+}
+*/
+.ixu-tabs__item {
+  margin-right: 36px;
+  position: relative; }
+
+.ixu-tabs__item:last-child {
+  margin-right: 0; }
+
+/*
+@bemagic {
+    description: A link element with a line beneath when active
+    tag: a
+}
+*/
+.ixu-tabs__link {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  border: 0;
+  background: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #353535;
+  cursor: pointer;
+  display: block;
+  line-height: 36px;
+  position: relative;
+  transition: color 150ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap; }
+
+.ixu-tabs__link:active, .ixu-tabs__link:focus, .ixu-tabs__link:hover {
+  color: #707070; }
+
+.ixu-tabs__link.is-active:not(.ixu-tabs__link--more) {
+  color: #353535; }
+
+.ixu-tabs__link.is-active:not(.ixu-tabs__link--more)::before {
+  background-color: #f26f61;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+/*
+@bemagic {
+    description: A variation of the link element with a down-arrow to the right and a changed
+    *
+    tag: a
+}
+*/
+.ixu-tabs__link--more {
+  align-items: center;
+  display: flex; }
+
+.ixu-tabs__link--more.is-active {
+  color: #f26f61; }
+
+.ixu-tabs__link--more::after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid currentColor;
+  content: '';
+  height: 0;
+  margin-left: 4px;
+  width: 0; }
+
+/* postcss-bem-linter: define ixu-textfield */
+/*
+@bemagic {
+    intro: Apply this class to an inputfield of type `text` or `search` to recieve a custom looking issuu input including state handling
+    description: A text input designed for the issuu brand
+    required: true
+    placeholder: Some placeholder
+    tag: input
+}
+*/
+.ixu-textfield {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  color: #353535;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: normal;
+  padding: 0 12px;
+  transition: border-color 150ms;
+  width: 100%; }
+
+.ixu-textfield.is-error {
+  background-color: #cc4752;
+  border-color: transparent;
+  color: #fff; }
+
+.ixu-textfield.is-error:-ms-input-placeholder {
+  color: #ff99a1; }
+
+.ixu-textfield.is-error::placeholder {
+  color: #ff99a1; }
+
+@media screen and (max-width: 480px) {
+  .ixu-textfield {
+    font-size: 16px; } }
+
+.ixu-textfield:-ms-input-placeholder {
+  color: #bbb; }
+
+.ixu-textfield::placeholder {
+  color: #bbb; }
+
+.ixu-textfield:disabled {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-textfield:focus {
+  border-color: #006fe9; }
+
+.ixu-textfield:-moz-read-only {
+  background: none;
+  border-color: #707070;
+  cursor: default;
+  opacity: .75; }
+
+.ixu-textfield:read-only {
+  background: none;
+  border-color: #707070;
+  cursor: default;
+  opacity: .75; }
+
+/*
+@bemagic {
+    description: Use this variation for inputs of type search
+    placeholder: Some placeholder
+    type: search
+}
+*/
+.ixu-textfield--search {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23bbb' height='18px' width='18px'%3E%3Cpath d='M0 29.33q0 1.1.78 1.9t1.9.77 1.88-.78l9.04-9.08Q16.52 24 20 24q3.28 0 6.03-1.6 2.77-1.63 4.37-4.4t1.6-6q0-3.28-1.6-6.03Q28.77 3.2 26 1.6T20 0q-3.28 0-6.02 1.6Q11.2 3.23 9.6 6T8 12q0 3.48 1.86 6.4L.78 27.45q-.78.78-.78 1.9zM12 12q0-1.6.64-3.1t1.7-2.56q1.1-1.1 2.57-1.72T20 4t3.1.63 2.56 1.72 1.72 2.56T28 12t-.63 3.1-1.72 2.56-2.56 1.72T20 20t-3.1-.63-2.57-1.72-1.72-2.56T12 12z'/%3E%3C/svg%3E");
+  background-position: 18px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  border-radius: 18px;
+  padding-left: 48px; }
+
+/*
+@bemagic {
+    description: Use this variation for textareas (multiline, resizable) inputs
+    tag: textarea
+}
+*/
+.ixu-textfield--multiline {
+  height: auto;
+  padding: 12px; }
+
+.ixu-cascading-base {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent; }
+
+.ixu-cascading-base *,
+.ixu-cascading-base *::before,
+.ixu-cascading-base *::after {
+  box-sizing: inherit; }
+
+.ixu-cascading-typography {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1; }
+
+.ixu-cascading-focus *:focus,
+.ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.ixu-cascading-focus *:focus + .is-focusable {
+  outline-color: #006fe9;
+  outline-style: auto;
+  outline-width: 3px; }
+
+.is-mouse-mode .ixu-cascading-focus *:focus,
+.is-mouse-mode .ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.is-mouse-mode .ixu-cascading-focus *:focus + .is-focusable,
+.is-mouse-mode.ixu-cascading-focus *:focus,
+.is-mouse-mode.ixu-cascading-focus *:focus + [class^='ixu'][class*='faux'],
+.is-mouse-mode.ixu-cascading-focus *:focus + .is-focusable {
+  outline: none; }
+
+/* postcss-bem-linter: define ixu-background */
+/*
+@bemagic {
+    intro: Component used as a container with background.
+    description: Applies background that matches the theme used by its parent.
+    required: true
+}
+*/
+.ixu-background {
+  background-color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-background, .ixu-background.ixu-cascading-theme-issuu {
+  background-color: #e66a5c; }
+
+.ixu-cascading-theme-positive .ixu-background, .ixu-background.ixu-cascading-theme-positive {
+  background-color: #00bf9f; }
+
+.ixu-cascading-theme-danger .ixu-background, .ixu-background.ixu-cascading-theme-danger {
+  background-color: #d94c58; }
+
+/*
+@bemagic {
+    intro: Secondary variation of the background
+    description: Applies secondary background that matches the theme used by its parent
+    required: false
+}
+*/
+.ixu-background--secondary {
+  background-color: #f9f9f9; }
+
+/* postcss-bem-linter: define ixu-badge */
+/*
+@bemagic {
+    intro: A decorational element that provides emphasis on a characteristic of an object, e.g., a "new" or "beta" badge on a feature. Badges are generally actionless.
+    tag: span
+    text: New
+}
+*/
+.ixu-badge {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border-color: #f26f61;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 2px;
+  color: #535353;
+  display: inline-block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 1;
+  padding: 2px 3px 1px 4px;
+  text-transform: uppercase; }
+
+.ixu-cascading-theme-positive .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-badge {
+  border-color: #f9f9f9;
+  color: #fff; }
+
+/*
+@bemagic {
+    description: Use for indicating positive characteristics, e.g. savings
+    text: Save
+}
+*/
+.ixu-badge--positive {
+  border-color: #00bf9f; }
+
+/*
+@bemagic {
+    description: Use for indicators that should not stand out from the content excessively
+    text: Beta
+}
+*/
+.ixu-badge--discreet {
+  border-color: #e0e0e0;
+  color: #bbb; }
+
+.ixu-cascading-theme-positive .ixu-badge--discreet {
+  border-color: #45e6cb;
+  color: #73e6d2; }
+
+.ixu-cascading-theme-danger .ixu-badge--discreet {
+  border-color: #ff808a;
+  color: #ff99a1; }
+
+.ixu-cascading-theme-issuu .ixu-badge--discreet {
+  border-color: #ff988c;
+  color: #ffa399; }
+
+/* stylelint-disable declaration-no-important */
+
+@keyframes ixu-button-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.ixu-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  border-radius: 18px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 32px;
+  padding: 0 24px;
+  position: relative;
+  transition: 150ms; }
+
+.ixu-button:disabled {
+  background-color: transparent !important;
+  border: 2px dashed #d6d6d6 !important;
+  color: #bbb !important;
+  cursor: not-allowed; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled {
+  border-color: #bf4f43 !important;
+  color: #bf4f43 !important; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled {
+  border-color: #00a68a !important;
+  color: #00a68a !important; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled {
+  border-color: #b33640 !important;
+  color: #b33640 !important; }
+
+.ixu-button:disabled[class*='is-'] {
+  border: 2px solid transparent !important;
+  color: transparent !important; }
+
+.ixu-button:disabled[class*='is-']::before {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  content: ' ';
+  height: 100%;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+.ixu-button:disabled.is-loading::before {
+  animation: ixu-button-spin 1.6s linear infinite;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M0 16q0-1.11.78-1.89t1.892-.782 1.883.78T5.328 16t-.773 1.89-1.883.782-1.89-.78T0 16zm3.86 9.406q0-1.094.772-1.883t1.883-.79q1.078 0 1.875.798t.797 1.876q0 1.11-.79 1.89t-1.882.782q-1.11 0-1.883-.78t-.773-1.892zm.03-18.843q0-1.125.798-1.89.78-.782 1.875-.782 1.11 0 1.906.782t.796 1.89-.79 1.884-1.913.773q-1.094 0-1.883-.774t-.79-1.883zm9.376 22.765q0-1.11.78-1.89.767-.767 1.876-.767t1.89.774.782 1.883-.78 1.89T15.92 32t-1.883-.782-.774-1.89zm.062-26.656q0-1.11.78-1.89T16 0t1.89.78.782 1.892-.78 1.883T16 5.328t-1.89-.773-.782-1.883zm9.406 22.734q0-1.078.797-1.875t1.907-.796q1.078 0 1.875.797t.797 1.876q0 1.11-.79 1.89t-1.883.782q-1.11 0-1.906-.78t-.796-1.892zm0-18.843q0-1.125.797-1.89.814-.782 1.907-.782t1.883.782.79 1.89-.79 1.884-1.883.773q-1.125 0-1.914-.774t-.79-1.883zM26.672 16q0-1.11.78-1.89t1.876-.782q1.11 0 1.89.78T32 16t-.78 1.89-1.892.782-1.883-.78T26.672 16z'/%3E%3C/svg%3E");
+  transform: translate3d(0, 0, 0); }
+
+.ixu-button:disabled.is-done::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M10.6 27.3c-.3 0-.7-.1-.9-.3L.4 17.7c-.5-.5-.5-1.3 0-1.8s1.3-.5 1.8 0l8.4 8.4L29.8 5.1c.5-.5 1.3-.5 1.8 0s.5 1.3 0 1.8l-20.2 20c-.2.3-.5.4-.8.4z'/%3E%3C/svg%3E"); }
+
+.ixu-button:disabled.is-error::before {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23fff' height='20px' width='20px'%3E%3Cpath d='M15.9 3.5c.8 0 1.4.4 1.9 1.1L29 23.3c.5.8.5 1.9 0 2.7-.4.8-1.3 1.4-2.3 1.4H5.2c-1 0-1.9-.5-2.3-1.4-.5-.8-.4-1.9 0-2.7L14.1 4.7c.4-.7 1.1-1.2 1.8-1.2M16 1c-1.7 0-3.1.8-4.1 2.3L.7 22c-.9 1.6-1 3.7-.1 5.3s2.6 2.6 4.5 2.6h21.7c2 0 3.6-1 4.5-2.6.9-1.6.9-3.7-.1-5.2L20 3.4c-.9-1.6-2.4-2.3-4-2.4z'/%3E%3Cpath d='M15.9 18.7c-.7 0-1.3-.6-1.3-1.3V9.8c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3v7.6c0 .8-.5 1.3-1.3 1.3zm0 6c-.7 0-1.3-.6-1.3-1.3v-1.2c0-.7.6-1.3 1.3-1.3s1.3.6 1.3 1.3v1.2c0 .8-.5 1.3-1.3 1.3z'/%3E%3C/svg%3E"); }
+
+/* postcss-bem-linter: define ixu-button */
+/*
+@bemagic {
+    intro: Create a button with a `<button>` or `<a>` element to retain the native click function. Use a `disabled` attribute when a button can’t be clicked. NOTE, using an `<input>` tag does not work with the various `is-` state classes.
+    description: A neutrally looking button used for common user actions
+    required: true
+}
+*/
+.ixu-button {
+  background-color: #bbb;
+  border-color: #bbb;
+  color: #fff; }
+
+.ixu-button:hover, .ixu-button:focus {
+  background-color: #d6d6d6;
+  border-color: #d6d6d6;
+  color: #fff; }
+
+.ixu-button:active {
+  background-color: #bbb;
+  border-color: #bbb;
+  color: #fff; }
+
+.ixu-button:disabled[class*="is-"] {
+  background-color: #bbb !important; }
+
+.ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button {
+  background-color: #cc5547;
+  border-color: #cc5547;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:hover, .ixu-cascading-theme-issuu .ixu-button:focus {
+  background-color: #d95a4c;
+  border-color: #d95a4c;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:active {
+  background-color: #cc5547;
+  border-color: #cc5547;
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled[class*="is-"] {
+  background-color: #cc5547 !important; }
+
+.ixu-cascading-theme-issuu .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button {
+  background-color: #009980;
+  border-color: #009980;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:hover, .ixu-cascading-theme-positive .ixu-button:focus {
+  background-color: #00a68a;
+  border-color: #00a68a;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:active {
+  background-color: #009980;
+  border-color: #009980;
+  color: #fff; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled[class*="is-"] {
+  background-color: #009980 !important; }
+
+.ixu-cascading-theme-positive .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button {
+  background-color: #a1303a;
+  border-color: #a1303a;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:hover, .ixu-cascading-theme-danger .ixu-button:focus {
+  background-color: #b33640;
+  border-color: #b33640;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:active {
+  background-color: #a1303a;
+  border-color: #a1303a;
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled[class*="is-"] {
+  background-color: #a1303a !important; }
+
+.ixu-cascading-theme-danger .ixu-button:disabled[class*="is-"]::before {
+  color: #fff; }
+
+/*
+@bemagic {
+    description: A button using the issuu primary/brand color
+}
+*/
+.ixu-button--pronounced {
+  background-color: #f26f61;
+  border-color: #f26f61;
+  color: #fff; }
+
+.ixu-button--pronounced:hover, .ixu-button--pronounced:focus {
+  background-color: #f77d6f;
+  border-color: #f77d6f;
+  color: #fff; }
+
+.ixu-button--pronounced:active {
+  background-color: #f26f61;
+  border-color: #f26f61;
+  color: #fff; }
+
+.ixu-button--pronounced:disabled[class*="is-"] {
+  background-color: #f26f61 !important; }
+
+.ixu-button--pronounced:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced {
+  background-color: #fff;
+  border-color: #fff;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:hover, .ixu-cascading-theme-issuu .ixu-button--pronounced:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:active {
+  background-color: #fff;
+  border-color: #fff;
+  color: #f26f61; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:disabled[class*="is-"] {
+  background-color: #fff !important; }
+
+.ixu-cascading-theme-issuu .ixu-button--pronounced:disabled[class*="is-"]::before {
+  color: #f26f61; }
+
+/*
+@bemagic {
+    description: Use *only* for dangerous user actions such as deleting an account or publication
+}
+*/
+.ixu-button--danger {
+  background-color: #d94c58;
+  border-color: #d94c58;
+  color: #fff; }
+
+.ixu-button--danger:hover, .ixu-button--danger:focus {
+  background-color: #e6505d;
+  border-color: #e6505d;
+  color: #fff; }
+
+.ixu-button--danger:active {
+  background-color: #d94c58;
+  border-color: #d94c58;
+  color: #fff; }
+
+.ixu-button--danger:disabled[class*="is-"] {
+  background-color: #d94c58 !important; }
+
+.ixu-button--danger:disabled[class*="is-"]::before {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--danger {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:hover, .ixu-cascading-theme-danger .ixu-button--danger:focus {
+  background-color: #f9f9f9;
+  border-color: #f9f9f9;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:active {
+  background-color: #fff;
+  border-color: #fff;
+  color: #d94c58; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:disabled[class*="is-"] {
+  background-color: #fff !important; }
+
+.ixu-cascading-theme-danger .ixu-button--danger:disabled[class*="is-"]::before {
+  color: #d94c58; }
+
+.ixu-button--outline {
+  color: #535353;
+  background-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--outline, .ixu-cascading-theme-danger .ixu-button--outline, .ixu-cascading-theme-issuu .ixu-button--outline {
+  background-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--outline {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--outline {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--outline {
+  color: #fff; }
+
+.ixu-button--discreet {
+  color: #535353;
+  background-color: transparent;
+  border-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--discreet, .ixu-cascading-theme-danger .ixu-button--discreet, .ixu-cascading-theme-issuu .ixu-button--discreet {
+  background-color: transparent;
+  border-color: transparent; }
+
+.ixu-cascading-theme-positive .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-button--discreet {
+  color: #fff; }
+
+.ixu-button--rounded {
+  height: 36px;
+  line-height: 1;
+  overflow: hidden;
+  padding: 0;
+  width: 36px; }
+
+.ixu-button--large {
+  font-size: 16px;
+  border-radius: 27px;
+  line-height: 48px; }
+
+/* postcss-bem-linter: define ixu-checkbox; */
+/*
+@bemagic {
+    intro: The ability to style checkboxes with CSS varies across browsers. To ensure that checkboxes look the same everywhere, we use a custom DOM. Pay close attention to the markup, because all elements must exist for the styles to work. **NOTE** The tag for this component should be `<label>` when used by itself (without a label). See `ixu-form-element` for usage with a label
+    description: A customly styled checkbox that fits the issuu design system
+    tag: label
+    text: ''
+}
+*/
+.ixu-checkbox {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: block;
+  position: relative; }
+
+/*
+@bemagic {
+    description: The actual checkbox (hidden to allow custom styling)
+    required: true
+}
+*/
+.ixu-checkbox__native {
+  cursor: pointer;
+  height: 20px;
+  opacity: 0;
+  position: absolute;
+  width: 20px;
+  z-index: 1;
+  /* stylelint-disable-next-line declaration-no-important */
+  margin: 0 !important; }
+
+/*
+@bemagic {
+    description: A "fake" (artificial) checkbox used for custom styling,
+    text: ''
+    required: true
+}
+*/
+.ixu-checkbox__faux {
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: transparent;
+  height: 20px;
+  position: relative;
+  transition: 150ms;
+  width: 20px; }
+
+.ixu-checkbox__native:hover:enabled + .ixu-checkbox__faux {
+  color: #bbb; }
+
+.ixu-checkbox__native:active:enabled + .ixu-checkbox__faux,
+.ixu-checkbox__native:checked:enabled + .ixu-checkbox__faux {
+  color: #353535; }
+
+.ixu-checkbox__native:focus + .ixu-checkbox__faux {
+  border-color: #006fe9; }
+
+.ixu-checkbox__native:disabled + .ixu-checkbox__faux {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-checkbox__faux::after {
+  border-bottom: 3px solid currentColor;
+  border-left: 3px solid currentColor;
+  box-sizing: border-box;
+  color: currentColor;
+  content: '';
+  height: 7px;
+  left: 3px;
+  position: absolute;
+  top: 4px;
+  -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+  width: 12px; }
+
+/* postcss-bem-linter: define ixu-dropdown */
+/*
+@bemagic {
+    intro: This is a menu with a small pointy triangle that can be used to create dropdowns. If you use `ixu-dropdown--above` you place the arrow on the bottom, this is for menues that open upwards.
+    description: This is the css for an issuu dropdown.
+    required: true
+}
+*/
+.ixu-dropdown {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  background-color: #fff;
+  border-color: rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  border-style: solid;
+  border-width: 1px 0 0 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.23);
+  display: inline-block;
+  min-width: 165px;
+  position: relative; }
+
+.ixu-dropdown::before {
+  background-color: #fff;
+  border-left: 1px solid #bbb;
+  border-top: 1px solid #bbb;
+  content: '';
+  display: block;
+  height: 12px;
+  position: absolute;
+  right: 12px;
+  top: -6px;
+  -ms-transform: rotate(45deg);
+      transform: rotate(45deg);
+  width: 12px; }
+
+/*
+@bemagic {
+    description: When you want the list to show above and the arrow on the bottom.
+}
+*/
+.ixu-dropdown--above::before {
+  bottom: -6px;
+  box-shadow: -1px -1px 1px -1px rgba(0, 0, 0, 0.23);
+  top: auto;
+  -ms-transform: rotate(-135deg);
+      transform: rotate(-135deg); }
+
+/*
+@bemagic {
+    description: Use this to group items. Sections are seperated with a line.
+}
+*/
+.ixu-dropdown__section {
+  border-bottom: 1px solid #e0e0e0;
+  padding: 8px 0; }
+
+.ixu-dropdown__section:last-child {
+  border-bottom: 0; }
+
+/*
+@bemagic {
+    description: The individual lines you can click on.
+}
+*/
+.ixu-dropdown__item {
+  color: #353535;
+  cursor: pointer;
+  display: block;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 8px 12px;
+  text-decoration: none; }
+
+.ixu-dropdown__item:focus {
+  color: currentColor; }
+
+.ixu-dropdown__item:hover:not(.ixu-dropdown__item--disabled) {
+  color: #707070; }
+
+.ixu-dropdown__item--disabled, .ixu-dropdown__item--disabled:hover {
+  color: #bbb;
+  cursor: not-allowed; }
+
+/*
+@bemagic {
+    description: To hide dropdown and make it ready to be animated in.
+}
+*/
+.ixu-dropdown.is-enter-start {
+  opacity: 0;
+  -ms-transform: scale(0.97);
+      transform: scale(0.97);
+  transition: 150ms;
+  visibility: hidden; }
+
+/*
+@bemagic {
+    description: To animate the dropdown in.
+}
+*/
+.ixu-dropdown.is-enter-end {
+  opacity: 1;
+  -ms-transform: scale(1);
+      transform: scale(1);
+  visibility: visible; }
+
+/*
+@bemagic {
+    description: To make dropdown ready to be animated out.
+}
+*/
+.ixu-dropdown.is-leave-start {
+  opacity: 1; }
+
+/*
+@bemagic {
+    description: To animate the dropdown out.
+}
+*/
+.ixu-dropdown.is-leave-end {
+  opacity: 0;
+  -ms-transform: scale(0.97);
+      transform: scale(0.97);
+  transition: 150ms;
+  visibility: hidden; }
+
+/* postcss-bem-linter: define ixu-form-element */
+/*
+@bemagic {
+    intro: A `layout` component for controlling spacing and orientation `labels` and `form-elements` within.
+    description: A wrapper for label and form-element with a default vertical layout
+    tag: label
+    required: true
+}
+*/
+.ixu-form-element {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column; }
+
+/*
+@bemagic {
+    description: Position `label` and some arbitrary form element (e.g. checkbox) side-by-side
+}
+*/
+.ixu-form-element--horizontal {
+  flex-direction: row; }
+
+/*
+@bemagic {
+    description: A "faux" (artificial) label
+    tag: div
+}
+*/
+.ixu-form-element__label {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: 0 0 6px; }
+
+.ixu-form-element--horizontal .ixu-form-element__label {
+  margin: 0 6px 0 0; }
+
+.ixu-form-element--horizontal .ixu-form-element__label:last-child {
+  margin: 0 0 0 6px; }
+
+.ixu-form-element__label a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-form-element__label a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-form-element__label a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-form-element__label a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-form-element__label.is-error {
+  color: #cc4752; }
+
+.ixu-form-element__label.is-disabled {
+  opacity: #bbb; }
+
+/* stylelint-disable declaration-no-important */
+/*
+@bemagic {
+    intro: A layout component for controlling spacing and orientation of form elements.
+    description: This component is made to be used with the `ixu-form-element`.
+    required: true
+}
+*/
+.ixu-form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch; }
+
+/*
+@bemagic {
+    description: Display form elements in a row instead of a column.
+}
+*/
+.ixu-form-group--horizontal {
+  flex-direction: row; }
+
+/*
+@bemagic {
+    description: Form group elements will be spaced evenly between each other.
+}
+*/
+.ixu-form-group__element {
+  margin: 0 0 12px 0 !important; }
+
+.ixu-form-group--horizontal .ixu-form-group__element {
+  margin: 0 12px 0 0 !important; }
+
+.ixu-form-group__element:last-child {
+  margin: 0 !important; }
+
+/* postcss-bem-linter: define ixu-heading */
+/*
+@bemagic {
+    intro: In our framework, all headings (h1–h6) are reset to the base (body text) size, with margins and padding reset to zero. When building an enterprise application, the heading level may vary depending on the context of the component or page. Using the correct heading level is important for accessibility
+    description: The default heading
+    required: true
+}
+*/
+.ixu-heading {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.3;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+  font-size: 20px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+    font-size: calc(20px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading, .ixu-heading.ixu-cascading-fluid-typography {
+    font-size: 24px; } }
+
+.ixu-cascading-theme-positive .ixu-heading {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-heading {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-heading {
+  color: #fff; }
+
+.ixu-heading em {
+  font-style: italic; }
+
+.ixu-heading strong {
+  font-weight: 600; }
+
+.ixu-heading a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-heading a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-heading a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-heading a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    description: A heading using the issuu primary (brand) color
+}
+*/
+.ixu-heading--pronounced {
+  color: #353535; }
+
+/*
+@bemagic {
+    description: Used for light headings
+}
+*/
+.ixu-heading--light {
+  font-weight: 300;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-heading--light strong {
+  font-weight: 400; }
+
+/*
+@bemagic {
+    description: Used for semibold headings
+}
+*/
+.ixu-heading--semibold {
+  font-weight: 600;
+  /* To simplify the user interface, we allow nested typography elements within headers */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-heading--semibold strong {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: Used for bold headings
+}
+*/
+.ixu-heading--bold {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: This is typically the largest heading on a page and usually designates a page title
+}
+*/
+.ixu-heading--large {
+  font-size: 32px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+  font-size: 24px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+    font-size: calc(24px + 8 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--large, .ixu-heading--large.ixu-cascading-fluid-typography {
+    font-size: 32px; } }
+
+/*
+@bemagic {
+    description: This is an extraordinarily big heading
+}
+*/
+.ixu-heading--hero {
+  font-size: 63px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+  font-size: 46px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+    font-size: calc(46px + 17 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--hero, .ixu-heading--hero.ixu-cascading-fluid-typography {
+    font-size: 63px; } }
+
+/*
+@bemagic {
+    description: This is an insanely big heading
+}
+*/
+.ixu-heading--huge {
+  font-size: 46px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+  font-size: 32px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+    font-size: calc(32px + 14 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--huge, .ixu-heading--huge.ixu-cascading-fluid-typography {
+    font-size: 46px; } }
+
+/*
+@bemagic {
+    description: Small Headings are used for smaller content areas such as list sections or card titles
+}
+*/
+.ixu-heading--small {
+  font-size: 20px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+    font-size: calc(16px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--small, .ixu-heading--small.ixu-cascading-fluid-typography {
+    font-size: 20px; } }
+
+/*
+@bemagic {
+    description: A very tiny heading
+}
+*/
+.ixu-heading--tiny {
+  font-size: 16px; }
+
+.ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+  font-size: 14px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+    font-size: calc(14px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-heading--tiny, .ixu-heading--tiny.ixu-cascading-fluid-typography {
+    font-size: 16px; } }
+
+/* postcss-bem-linter: define ixu-icon */
+/*
+@bemagic {
+    intro: Apply this class to a SVG to get baseline styling for iCSSuu icons
+    required: true
+}
+*/
+.ixu-icon {
+  fill: currentColor;
+  height: 28px;
+  width: 28px; }
+
+/* postcss-bem-linter: define ixu-link */
+/*
+@bemagic {
+    intro: A standalone link. Links within `ixu-heading` or `ixu-paragraph` will be styled automatically
+    description: The default link styling
+}
+*/
+.ixu-link {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-link {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-link:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-link:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    intro: The `ixu-modal` provides a semi-transparent background (for overlaying a page) and a shell for modal content. It will position itself `fixed` within its closest positioned parent. In most cases, you'll probably want to have it as a direct descendant of the `<body>` so that it can take over the entire screen. We **strongly** recommend using the [`Modal`](ixu.issuu.com/react/#Modal) component in `issuu-ixu-react` package. But if you don't, make sure to address accesibility issues and support the same interactions.
+    description: The modal overlay and container for the modal contents. Mutes out the underlying page and centers the modal content.
+    experimental: true
+    container: true
+}
+*/
+.ixu-modal {
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  transition: 150ms;
+  visibility: hidden;
+  width: 100%;
+  z-index: 9999; }
+
+.ixu-modal.is-open {
+  opacity: 1;
+  visibility: visible; }
+
+/*
+@bemagic {
+    description: The the wrapper for the modal content.
+    container: true
+    mandatory
+}
+*/
+.ixu-modal__inner {
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  margin: 12px;
+  position: relative; }
+
+.ixu-cascading-theme-issuu .ixu-modal__inner {
+  background-color: #e66a5c; }
+
+.ixu-cascading-theme-positive .ixu-modal__inner {
+  background-color: #00bf9f; }
+
+.ixu-cascading-theme-danger .ixu-modal__inner {
+  background-color: #d94c58; }
+
+/*
+@bemagic {
+    description: A container adding padding to the contents of the modal. We have use-cases where it is necessary to omit padding within the modal. This is not required, but should almost always be used.
+    parent: inner
+    container: true
+}
+*/
+.ixu-modal__content {
+  padding: 30px; }
+
+/*
+@bemagic {
+    tag: button
+    parent: inner
+    description: A rounded button positioned absolutely in the top-right of the modal.
+    container: true
+    mandatory
+}
+*/
+.ixu-modal__close-button {
+  background-color: #f9f9f9;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23bbb' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E");
+  background-position: 5px 5px;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  width: 20px; }
+
+.ixu-cascading-theme-issuu .ixu-modal__close-button {
+  background-color: #d95a4c;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffa399' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+.ixu-cascading-theme-positive .ixu-modal__close-button {
+  background-color: #00b395;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%2373e6d2' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+.ixu-cascading-theme-danger .ixu-modal__close-button {
+  background-color: #cc4752;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ff99a1' height='10px' width='10px'%3E%3Cpath d='M6.446 8L.322 14.124c-.43.43-.43 1.126 0 1.555.215.213.496.32.777.32.28 0 .562-.107.776-.32L8 9.554l6.124 6.124c.214.213.496.32.777.32.282 0 .563-.107.778-.32.43-.43.43-1.126 0-1.556L9.554 8l6.124-6.124c.43-.43.43-1.125 0-1.554-.43-.43-1.125-.43-1.554 0L8 6.446 1.876.322c-.43-.43-1.125-.43-1.554 0-.43.43-.43 1.125 0 1.554L6.446 8z'/%3E%3C/svg%3E"); }
+
+/* postcss-bem-linter: define ixu-paragraph */
+/*
+@bemagic {
+    intro: In our framework, all paragraphs are reset to the base (body text) size, with margins and padding reset to zero. Use this component to get a typical paragraph styling.
+    description: The default paragraph
+    required: true
+}
+*/
+.ixu-paragraph {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  color: #535353;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+  font-size: 14px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+    font-size: calc(14px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph, .ixu-paragraph.ixu-cascading-fluid-typography {
+    font-size: 16px; } }
+
+.ixu-cascading-theme-positive .ixu-paragraph {
+  color: #fff; }
+
+.ixu-cascading-theme-danger .ixu-paragraph {
+  color: #fff; }
+
+.ixu-cascading-theme-issuu .ixu-paragraph {
+  color: #fff; }
+
+.ixu-paragraph em {
+  font-style: italic; }
+
+.ixu-paragraph strong {
+  font-weight: 600; }
+
+.ixu-paragraph a {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  border: 0;
+  color: #006fe9;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: inherit;
+  font-weight: inherit;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.ixu-cascading-theme-danger .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-issuu .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-positive .ixu-paragraph a {
+  color: #fff;
+  text-decoration: underline; }
+
+.ixu-paragraph a:hover {
+  color: #006fe9;
+  text-decoration: underline; }
+
+.ixu-cascading-theme-danger .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-issuu .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+.ixu-cascading-theme-positive .ixu-paragraph a:hover {
+  color: rgba(255, 255, 255, 0.75); }
+
+/*
+@bemagic {
+    description: A heading using the issuu primary (brand) color
+}
+*/
+.ixu-paragraph--pronounced {
+  color: #353535; }
+
+/*
+@bemagic {
+    description: Used for light headings
+}
+*/
+.ixu-paragraph--light {
+  font-weight: 300;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-paragraph--light strong {
+  font-weight: 400; }
+
+/*
+@bemagic {
+    description: Used for semibold paragraphs
+}
+*/
+.ixu-paragraph--semibold {
+  font-weight: 600;
+  /* To simplify the user interface, we allow nested typography elements within paragraphs */
+  /* stylelint-disable-next-line plugin/selector-bem-pattern */ }
+
+.ixu-paragraph--semibold strong {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: Used for bold paragraphs
+}
+*/
+.ixu-paragraph--bold {
+  font-weight: 700; }
+
+/*
+@bemagic {
+    description: A very large paragraph great for page intro's or large multiline text
+}
+*/
+.ixu-paragraph--huge {
+  font-size: 24px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+  font-size: 20px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+    font-size: calc(20px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--huge, .ixu-paragraph--huge.ixu-cascading-fluid-typography {
+    font-size: 24px; } }
+
+/*
+@bemagic {
+    description: A very large paragraph great for page intro's or large multiline text
+}
+*/
+.ixu-paragraph--large {
+  font-size: 20px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+  font-size: 16px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+    font-size: calc(16px + 4 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--large, .ixu-paragraph--large.ixu-cascading-fluid-typography {
+    font-size: 20px; } }
+
+/*
+@bemagic {
+    description: A small paragraph useful compressing lots of text in a small space
+}
+*/
+.ixu-paragraph--small {
+  font-size: 14px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+  font-size: 12px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+    font-size: calc(12px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--small, .ixu-paragraph--small.ixu-cascading-fluid-typography {
+    font-size: 14px; } }
+
+/*
+@bemagic {
+    description: A very small paragraph useful compressing lots of text in a very small space
+}
+*/
+.ixu-paragraph--tiny {
+  font-size: 12px; }
+
+.ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+  font-size: 10px; }
+
+@media screen and (min-width: 320px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+    font-size: calc(10px + 2 * (100vw - 320px) / 880); } }
+
+@media screen and (min-width: 1200px) {
+  .ixu-cascading-fluid-typography .ixu-paragraph--tiny, .ixu-paragraph--tiny.ixu-cascading-fluid-typography {
+    font-size: 12px; } }
+
+/* postcss-bem-linter: define ixu-radio */
+/*
+@bemagic {
+    intro: The ability to style radio buttons with CSS varies across browsers. To ensure that radio buttons look the same everywhere, we use a custom DOM. Pay close attention to the markup, because all elements must exist for the styles to work. **NOTE** The tag for this component should be `<label>` when used by itself (without a label). See `ixu-form-element` for usage with a label
+    description: A customly styled radio button that fits the issuu design system
+    tag: label
+    text: ''
+}
+*/
+.ixu-radio {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline; }
+
+/*
+@bemagic {
+    description: The actual radio button (hidden to allow custom styling)
+    required: true
+    tag: input
+}
+*/
+.ixu-radio__native {
+  height: 0;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  width: 0; }
+
+/*
+@bemagic {
+    description: A "fake" (artificial) radio button used for custom styling,
+    text: ''
+    required: true
+}
+*/
+.ixu-radio__faux {
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: transparent;
+  cursor: pointer;
+  height: 20px;
+  position: relative;
+  transition: 150ms;
+  width: 20px; }
+
+.ixu-radio__native:hover:enabled + .ixu-radio__faux {
+  color: #bbb; }
+
+.ixu-radio__native:active:enabled + .ixu-radio__faux,
+.ixu-radio__native:checked:enabled + .ixu-radio__faux {
+  color: #353535; }
+
+.ixu-radio__native:focus + .ixu-radio__faux {
+  border-color: #006fe9; }
+
+.ixu-radio__native:disabled + .ixu-radio__faux {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-radio__faux::after {
+  background-color: currentColor;
+  border-radius: 50%;
+  content: '';
+  height: 8px;
+  left: 5px;
+  position: absolute;
+  top: 5px;
+  width: 8px; }
+
+/* postcss-bem-linter: define ixu-select */
+/*
+@bemagic {
+    intro: Apply this class to a `select` html element to get the default iCSSuu select styling. Select `option`'s intentionally have native styling as it is hard to achieve consistent custom styling of these and also the native ones usually look acceptable.
+    description: A select designed for issuu components
+}
+*/
+.ixu-select {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='%23bbb'%3E%3Cpath d='M.078 6.375Q.234 6 .672 6h30.656q.422 0 .61.414t-.08.664L16.516 25.734Q16.295 26 16 26q-.345 0-.517-.266L.14 7.078q-.25-.25-.064-.703z'/%3E%3C/svg%3E");
+  background-position: calc(100% - 12px) 50%;
+  background-repeat: no-repeat;
+  background-size: 10px;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  color: #353535;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: normal;
+  outline: none;
+  padding: 0 36px 0 12px;
+  transition: 150ms;
+  width: 100%; }
+
+.ixu-select:hover:enabled {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 32 32' fill='%23353535'%3E%3Cpath d='M.078 6.375Q.234 6 .672 6h30.656q.422 0 .61.414t-.08.664L16.516 25.734Q16.295 26 16 26q-.345 0-.517-.266L.14 7.078q-.25-.25-.064-.703z'/%3E%3C/svg%3E"); }
+
+.ixu-select:focus {
+  border-color: #006fe9; }
+
+.ixu-select:disabled {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+@media screen and (max-width: 480px) {
+  .ixu-select {
+    font-size: 16px; } }
+
+.ixu-select::-ms-expand {
+  display: none; }
+
+/* postcss-bem-linter: define ixu-tabs */
+/*
+@bemagic {
+    intro: A tab keeps related content in a single container that is shown and hidden through navigation. To get the best result, the proposed HTML elements should be used.
+    description: A container around the tabs controlling the layout
+    required: true
+    tag: ul
+}
+*/
+.ixu-tabs {
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  display: flex;
+  list-style-type: none; }
+
+/*
+@bemagic {
+    description: A tab element that will be separated from other tabs
+    tag: li
+}
+*/
+.ixu-tabs__item {
+  margin-right: 36px;
+  position: relative; }
+
+.ixu-tabs__item:last-child {
+  margin-right: 0; }
+
+/*
+@bemagic {
+    description: A link element with a line beneath when active
+    tag: a
+}
+*/
+.ixu-tabs__link {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0;
+  border: 0;
+  background: 0;
+  text-decoration: none;
+  list-style-type: none;
+  color: #353535;
+  cursor: pointer;
+  display: block;
+  line-height: 36px;
+  position: relative;
+  transition: color 150ms;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  white-space: nowrap; }
+
+.ixu-tabs__link:active, .ixu-tabs__link:focus, .ixu-tabs__link:hover {
+  color: #707070; }
+
+.ixu-tabs__link.is-active:not(.ixu-tabs__link--more) {
+  color: #353535; }
+
+.ixu-tabs__link.is-active:not(.ixu-tabs__link--more)::before {
+  background-color: #f26f61;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 0;
+  position: absolute;
+  width: 100%; }
+
+/*
+@bemagic {
+    description: A variation of the link element with a down-arrow to the right and a changed
+    *
+    tag: a
+}
+*/
+.ixu-tabs__link--more {
+  align-items: center;
+  display: flex; }
+
+.ixu-tabs__link--more.is-active {
+  color: #f26f61; }
+
+.ixu-tabs__link--more::after {
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-top: 6px solid currentColor;
+  content: '';
+  height: 0;
+  margin-left: 4px;
+  width: 0; }
+
+/* postcss-bem-linter: define ixu-textfield */
+/*
+@bemagic {
+    intro: Apply this class to an inputfield of type `text` or `search` to recieve a custom looking issuu input including state handling
+    description: A text input designed for the issuu brand
+    required: true
+    placeholder: Some placeholder
+    tag: input
+}
+*/
+.ixu-textfield {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  -webkit-appearance: none;
+  background-color: #fff;
+  border: 1px solid #707070;
+  border-radius: 3px;
+  color: #353535;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 14px;
+  height: 36px;
+  line-height: normal;
+  padding: 0 12px;
+  transition: border-color 150ms;
+  width: 100%; }
+
+.ixu-textfield.is-error {
+  background-color: #cc4752;
+  border-color: transparent;
+  color: #fff; }
+
+.ixu-textfield.is-error:-ms-input-placeholder {
+  color: #ff99a1; }
+
+.ixu-textfield.is-error::placeholder {
+  color: #ff99a1; }
+
+@media screen and (max-width: 480px) {
+  .ixu-textfield {
+    font-size: 16px; } }
+
+.ixu-textfield:-ms-input-placeholder {
+  color: #bbb; }
+
+.ixu-textfield::placeholder {
+  color: #bbb; }
+
+.ixu-textfield:disabled {
+  border-color: #d6d6d6;
+  cursor: not-allowed; }
+
+.ixu-textfield:focus {
+  border-color: #006fe9; }
+
+.ixu-textfield:-moz-read-only {
+  background: none;
+  border-color: #707070;
+  cursor: default;
+  opacity: .75; }
+
+.ixu-textfield:read-only {
+  background: none;
+  border-color: #707070;
+  cursor: default;
+  opacity: .75; }
+
+/*
+@bemagic {
+    description: Use this variation for inputs of type search
+    placeholder: Some placeholder
+    type: search
+}
+*/
+.ixu-textfield--search {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='%23bbb' height='18px' width='18px'%3E%3Cpath d='M0 29.33q0 1.1.78 1.9t1.9.77 1.88-.78l9.04-9.08Q16.52 24 20 24q3.28 0 6.03-1.6 2.77-1.63 4.37-4.4t1.6-6q0-3.28-1.6-6.03Q28.77 3.2 26 1.6T20 0q-3.28 0-6.02 1.6Q11.2 3.23 9.6 6T8 12q0 3.48 1.86 6.4L.78 27.45q-.78.78-.78 1.9zM12 12q0-1.6.64-3.1t1.7-2.56q1.1-1.1 2.57-1.72T20 4t3.1.63 2.56 1.72 1.72 2.56T28 12t-.63 3.1-1.72 2.56-2.56 1.72T20 20t-3.1-.63-2.57-1.72-1.72-2.56T12 12z'/%3E%3C/svg%3E");
+  background-position: 18px center;
+  background-repeat: no-repeat;
+  background-size: 18px;
+  border-radius: 18px;
+  padding-left: 48px; }
+
+/*
+@bemagic {
+    description: Use this variation for textareas (multiline, resizable) inputs
+    tag: textarea
+}
+*/
+.ixu-textfield--multiline {
+  height: auto;
+  padding: 12px; }
+
+.share-dropdown {
+  position: absolute;
+  top: 55px;
+  right: 3px;
+  opacity: 1;
+  visibility: visible;
+  z-index: 1;
+  transition: .2s; }
+
+.share-dropdown--inactive {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 0; }
+
+.share-dropdown__dimmer {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1; }
+
+.share-dropdown__inner {
+  background: #353535;
+  border-radius: 6px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.19), 0px 6px 6px 0px rgba(0, 0, 0, 0.23);
+  box-sizing: border-box;
+  position: relative;
+  padding: 12px;
+  width: 260px;
+  z-index: 2; }
+
+.share-dropdown__inner::after {
+  border-bottom: 9px solid #353535;
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  content: '';
+  position: absolute;
+  top: -9px;
+  right: 30px;
+  width: 0;
+  height: 0; }
+
+.share-dropdown__social-buttons {
+  display: flex;
+  height: 44px;
+  justify-content: space-around;
+  list-style-type: none; }
+
+.share-dropdown__social-button {
+  background: none;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  padding-bottom: 10px; }
+  .share-dropdown__social-button .icon {
+    display: block;
+    fill: #9e9e9e; }
+
+.share-dropdown__social-button:hover .icon {
+  fill: #e0e0e0; }
+
+.share-dropdown__direct-link {
+  align-items: center;
+  background: #424242;
+  border-radius: 6px;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 40px;
+  overflow: hidden;
+  padding: 0 12px;
+  position: relative; }
+
+.share-dropdown__input {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  background: none;
+  border: 0;
+  box-sizing: border-box;
+  color: #9e9e9e;
+  font-size: 14px;
+  font-weight: 400;
+  height: 19px; }
+
+.share-dropdown__input:focus {
+  outline: none;
+  color: #9e9e9e; }
+
+.share-dropdown__input::selection {
+  outline: none;
+  background: #d6d6d6; }
+
+.share-dropdown__copy {
+  background-color: #535353;
+  border: none;
+  color: #e0e0e0;
+  font-size: 16px;
+  text-transform: uppercase; }
+
+.social {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%; }
+
+.social__container {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+  height: 100%;
+  justify-content: center; }
+
+.social__container--mobile {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+  position: relative; }
+
+.social__share-toggle {
+  color: #e0e0e0;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer; }
+
+.social__svg-wrapper {
+  margin-bottom: 5px;
+  width: 36px;
+  height: 36px; }
+
+.social__svg .social__svg--ellipse {
+  fill: #424242; }
+
+.social__svg .social__svg--content {
+  fill: #d6d6d6; }
+
+.social__svg:hover .social__svg--ellipse {
+  fill: #d6d6d6; }
+
+.social__svg:hover .social__svg--content {
+  fill: #424242; }
+
+@media (max-width: 780px) {
+  .social__container {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px; }
+  .social__container--mobile {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px; } }
+
+.twix-bar.affix {
+  transition: top 250ms ease-out; }
+
+.twix-message-hub.ready {
+  transition: height 250ms ease-out; }
+  .twix-message-hub.ready .header-bar-affix {
+    transition: height 250ms ease-out; }
+    .twix-message-hub.ready .header-bar-affix.animating {
+      overflow: hidden; }
+    .twix-message-hub.ready .header-bar-affix.affix {
+      transition: height 250ms ease-out; }
+
+#header .twix-message-hub .header-bar-affix.affix {
+  position: static; }
+
+.snickers-message-hub {
+  margin-bottom: 0; }
+  .snickers-message-hub .snickers {
+    z-index: 4; }
+
+.message-hub-container {
+  width: 100%;
+  text-align: center;
+  transition: height 150ms ease-in-out;
+  overflow: hidden; }
+  .message-hub-container .widthconstrainer, .message-hub-container .container {
+    position: relative; }
+  .message-hub-container .container {
+    padding: 20px 12px; }
+  .message-hub-container .widthconstrainer {
+    padding: 20px 0;
+    position: relative; }
+  .message-hub-container .message {
+    width: 80%;
+    margin: 0 auto; }
+  .message-hub-container .close, .message-hub-container .close-btn {
+    position: absolute;
+    top: 20px;
+    font-size: 18px;
+    cursor: pointer; }
+    .message-hub-container .close span, .message-hub-container .close-btn span {
+      cursor: pointer; }
+  .message-hub-container .close {
+    right: 0; }
+  .message-hub-container .close-btn {
+    right: 12px; }
+  .message-hub-container.warn {
+    background-color: #ece786;
+    color: #7e791e; }
+    .message-hub-container.warn a {
+      cursor: pointer;
+      color: #241f00;
+      transition: color 75ms ease-out, background-color 75ms ease-out; }
+      .message-hub-container.warn a:visited {
+        color: #241f00; }
+      .message-hub-container.warn a:focus {
+        color: #6a6504; }
+      .message-hub-container.warn a:hover {
+        color: #6a6504; }
+      .message-hub-container.warn a:active {
+        color: #6a6504; }
+
+.stream-header {
+  width: 932px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 20px 0 0; }
+  @media (max-width: 955px) {
+    .stream-header {
+      width: 696px; } }
+  @media (max-width: 719px) {
+    .stream-header {
+      width: 456px; } }
+  @media (max-width: 479px) {
+    .stream-header {
+      width: 296px; } }
+  .stream-header h3 {
+    padding: 0;
+    margin: 0; }
+
+.stream-list {
+  width: 932px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  position: relative;
+  list-style: none;
+  padding-bottom: 50px; }
+  @media (max-width: 955px) {
+    .stream-list {
+      width: 696px; } }
+  @media (max-width: 719px) {
+    .stream-list {
+      width: 456px; } }
+  @media (max-width: 479px) {
+    .stream-list {
+      width: 296px; } }
+  @media (max-width: 479px) {
+    .stream-list {
+      width: 221px; } }
+  .stream-list > div {
+    visibility: hidden;
+    position: absolute;
+    width: 221px; }
+    .stream-list > div.ready {
+      visibility: inherit;
+      transition: all 50ms ease-in-out 0; }
+  .stream-list .stack {
+    display: block;
+    width: 221px; }
+    .stream-list .stack .stack-cover {
+      height: 309px; }
+    .stream-list .stack .follow-actions,
+    .stream-list .stack .actionwrapper {
+      top: 247.2px; }
+    .stream-list .stack .metadata {
+      margin-top: -15.45px; }
+  .stream-list .infobox .content {
+    padding-bottom: 80px; }
+    .stream-list .infobox .content p {
+      font: normal normal 400 30px/1.26667 "Open Sans", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      line-height: 34px; }
+    .stream-list .infobox .content button {
+      margin-top: 24px; }
+  .stream-list .image-infobox img {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    position: relative; }
+    .no-touch .stream-list .image-infobox img {
+      -webkit-transform-style: preserve-3d; }
+  .stream-list .publication .publication-content {
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    background-color: #FFFFFF; }
+  .stream-list .publication .cover {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    background-color: #f7f7f7; }
+    .stream-list .publication .cover:hover .hint {
+      opacity: 1; }
+  .stream-list .publication img {
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    position: relative; }
+    .no-touch .stream-list .publication img {
+      -webkit-transform-style: preserve-3d; }
+  .stream-list .publication .hint {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    top: 0;
+    left: 0;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.7);
+    font: normal normal 700 14px/1 "Open Sans", Arial, sans-serif;
+    text-transform: uppercase;
+    -webkit-font-smoothing: antialiased;
+    opacity: 0;
+    transition: opacity 50ms ease-in-out; }
+    .touch .stream-list .publication .hint {
+      display: none; }
+  .stream-list .publication .metadata {
+    padding: 15px 20px; }
+  .stream-list .publication .title {
+    overflow: hidden; }
+  .stream-list .publication .title a {
+    color: #78756E; }
+  .stream-list .publication .ownername a {
+    color: #F36D5D; }
+  .stream-list .publication .description {
+    overflow: hidden; }
+  .stream-list .publication .pricing {
+    margin: 4px 0 0;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px; }
+  .stream-list .publication .pricing .pricing-currency-code {
+    color: #A49F96; }
+  .stream-list .publication .delete-doc {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 12px;
+    font-size: 12px;
+    line-height: 12px;
+    cursor: pointer;
+    box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.15);
+    color: getTypeColor(#e05140);
+    transition: color 75ms ease-out, background-color 75ms ease-out; }
+    .stream-list .publication .delete-doc:visited {
+      color: getTypeColor(#e05140); }
+    .stream-list .publication .delete-doc:focus {
+      color: getTypeColor(#e05140); }
+    .stream-list .publication .delete-doc:hover {
+      color: getTypeColor(#e05140); }
+    .stream-list .publication .delete-doc:active {
+      color: getTypeColor(#e05140); }
+    .stream-list .publication .delete-doc {
+      background-color: #e05140; }
+    .stream-list .publication .delete-doc:hover, .stream-list .publication .delete-doc:focus {
+      background-color: getSecondaryBaseColor(#e05140); }
+
+.ribbon-wrapper {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  -webkit-backface-visibility: hidden;
+  overflow: hidden; }
+  .ribbon-wrapper .ribbon {
+    font: normal normal 400 15px/1.2 "Open Sans", Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    color: white;
+    background: #22be65;
+    text-align: center;
+    -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+    position: relative;
+    padding: 43px 0 9px;
+    left: 6px;
+    top: -11px;
+    width: 150px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0 3px 0px; }
+  .no-csstransforms .ribbon-wrapper {
+    width: 100%;
+    height: auto; }
+    .no-csstransforms .ribbon-wrapper .ribbon {
+      padding: 13px 0 13px;
+      left: 0;
+      top: 0;
+      width: 100%; }
+
+.stream-spinner {
+  background-color: transparent; }
+
+.stream-list .out-of-screen .cover {
+  visibility: hidden; }
+  .stream-list .out-of-screen .cover img {
+    display: none; }
+  .stream-list .out-of-screen .cover .ribbon-wrapper {
+    display: none; }
+
+.stream__element--o-o-ads {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+  padding: 1px;
+  overflow: hidden;
+  display: none; }
+  .stream__element--o-o-ads.ready {
+    display: block; }
+
+.o-o-ads--gpt {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px; }
+
+.o-o-ads--gpt__ad {
+  width: 300px;
+  height: 250px;
+  overflow: hidden; }
+
+.o-o-ads--gpt__text {
+  padding: 5px 0 15px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.o-o-ads--gpt__ad[style*="display: none"] + .o-o-ads--gpt__text {
+  display: none; }
+
+.stream__element--triple-lift-ad {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  background-color: #FFFFFF;
+  padding: 0px;
+  overflow: hidden;
+  display: none;
+  height: 440px; }
+  .stream__element--triple-lift-ad.ready {
+    display: block; }
+  .stream__element--triple-lift-ad .triple-lift-ad__content {
+    height: 440px; }
+  .stream__element--triple-lift-ad .triple-lift-ad__placeholder img {
+    width: 221px;
+    height: 440px; }
+
+.stream2 {
+  position: relative;
+  display: block;
+  max-width: 932px;
+  margin-left: auto;
+  margin-right: auto; }
+  @media (max-width: 955px) {
+    .stream2 {
+      margin-left: 10px;
+      margin-right: 10px; } }
+
+.stream2__element {
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, 0, 0);
+  position: absolute;
+  background-color: white;
+  overflow: hidden; }
+
+.stream2__no-more-results {
+  padding-top: 25px; }
+
+.stream2__spinner {
+  padding-top: 25px; }
+
+.stream2-doc-element__img {
+  width: 100%;
+  height: auto;
+  transition: opacity 0.2s; }
+
+.stream2-doc-element__metadata {
+  background-color: white;
+  bottom: 0px;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  padding: 10px; }
+
+.stream2-doc-element__pricing-container {
+  font-size: 13px; }
+
+.stream2-doc-element__currency {
+  color: #A49F96; }
+
+.stream2-doc-element__extra-metadata {
+  transition: max-height 0.3s ease-in-out;
+  max-height: 0px;
+  overflow: hidden;
+  background-color: white; }
+  .stream2-doc-element--open .stream2-doc-element__extra-metadata {
+    max-height: 80px; }
+
+.stream2-doc-element__publication-age {
+  display: block;
+  font-size: 13px; }
+  .stream2-doc-element__publication-age::first-letter {
+    text-transform: uppercase; }
+
+.stream2-doc-element__expand, .stream2-doc-element__collapse {
+  position: absolute;
+  right: 10px;
+  cursor: pointer; }
+
+.stream2-doc-element__expand {
+  color: #0c86be;
+  bottom: 11px;
+  font: 700 24px "Open Sans", Arial, sans-serif; }
+  .stream2-doc-element--open .stream2-doc-element__expand {
+    display: none; }
+
+.stream2-doc-element__collapse {
+  bottom: 9px;
+  right: 13px;
+  font-size: 14px;
+  color: #d2d2d2;
+  display: none; }
+  .stream2-doc-element--open .stream2-doc-element__collapse {
+    display: block; }
+
+.stream2-doc-element__title {
+  max-height: 38px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  overflow: hidden; }
+
+.stream2-doc-element__ownername {
+  height: 18px;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.stream2-ad-element__ad-container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding-top: 1px; }
+
+.stream2-ad-element__ad {
+  width: 300px;
+  height: 250px;
+  overflow: hidden; }
+
+.stream2-ad-element__text {
+  padding: 5px 0 15px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+.stream2-ad-element__ad[style*="display: none"] + .stream2-ad-element__text {
+  display: none; }
+
+.stream2-ad-element__placeholder {
+  width: 300px; }
+
+.segments-hero__wrapper {
+  position: relative;
+  min-height: 280px; }
+
+.segments-hero__container {
+  background-color: #353535;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+
+.segments-hero__container--inactive {
+  display: none; }
+
+.segments-hero__subtitle {
+  color: #fff;
+  font-size: 16px;
+  padding-top: 30px;
+  padding-bottom: 10px; }
+
+.segments-hero__title {
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 15px; }
+
+.segments-hero__description {
+  color: #fff;
+  padding-bottom: 30px; }
+
+.segments-hero__cta {
+  margin-bottom: 35px; }
+
+@media (max-width: 720px) {
+  .segments-hero__subtitle {
+    padding-top: 25px;
+    padding-bottom: 0; } }
+
+.segments-shelf__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; }
+
+.segments-shelf__publication-wrapper {
+  align-self: flex-end;
+  padding-right: 16px; }
+  .segments-shelf__publication-wrapper:last-child {
+    padding-right: 0; }
+
+.segments-shelf__publication {
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  height: auto; }
+
+@media (max-width: 956px) {
+  .segments-shelf {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%; }
+  .segments-shelf__container {
+    align-items: flex-end;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    overflow-y: hidden; }
+  .segments-shelf__publication-wrapper {
+    flex: 1 0 auto;
+    padding-right: 12px; }
+  .segments-shelf__publication-wrapper:first-child {
+    padding-left: 12px; }
+  .segments-shelf__publication-wrapper:last-child {
+    padding-right: 0; }
+  .segments-shelf__publication {
+    width: 22vmin; } }
+
+@media (max-width: 720px) {
+  .segments-shelf__publication {
+    width: 24vmin; } }
+
+@media (max-width: 480px) {
+  .segments-shelf__publication {
+    width: 28vmin; } }
+
+@media (max-width: 320px) {
+  .segments-shelf__publication {
+    width: 32vmin; } }
+
+.segments-stream--inactive {
+  display: none; }
+
+.segments-stream__title {
+  padding-top: 30px; }
+
+.segments-stream__title--inactive {
+  display: none; }
+
+.segments-stream {
+  margin-top: 30px; }
+
+.segments-subnav__nav {
+  padding-top: 12px;
+  display: flex;
+  justify-content: space-between; }
+
+.segments-subnav__nav-item {
+  flex-shrink: 0;
+  flex-grow: 0; }
+
+.segments-subnav__nav-item--more {
+  display: none;
+  z-index: 1; }
+  .no-touch .segments-subnav__nav--long .segments-subnav__nav-item--more {
+    display: block; }
+  .touch .segments-subnav__nav-item--more {
+    display: none; }
+
+.segments-subnav__nav-item--more-label {
+  display: block;
+  overflow: visible; }
+
+.segments-subnav__sroll-area-container {
+  overflow: hidden;
+  display: flex;
+  flex-grow: 1; }
+
+.segments-subnav__sroll-area {
+  overflow: hidden;
+  width: 100%; }
+  .touch .segments-subnav__sroll-area {
+    margin-right: 0px;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch; }
+
+.segments-subnav__container {
+  border-bottom: 1px solid #bbb;
+  z-index: 100000; }
+
+.no-touch .segments-subnav__nav-item--overflow {
+  visibility: hidden; }
+
+.segments-body {
+  transition: opacity ease-in-out 0.2s; }
+
+.segments--is-loading {
+  opacity: 0; }
+
+.segments-dropdown {
+  position: absolute;
+  right: 0px;
+  top: 50px;
+  width: 160px;
+  display: none; }
+  .segments-dropdown.is-active {
+    display: block;
+    z-index: 1; }
+
+.container {
+  max-width: 1316px;
+  width: initial; }
